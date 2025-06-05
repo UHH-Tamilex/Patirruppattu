@@ -103,6 +103,7 @@ body {
 
 #buttoncontainer > div {
     background: rgb(255,255,248);
+    border-radius: 3px;
 }
 
 #transbutton {
