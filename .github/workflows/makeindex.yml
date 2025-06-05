@@ -1,0 +1,47 @@
+name: wordindex build
+on: 
+  push:
+  workflow_dispatch:
+jobs:
+  wordindex:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: cancel previous run
+        uses: styfle/cancel-workflow-action@0.11.0
+        with:
+          all_but_latest: true
+          access_token: ${{ github.token }}
+
+      - uses: actions/checkout@v3
+        with: 
+          ref: ${{ github.head_ref }}
+          fetch-depth: 10
+          submodules: 'true'
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: build word index
+        run: |
+          cd lib/_indexer
+          yarn install
+          yarn pageindex Pati Patiṟṟuppattu
+          yarn todb Pati
+          yarn dbtohtml Patiṟṟuppattu
+          cd ../..
+          git pull
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: automatic wordindex update
+          file_pattern: index.html wordindex.db wordindex.html
+          commit_user_name: Tamilex Bot
+
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          exclude_assets: '.github,_indexer'
