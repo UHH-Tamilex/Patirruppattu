@@ -288,7 +288,7 @@ button.important[disabled]:hover {
     font-weight: bold;
 }
 
-#button_savebutton, #button_wordsplitbutton, #button_editbutton, #button_exportbutton {
+#button_savebutton, #button_wordsplitbutton, #button_editbutton, #button_exportbutton, #button_annotatebutton {
     display: none;
 }
 
