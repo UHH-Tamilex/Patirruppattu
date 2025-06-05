@@ -1,0 +1,156 @@
+#nexml {
+    display: none;
+}
+.listWit {
+    display: none;
+}
+.dict-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.dict-group div:first-child {
+    flex-grow: 1;
+}
+.record.fat h2.dict-letter {
+    position: sticky;
+    height: min-content;
+    width: min-content;
+    top: 4rem;
+}
+details.dict[open] > summary {
+    font-weight: bold;
+    background: rgba(235,235,235,1);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width: 87.5%;
+}
+
+details.dict[open] {
+    /*border-left: 1px solid rgba(235,235,235,1);*/
+}
+
+details.dict > *:not(summary,hr) {
+    margin-left: 1rem;
+}
+details.dict details.dict {
+    margin-top: 1rem;
+}
+
+/*
+details.dict details.dict[open] {
+    padding-left: 1rem;
+    border-left: 1px solid rgba(160,160,160,1);
+}
+*/
+
+.lemma-head {
+    opacity: 0.5;
+}
+.lemma-head::after {
+    content: ' >';
+}
+
+.dict-entry {
+    padding-left: 1rem;
+}
+
+.dict-sandhi {
+    padding-left: 1rem;
+}
+
+.dict-rdgs {
+    display: inline-block;
+    margin-right: 0.3rem;
+}
+
+.context-translation {
+}
+.syntax {
+    font-style: italic;
+    font-size: 80%;
+}
+.dict-definitions > span:not(:last-child)::after,
+.dict-rdg:not(:last-child)::after, 
+.dict-sandhi > span:not(:last-child)::after {
+    content: ', '
+}
+
+.dict-rdg.last::after {
+    content: '';
+}
+
+.dict-lemma {
+    display: none;
+    font-weight: bold;
+}
+.dict-lemma::after {
+    content: ']';
+}
+.dict-rdg.detailed:not(:last-child)::after {
+    content: '';
+}
+.witlist {
+    margin-left: 0.2rem;
+}
+
+.witlist:not(:last-child)::after {
+    content: ';';
+    margin-right: 0.4rem;
+}
+
+.stemma-icon {
+    vertical-align: sub;
+    cursor: pointer;
+}
+.stemma-icon path {
+    fill: rgb(168,81,16);
+}
+.stemma-icon:hover path {
+    fill: rgb(43,115,183);
+}
+.treebox {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.treediv {
+    position: absolute;
+    white-space: nowrap;    
+    font-size: 1rem;
+}
+.treelemma {
+    font-size: 1.2rem;
+}
+
+/*
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  background: linear-gradient(0deg, rgb(240,202,121) 0%, rgba(50,50,50,0.3) 60%);
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.spinner::after {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: white;
+}
+@keyframes rotation {
+  0% { transform: rotate(0deg) }
+  100% { transform: rotate(360deg)}
+} 
+*/

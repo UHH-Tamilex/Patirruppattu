@@ -1,0 +1,154 @@
+h4 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-top: 1.9rem;
+    margin-bottom: 1.4rem;
+    line-height: 1;
+}
+
+h4.mspart {
+    font-style: normal;
+}
+
+#summary {
+/*    max-width: 700px; */
+    hyphens: auto;
+}
+
+#summary [lang^="sa"] {
+    font-family: inherit;
+}
+
+.msItem [lang^="sa"] {
+    font-family: inherit;
+}
+
+#physDesc {
+}
+
+#physDesc ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+#physDesc [lang^="sa"] {
+    font-family: inherit;
+}
+
+.revisionDesc {
+    width: inherit;
+}
+
+#history {
+   /* width: inherit;*/
+}
+
+#history [lang^="sa"] {
+    font-family: inherit;
+}
+
+ul:first-child {
+    margin-top: 0;
+}
+
+span.list {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-left: 4rem;
+    display: block;
+}
+span.list .item {
+    display: list-item;
+}
+span.list .item:not(:first-child) {
+    margin-top: 0.25rem;
+}
+span.list.numbered .item {
+    display: list-item;
+    list-style-type: decimal;
+}
+
+.lihead {
+    font-weight: bold;
+}
+
+.editionStmt span.orgname::before {
+    content: '(';
+}
+.editionStmt span.orgname::after {
+    content: ')';
+}
+
+#msidentifier th {
+    text-align: left;
+    width: 5rem;
+}
+
+em.title[lang^="ta-Taml"], em.title[lang^="sa-Beng"], em.title[lang^="sa-Deva"], em.title[lang^="sa-Gran"], em.title[lang^="sa-Mlym"], em.title[lang^="sa-Nand"], em.title[lang^="sa-Newa"], em.title[lang^="sa-Shrd"], em.title[lang^="sa-Telu"], .teitext em.title, .excerpt em.title {
+    font-style: normal;
+}
+/*
+em.title-article {
+    font-style: normal;
+}
+em.title-article::before {
+    content: '“';
+}
+em.title-article::after {
+    content: '”';
+}
+*/
+h1 {
+    margin-right: 0.5rem;
+}
+
+h1 em.title[lang^="ta-Taml"], h1 em.title[lang^="sa-Deva"], h1 em.title[lang^="sa-Telu"] {
+    line-height: 4rem;
+}
+
+p.bibliography {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+blockquote p {
+    width: 100%;
+}
+
+a[href]::after {
+    /*content: '';*/
+    background: none;
+    padding-right: 0;
+}
+
+a[href] {
+    color: #A85110;
+}
+
+a[href]:hover {
+    color: #2B73B7;
+    /*text-decoration: underline;*/
+}
+
+a[href^='http://']::after, a[href^='https://']::after {
+    content:'';
+    background: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 12 12" style="enable-background:new 0 0 12 12;" xml:space="preserve"> <g id="Icons" style="opacity:0.75;fill: rgb(183,110,55)"> <g id="external"> <polygon id="box" style="fill-rule:evenodd;clip-rule:evenodd;" points="2,2 5,2 5,3 3,3 3,9 9,9 9,7 10,7 10,10 2,10 		"/> <polygon id="arrow_13_" style="fill-rule:evenodd;clip-rule:evenodd;" points="6.211,2 10,2 10,5.789 8.579,4.368 6.447,6.5 5.5,5.553 7.632,3.421 		"/> </g> </g> </svg>');
+    /*background: url('../img/link_icon.svg');*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-right: 0.8rem;
+}
+a[href^='http://']:hover::after, a[href^='https://']:hover::after {
+    background: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12px" height="12px" viewBox="0 0 12 12" style="enable-background:new 0 0 12 12;" xml:space="preserve"> <g id="Icons" style="opacity:0.75;fill: rgb(43,115,183)"> <g id="external"> <polygon id="box" style="fill-rule:evenodd;clip-rule:evenodd;" points="2,2 5,2 5,3 3,3 3,9 9,9 9,7 10,7 10,10 2,10 		"/> <polygon id="arrow_13_" style="fill-rule:evenodd;clip-rule:evenodd;" points="6.211,2 10,2 10,5.789 8.579,4.368 6.447,6.5 5.5,5.553 7.632,3.421 		"/> </g> </g> </svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-right: 0.8rem;
+}
+
+.cert-low::after {
+    content: ' (?)';
+    color:  #CC0000;
+}

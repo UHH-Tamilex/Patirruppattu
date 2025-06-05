@@ -1,0 +1,231 @@
+body {
+    padding-left: 0;
+    max-width: 100vw;
+    width: 100vw;
+    overflow-x: scroll;
+}
+
+article {
+    max-width: 1400px;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+#spinner {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#spinner > div {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    border: 10px solid rgba(0,0,0,.3);
+    border-radius: 50%;
+    border-top-color: rgb(0,0,0);
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+
+table, #index {
+    font-size: 1.4rem;
+    margin: 0 auto;
+    /*width: 85%;*/
+}
+
+#head {
+    background-color: #eee;
+    color: #666666;
+    cursor: default;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+thead a:link {
+    background: none;
+}
+
+tbody th {
+    text-align: left;
+}
+
+th.subpart, .dataTable-table > tbody > tr > th.subpart {
+    padding-left: 1rem;
+}
+th.subsubpart, .dataTable-table > tbody > tr > th.subsubpart {
+    padding-left: 1.5rem;
+}
+th, td {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+td {
+    hyphens: auto;
+}
+tbody tr:nth-child(even) {
+    background-color: rgba(239,239,205,0.5);
+}
+
+.smallcaps {
+    font-variant: small-caps; 
+    font-size: 0.8em;
+}
+
+#menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    /*min-width: 1000px;*/
+    background-color: #eee;
+    color: #222222;
+    flex-direction: row;
+    font-size: 1.2rem;
+    word-break: keep-all;
+    hyphens: none;
+    width: 100%;
+    z-index: 3;
+}
+
+#menu a[href] {
+    color: #222222;
+}
+#menu > div {
+    margin-right: 5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+#menu .main a[href] {
+    color: black;
+}
+
+#menu .selected {
+    background-color: rgb(255,255,248);
+}
+
+#menu a {
+    background-image: none;
+    text-shadow: none;
+}
+
+#menu > div:hover {
+    background-color: rgb(255,255,248);
+}
+a[href] {
+    color: rgb(17,17,17);
+}
+a[href]::after {
+    background: none;
+    padding-right: 0;
+}
+a[href]:hover::after {
+    background: none;
+    padding-right: 0;
+}
+
+#tooltip {
+    display: block;
+    position: fixed;
+    background: rgba(17,17,17,0.8);
+    border-radius: 4px;
+    color: #fff;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: normal;
+    line-height: normal;
+    vertical-align: middle;
+    padding: 0.5em 1em;
+    margin-bottom: 11px;
+    max-width: 200px;
+    z-index: 3;
+}
+
+#tooltip hr {
+    border: 0;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255,255,255,0),rgba(255,255,255,0.75),rgba(255,255,255,0));
+}
+.dropper {
+    position: relative;
+    display: inline-block;
+}
+.dropped {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #eee;
+    margin-left: 0;
+    padding-left: 0;
+    left: 0;
+    width: max-content;
+}
+.dropped a {
+    width: 100%;
+    display: block;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    background-color: #eee;
+}
+.dropped a:hover {
+    background-color: rgb(255,255,248);
+}
+
+.dropper:hover .dropped {
+    display: block;
+}
+
+.legend-square {
+    width: 20px;
+    height: 20px;
+    margin-right: 1em;
+}
+
+.legend-label {
+    font-size: 1.2em;
+}
+
+.legend-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+#legend {
+    position: absolute;
+    z-index: -1;
+}
+
+.highlit {
+    background: rgba(239,239,61,0.5);
+}
+
+div.lg {
+    padding-left: 0;
+}
+
+span.invisinote {
+          font-size:80%;
+}
+
+span.invisinote::after {
+    content: '[' attr(data-content) ']';
+}
+
+@media (max-width: 1200px) {
+    .dataTable-container {
+        overflow-x: auto;
+    }
+}

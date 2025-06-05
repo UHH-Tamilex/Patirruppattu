@@ -1,0 +1,197 @@
+/*
+@font-face {
+    font-family: 'PedanticDevanagari';
+    src: local('PedanticDevanagariLight'),
+         url('../fonts/PedanticDevanagariLight.woff');
+    unicode-range: U+200D, U+0900-097F, U+A8E0-A8FF, U+1CD0-1CF6, U+2E24, U+11B00-11B09;
+}
+
+@font-face {
+    font-family: 'PedanticDevanagari';
+    src: local('PedanticDevanagariBold'),
+         url('../fonts/PedanticDevanagariBold.woff');
+    unicode-range: U+200D, U+0900-097F, U+A8E0-A8FF, U+1CD0-1CF6, U+2E24, U+11B00-11B09;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'PedanticMalayalam';
+    src: url('../fonts/PedanticMalayalam.woff');
+    size-adjust: 115%;
+    unicode-range: U+200D, U+0D00-0D7F, U+25CC;
+}
+
+@font-face {
+    font-family: 'PedanticMalayalam';
+    src: url('../fonts/PedanticMalayalamBold.woff');
+    size-adjust: 115%;
+    unicode-range: U+200D, U+0D00-0D7F, U+25CC;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'PedanticTelugu';
+    src: url('../fonts/PedanticTelugu.woff');
+    unicode-range: U+200D, U+0C00-0C7F;
+}
+
+@font-face {
+    font-family: 'PedanticTelugu';
+    src: url('../fonts/PedanticTeluguBold.woff');
+    unicode-range: U+200D, U+0C00-0C7F;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Tantular Bali';
+    src: url('fonts/TantularBali.ttf');
+    unicode-range: U+1B00-U+1B7F;
+}
+*/
+
+@font-face {
+    font-family: 'Noto Serif Tamil';
+    src: url('../fonts/TSTTamil.woff');
+    unicode-range: U+200D, U+0020,U+0B80-0BFF;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Serif Tamil';
+    src: url('../fonts/noto/NotoSerifTamilSlanted-Regular.ttf');
+    unicode-range: U+200D, U+0B80-0BFF;
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Noto Serif Tamil';
+    src: url('../fonts/noto/NotoSerifTamilSlanted-Bold.ttf');
+    unicode-range: U+200D, U+0B80-0BFF;
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Noto Serif Tamil';
+    src: url('../fonts/noto/NotoSerifTamil-Bold.ttf');
+    unicode-range: U+200D, U+0B80-0BFF;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Serif Tamil';
+    src: url('../fonts/noto/NotoSansTamilSupplement-Regular.ttf');
+    unicode-range: U+200D, U+11FC0-11FFF;
+}
+
+@font-face {
+    font-family: 'TST Grantha';
+    src: url('../fonts/TSTGrantha.woff');
+    unicode-range: U+200D, U+11300-1137F;
+}
+/*
+@font-face {
+    font-family: 'Bangla';
+    src: url('../fonts/Bangla-custom.woff');
+    size-adjust: 130%;
+    unicode-range: U+200D, U+0980-09FF;
+}
+
+@font-face {
+    font-family: 'Noto Sans Newa';
+    src: url('../fonts/noto/NotoSansNewa-Regular-custom.otf');
+    unicode-range: U+200D, U+11400-1147F;
+}
+
+@font-face {
+    font-family: 'Satisar Sharada';
+    src: url('../fonts/Sharada.ttf');
+    unicode-range: U+200D, U+11180-111DF;
+}
+
+@font-face {
+    font-family: 'Tibetan Machine Uni';
+    src: url('../fonts/TibMachUni-1.901b.ttf');
+    size-adjust: 120%;
+    unicode-range: U+0F00-0FFF;
+}
+
+@font-face {
+    font-family: 'Noto Sans Nandinagari';
+    src: url('../fonts/noto/NotoSansNandinagari-Regular.ttf');
+    unicode-range: U+200D, U+119A0-119FF,U+0CE6-0CEF;
+}
+*/
+.aalt {
+    font-feature-settings: "aalt" 1;
+}
+
+.hlig {
+    font-variant-ligatures: historical-ligatures;
+}
+
+.dlig {
+    font-variant-ligatures: discretionary-ligatures;
+}
+.cv00 {
+    font-feature-settings: "cv00" 1;
+}
+
+.cv01 {
+    font-feature-settings: "cv01" 1;
+}
+
+.cv02 {
+    font-feature-settings: "cv02" 1;
+}
+
+.trad {
+    font-feature-settings: "trad" 1;
+}
+
+[lang^="sa-Gran"] {
+    line-height: 2;
+}
+
+[lang^="sa-Shrd"] {
+    font-feature-settings: "ss01" 1;
+}
+
+[lang^="ta-Taml"] {
+    word-spacing: 0.5em;
+}
+
+:lang(en) {
+    word-spacing: normal;
+}
+/*
+:lang(bod), :lang(bo) {
+    font-size: 1.9rem;
+    line-height: 4rem;
+}
+*/
+body {
+    font-family: Brill, et-book, "Noto Serif Tamil", "TST Grantha", /*"Bangla", "PedanticDevanagari", "PedanticMalayalam", "PedanticTelugu", "Noto Sans Newa", "Satisar Sharada", "Tibetan Machine Uni", "Noto Sans Nandinagari",*/ Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    hyphens: auto;
+}
+
+/*
+p:lang(bo-Tibt), p:lang(bod) {
+    line-height: 3rem;
+}
+.teitext :lang(sa-Beng) {
+    font-size: 1.8rem;
+}
+:lang(sa-Beng).super, :lang(sa-Beng).sub {
+    font-size: 1.3rem;
+}
+
+h1 :lang(sa-Beng) {
+    font-size: 1em;
+}
+
+p:lang(sa-Deva) {
+    font-size: 1.1em;    
+}
+*/

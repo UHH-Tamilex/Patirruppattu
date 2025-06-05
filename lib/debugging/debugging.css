@@ -1,0 +1,328 @@
+#blackout {
+    position: absolute;
+    z-index: 10;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(50,50,50,0.5);
+    backdrop-filter: blur(5px) saturate(150%);
+}
+
+.popup {
+    width: 100%;
+    min-height: 50%;
+    height: fit-content;
+    max-height: 100vh;
+    background: rgba(245,242,240,0.65);
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.1rem;
+    white-space: pre;
+    display: none;
+    flex-direction: column;
+    border-radius: 0.3rem;
+}
+
+.popup .boxen {
+    height: 100%;
+    min-height: 200px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.boxen > div {
+    flex-grow: 1;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup select {
+    width: fit-content;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.popup textarea {
+    background: white;
+    height: 100%;
+    font-family: inherit;
+    font-size: 1.2rem;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.tempsplits {
+    color: #989895;
+    opacity: 0.65;
+}
+
+.popup textarea.notes {
+    display: none;
+}
+
+.popup .buttondiv {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+}
+#alignbutton {
+    margin-right: 0.5rem;
+}
+#saveasbutton, #previewbutton {
+    display: none;
+}
+.popup button {
+    width: fit-content;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.output-boxen {
+    display: none;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+}
+
+.output-boxen > div {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    /*height: 300px;*/
+    max-height: 40vh;
+    width: 50%;
+}
+
+.popup-output {
+    background: white;
+    position: relative;
+}
+
+.popup-warnings {
+    border: 1px dotted red;
+    margin-right: 0.5rem;
+    background: white;
+}
+
+.popup-warnings > div {
+    margin-right: 1rem;
+}
+
+.popup-warnings table {
+    width: min-content;
+    border-collapse: collapse;
+    margin-bottom: 0.5rem;
+}
+.popup-warnings td {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 100%;
+    text-wrap: nowrap;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+.popup-warnings td.mismatch {
+    background: rgb(200,200,200);
+}
+.popup-warnings td.typo {
+    background: #FF3535;
+}
+
+.popup-output {
+    white-space: pre;
+    /*height: 300px;*/
+    max-height: 50%;
+    overflow-y: scroll;
+}
+
+.popup-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.switcher {
+    display: flex;
+    writing-mode: vertical-lr;
+    overflow: visible;
+    width: fit-content;
+}
+.switcher > div {
+    margin-right: 0.5rem;
+    background: rgba(135,135,135,0.3);
+    border-radius: 0 0.5rem 0.5rem 0;
+    padding: 0.3rem 0.2rem 0.4rem 0;
+    cursor: pointer;
+}
+
+.switcher > div.selected {
+    border: 1px solid black;
+    border-left: 0;
+    background: none;
+}
+
+.switcher > div:not(.selected):hover {
+    background: #ff9900;
+}
+
+.popup-output table {
+    width: 100%;
+}
+.popup-output th {
+    font-size: 1.2rem;
+}
+.popup-output thead th {
+    font-size: 1.1rem;
+}
+.popup-output tr:nth-of-type(odd) {
+    background: rgba(0,0,0,0.2);
+}
+.popup-output td {
+    font-size: 1.2rem;
+    vertical-align: baseline;
+}
+
+th.superEntry {
+    border-left: 2px solid black;
+}
+
+.closeicon {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -0.8rem;
+    margin-right: -0.8rem;
+}
+
+.closeicon svg {
+    fill: rgba(133,133,133,0.8);
+    cursor: pointer;
+}
+
+.closeicon svg:hover {
+    filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.3));
+}
+.closeicon svg:hover {
+    fill: #ff9900;
+}
+
+#wbwbox {
+    display: flex;
+    flex-grow: 1;
+}
+#wbwbox textarea {
+    flex-grow: 1;
+}
+
+.warningbox {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px dotted red;
+}
+
+#variants-popup {
+    width: 600px;
+}
+
+#variantsinput {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+#variantsswitcher {
+    flex-grow: 0;
+    flex-direction: row;
+    border-left: 1px solid black;
+}
+#variantsinput textarea {
+    width: 550px;
+    box-sizing: border-box;
+}
+.boxenbox {
+    display: flex;
+    flex-grow: 1;
+}
+.boxenbox .boxen {
+    flex-direction: column;
+}
+
+#saveapparatus {
+    display: none;
+}
+
+/*#topbar*/ button {
+    margin: 0.3em 0 0.3em 0.5em;
+    background-color: rgb(240,202,121);
+    border-color: rgb(240,202,121);
+    border-radius: 0.3rem;
+    color: black;
+    height: fit-content;
+    font-size: 1.1rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+}
+button.important {
+    background-color: rgb(255, 73, 73);
+    color: white;
+    font-weight: bold;
+}
+/*#topbar*/ button:hover/*, #topbar #button_savebutton:hover*/ {
+    background-color: #eeee99;
+    border-color: #eeee00;
+    color: black;
+}
+button[disabled] {
+    opacity: 50%;
+}
+button[disabled]:hover {
+    background-color: rgb(240,202,121);
+    border-color: rgb(240,202,121);
+}
+button.important[disabled]:hover {
+    background-color: rgb(255,73,73);
+    border-color: rgb(240,202,121);
+    color: white;
+    font-weight: bold;
+}
+
+#button_savebutton, #button_wordsplitbutton, #button_editbutton, #button_exportbutton {
+    display: none;
+}
+
+.editmenu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-left: -2rem;
+}
+.editmenu button {
+    height: 1.4rem;
+    width: 1.2rem;
+    background-color: rgb(240,202,121);
+    border-color: rgb(240,202,121);
+    border-radius: 0.3rem;
+    padding: 0;
+    margin: 0;
+}
+.editmenu button svg {
+    height: 0.7rem;
+    width: 0.7rem;
+    position: relative;
+    top: -0.1rem;
+}
+.editmenu button:hover {
+    background-color: #eeee99;
+    border-color: #eeee00;
+}
+
+.edited {
+    border: 1px dashed red;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: -5px;
+    padding-left: 5px;
+}

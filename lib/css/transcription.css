@@ -1,0 +1,651 @@
+.teitext.diplo .texttitle {
+    width: 100%;
+}
+
+.text-siglum {
+    text-align: right; 
+    word-break: normal;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.bold, .boldface {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.bold.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.underline {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-color: rgb(17,17,17); 
+}
+
+.small-caps {
+    font-weight: normal;
+    font-style: normal;
+    font-variant: small-caps;
+}
+
+.foreign {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.foreign[lang^="ta-Taml"], .foreign[lang^="sa-Beng"], .foreign[lang^="sa-Deva"], .foreign[lang^="sa-Gran"], .foreign[lang^="sa-Mlym"], .foreign[lang^="sa-Nand"], .foreign[lang^="sa-Newa"], .foreign[lang^="sa-Shrd"], .foreign[lang^="sa-Telu"] {
+    font-style: normal;
+}
+
+div.diplo, div.wide.diplo, p.diplo {
+    display: inline;
+}
+
+.diplo > .text-block {
+    display: inline;
+    position: relative;
+}
+
+div.diplo > .apparatus-block {
+    display: none;
+}
+
+p.diplo::after {
+    /*content: '\a';*/
+    white-space: pre;
+}
+
+div.lg {
+    /*width: 100%;*/
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-top: 0.5em;
+    padding-right: 0;
+    padding-bottom: 0.5em;
+    /*padding-left: 0.5em;*/
+}
+
+.text-block + .text-block {
+    padding-left: 0.5em;
+}
+
+#tooltip div.lg, .note div.lg {
+    font-size: revert;
+    line-height: revert;
+}
+
+div.lg:first-child {
+    padding-top: 0;
+}
+
+div.lg.diplo, .excerpt div.lg, .excerpt div.l, .imported-paratext div.lg, .imported-paratext div.l {
+    padding-left: 0;
+    margin-left: 0;
+    display: inline;
+}
+
+blockquote div.lg, blockquote div.lg:first-child, .blockquote div.lg, .blockquote div.lg:first-child {
+    padding: 0;
+}
+
+div.lg div.l {
+        /*margin-bottom: 0.5em;*/
+        text-indent: 1em;
+}
+div.lg div.l.diplo {
+    text-indent: 0;
+}
+
+[lang^="sa-Deva"] .l {
+                        line-height: 1.4em;
+}
+
+[lang^="sa-Mlym"] .l {
+                        line-height: 1.3em;
+}
+
+div.l {
+}
+
+div.versebottompadding {padding-bottom: 1em;
+                       border:0;
+}
+
+span.choice > span:not(:last-child)::after {
+    content: '/';
+    color: #CC0000;
+}
+
+span.unclear::before {
+    content: '(';
+    color: #CC0000;
+}
+
+
+span.unclear::after {
+    content: ')';
+    color: #CC0000;
+}
+
+span.choice span.unclear + span.unclear::before {
+    content: '';
+}
+
+span.lb, span.cb {
+    /*color:#FF9900;*/
+    color: #A85110;
+    letter-spacing:-0.15em;
+    font-size:1.5rem;
+    line-height:0.76;
+    font-family: serif;
+    font-weight:normal;
+    font-style: normal;
+    vertical-align: -0.1em;
+    cursor: default;
+    white-space: nowrap;
+}
+
+.app span.lb, .app span.pb {
+    cursor: unset;
+}
+.lb.diplo::after, .pb.diplo::after, .cb.diplo::after {
+    white-space: pre;
+    visibility: visible;
+    font-family: Brill;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-right: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+    opacity: 1;
+}   
+
+.lb::after {
+    content: '⸤';
+    opacity: 0.4;
+}
+
+.lb.diplo::after {
+    content: "\a(" attr(data-n) ")";
+}
+
+.lb.diplo.unnumbered::after {
+    content: "\a␤";
+}
+
+.cb::after {
+    content: 'c';
+    opacity: 0.4;
+    font-size: 75%;
+    position: relative;
+}
+
+.cb.diplo::after {
+    content: "\a(" attr(data-n) ")";
+    top: unset;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+.pb::after {
+    content: "\23A1";
+    opacity: 0.4;
+}
+
+.pb.diplo::after {
+    content: "\a\a(" attr(data-n) ")";
+}
+
+.pb.diplo.nobreak::after {
+    content: "(" attr(data-n) ")";
+}
+
+.lb.diplo[data-nobreak]::before, .pb.diplo[data-nobreak]::before, .cb.diplo[data-nobreak]::before {
+    content: "-";
+    opacity: 0.5;
+    visibility: visible;
+}   
+
+.lb.diplo, .pb.diplo, .cb.diplo {
+    visibility: hidden;
+    line-height: inherit;
+    vertical-align: 0;
+}
+
+/*
+.excerpt > .lb.diplo:first-child::after,
+.excerpt > .pb.diplo:first-child::after,
+.excerpt > .cb.diplo:first-child::after,
+blockquote > .lb.diplo:first-child::after,
+blockquote > .pb.diplo:first-child::after,
+blockquote > .cb.diplo:first-child::after {
+    content: "(" attr(data-n) ")";
+}
+*/
+
+[lang^="sa-Deva"] span.lb {
+        font-size: 100%;
+}
+[lang^="sa-Mlym"] span.lb {
+        font-size: 100%;
+}
+
+.pb {/*color:#FF9900;*/
+    color: #A85110;
+    letter-spacing: -0.3em;
+    font-size: 1.5rem;
+    /*line-height:0.76;*/
+    font-weight: normal;
+    font-style: normal;
+    font-family: sans-serif;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+[lang^="sa-Deva"] .pb {
+                     font-size: 100%;
+                     vertical-align: text-bottom;
+}
+
+[lang^="sa-Mlym"] .pb {
+                     font-size: 100%;
+                     vertical-align: text-bottom;
+}
+
+.footnote {
+    color: #A85110;
+    cursor: default;
+}
+
+.footnote:hover {
+      color: #2B73B7;
+      text-decoration: none !important;
+}
+
+.text-block {
+    counter-reset: footnote 0;
+}
+
+.footnote.numbered::after {
+    content: counter(footnote);
+    counter-increment: footnote;
+    font-variant-position: super;
+}
+
+[data-anno] .anno-inline {
+    display: none;
+}
+
+span.gap {background-color: rgba(132,132,10,0.3);
+          font-size: 85%;
+          color: rgb(84,84,84);
+         /*color: #CCCCB2; */
+}
+span.gap:before {
+    content: '[';
+    color: #CC0000;
+}
+span.gap:after {
+    content: ']';
+    color: #CC0000;
+}
+
+span.gap.ellipsis:before {
+    color: inherit;
+}
+span.gap.ellipsis:after {
+    color: inherit;
+}
+
+span.space {background-color: rgba(132,132,10,0.3);
+            font-size: 85%;
+/*            word-break: break-all; */
+            color: rgb(84,84,84);
+           /* color: #FFFFCC; */
+}
+
+span.editor {
+    /*font-size: 0.8rem;*/
+    font-variant: small-caps;
+}
+
+span.note {
+    /*vertical-align: -20%;*/
+    font-size:80%;
+    /*font-variant: sub;*/
+}
+.anno-inline span.note {
+    font-size: 100%;
+}
+
+span.note.inline {
+    margin-left: 0;
+}
+
+span.note::before {
+    content: '[';
+}
+span.note::after {
+    content: ']';
+}
+
+span.note.super::before, span.note.sub::before, .anno-inline span.note::before,
+span.note.super::after, span.note.sub::after, .anno-inline span.note::after {
+    content: '';
+}
+
+span.inline {margin-left: 0.5em;
+}
+
+span.super, span.note.super {
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    line-height: normal;
+    /*font-variant: super;*/ /* fails in Chrome */
+    vertical-align: super;
+}
+
+span.sub {vertical-align: -20%;
+          margin-left: 0.2em;
+          margin-right: 0.2em;
+          line-height: normal;
+}
+
+ins.add {
+        /*border: 1px dashed grey; */
+        text-decoration: none;
+        color: #CC0000;
+}
+
+.corr {
+         /* border:1px dashed #0099FF; */
+         text-decoration: none;
+         /*color: #0000CC;*/
+         font-weight: bold;
+}
+
+del {color: grey;
+     text-decoration-color: #CC0000;
+}
+
+del .pb, del .lb {
+    text-decoration: none;
+}
+
+span.orig::before {
+    content: '¡';
+    color: #CC0000;
+    font-size: 0.8em;
+    font-variant-position: sub;
+}
+
+span.orig::after {
+    content: '!';
+    color: #CC0000;
+    font-size: 0.8em;
+    font-variant-position: super;
+}
+
+span.sic::before {
+    content: '¿';
+    color: #CC0000;
+    font-size: 0.8em;
+    font-variant-position: sub;
+}
+span.sic::after {
+    content: '?';
+    color: #CC0000;
+    font-size: 0.8em;
+    font-variant-position: super;
+}
+
+span.sic {
+    /*
+    display: inline;
+    position: relative;
+    background-image: url('../img/squiggle.png');
+    background-position: bottom 0.1em right 0;
+    background-repeat: repeat-x;
+    */
+}
+
+span.surplus {
+    /*
+    display: inline;
+    position: relative;
+    background-image: url('../img/squiggle-blue.png');
+    background-position: bottom 0.1em right 0;
+    background-repeat: repeat-x;
+    */
+}
+
+span.surplus::before {
+    content: '{';
+    color: #CC0000;
+    font-size: 0.8em;
+}
+
+span.surplus::after {
+    content: '}';
+    color: #CC0000;
+    font-size: 0.8em;
+}
+
+span.hi {font-weight: bold;
+}
+
+span.expan {
+    /*
+    background-image: url(squiggle-blue.png);
+    background-position: bottom 0.1em right 0;
+    background-repeat: repeat-x;
+    */
+}
+span.ex::before {
+    content: "[";
+    color: blue;
+    font-size: 0.8em;
+}
+span.ex::after {
+    content: "]";
+    color: blue;
+    font-size: 0.8em;
+}
+
+span.gaiji {
+    display: inline;
+    position: relative;
+    background-image: url('../img/squiggle-blue.png');
+    background-position: bottom 0.1em right 0;
+    background-repeat: repeat-x;
+    /*
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 1px;
+    */
+}
+
+span.num.trad {
+    display: inline;
+    position: relative;
+    background-image: url('../img/squiggle-blue.png');
+    background-position: bottom 0.1em right 0;
+    background-repeat: repeat-x;
+}
+
+span.pointer {
+    opacity: 0.6;
+}
+
+span.supplied:not(.lost):not(.omitted) {
+    background-color: rgba(132,132,10,0.2);
+}
+
+span.supplied.lost::before {
+    content: '[';
+    color: #CC0000;
+    font-size: 0.8em;
+}
+
+span.supplied.lost::after {
+    content: ']';
+    color: #CC0000;
+    font-size: 0.8em;
+}
+
+span.supplied.omitted::before {
+    content: '⟨';
+    color: #CC0000;
+    font-size: 0.8em;
+}
+
+span.supplied.omitted::after {
+    content: '⟩';
+    color: #CC0000;
+    font-size: 0.8em;
+}
+
+span.interp {
+    background-color: rgba(132,132,10,0.2);
+}
+
+span.retrace {
+    font-weight: bold;
+}
+/*
+span.quote::before {
+    content: "“";
+}
+span.quote::after {
+    content: "”";
+}
+*/
+span.locus {
+    /*font-size: 0.9em;*/
+    color: #A85110;
+}
+
+[data-loc]:not(.lem) {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a.locus:link, a.locus:visited {
+    /*font-size: 70%;*/
+    color: #A85110;
+}
+a.locus:hover {
+    color: #0C5083;
+}
+
+span.metamark {
+     color: #0000CC;
+}
+
+span.milestone {
+    font-size: 1.2rem;
+    font-weight:normal;
+    font-style: normal;
+    color: #A85110;
+    padding-right: 0.4rem;
+}
+
+span.milestone.diplo::before {
+    content: "\a"; 
+    white-space: pre;
+}
+span.milestone.diplo[data-nobreak]::before {
+    content: "-\a";
+    color: #A85110;
+    opacity: 0.5;
+    letter-spacing:-0.15em;
+    font-size:1.5rem;
+    line-height:0.76;
+    font-family: serif;
+    font-weight:normal;
+    vertical-align: -0.1em;
+    white-space: pre;
+}
+
+span.milestone.diplo.biggap::before {
+    content: "\a\a"; 
+}
+
+span.milestone.diplo.nobreak::before {
+    content: ""; 
+}
+
+.excerpt > span.milestone.diplo:first-child::before,
+blockquote > span.milestone.diplo:first-child::before {
+    content: "";
+}
+
+br.caesura.diplo, span.caesura.diplo, .app .caesura {
+    display: none;
+}
+
+.teitext table:not(.texttitle) {
+    width: auto;
+}
+
+.over {
+    ruby-position: over;
+    /*
+    display: inline-block;
+    margin-top: 0.6rem;
+    */
+}
+.under {
+    ruby-position: under;
+    /*
+    display: inline-block;
+    margin-bottom: 0.6rem;
+    */
+}
+
+rt {
+    color: #CC0000;
+    font-size: 1.1rem;
+}
+
+rb {
+    text-decoration: #CC0000 dotted underline 1px;
+}
+
+.teitext em.title, .imported-paratext em.title {
+    font-style: normal;
+}
+
+.note em.title, .anchored-note em.title {
+    font-style: italic;
+}
+
+.paratext:hover {
+    background: rgba(239,239,61,0.5);
+}
+
+.paratext:hover .lg:not(.diplo) {
+    background: rgba(239,239,61,0.5);
+}
+
+div.fw {
+    background-color: rgba(132,132,10,0.15);
+    /*background: rgba(0,0,0,0.1);*/
+    width: fit-content;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+
+div.titlepage {
+    border: 1px dashed black;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
