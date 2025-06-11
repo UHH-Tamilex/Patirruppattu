@@ -133,7 +133,6 @@
                         </div>
                         <button id="button_wordsplitbutton">Edit word splits</button>
                         <button id="button_editbutton">Edit apparatus</button>
-                        <button id="button_annotatebutton">Annotated view</button>
                         <button id="button_exportbutton">Export</button>
                         <button id="button_savebutton" class="important">Save as...</button>
                     </xsl:element>
