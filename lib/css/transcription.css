@@ -40,7 +40,7 @@
     font-style: italic;
 }
 
-.foreign[lang^="ta-Taml"], .foreign[lang^="sa-Beng"], .foreign[lang^="sa-Deva"], .foreign[lang^="sa-Gran"], .foreign[lang^="sa-Mlym"], .foreign[lang^="sa-Nand"], .foreign[lang^="sa-Newa"], .foreign[lang^="sa-Shrd"], .foreign[lang^="sa-Telu"] {
+.foreign[lang^="ta-Taml"], .foreign[lang^="sa-Beng"], .foreign[lang^="sa-Deva"], .foreign[lang^="sa-Gran"], .foreign[lang^="sa-Mlym"], .foreign[lang^="sa-Nand"], .foreign[lang^="sa-Newa"], .foreign[lang^="sa-Shrd"], .foreign[lang^="sa-Telu"], .foreign[lang^="te-Telu"], .foreign[lang^="kn-Knda"], .foreign[lang^="sa-Knda"], .foreign[lang^="ml-Mlym"], .foreign[lang^="sa-Mlym"], .foreign[lang^="hi-Deva"], .foreign[lang^="si-Sinh"], .foreign[lang^="pi-Sinh"], .foreign[lang^="bo-Tibt"] {
     font-style: normal;
 }
 
@@ -270,7 +270,7 @@ blockquote > .cb.diplo:first-child::after {
       text-decoration: none !important;
 }
 
-.text-block {
+.teitext {
     counter-reset: footnote 0;
 }
 

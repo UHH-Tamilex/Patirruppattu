@@ -224,6 +224,18 @@ th.superEntry {
     border-bottom: 1px dotted red;
 }
 
+#citation-popup {
+    width: fit-content;
+}
+#citation-popup .boxen div {
+    width: fit-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+    background: white;
+    white-space: break-spaces;
+    position: relative;
+}
 #variants-popup {
     width: 600px;
 }
@@ -288,8 +300,15 @@ button.important[disabled]:hover {
     font-weight: bold;
 }
 
-#button_savebutton, #button_wordsplitbutton, #button_editbutton, #button_exportbutton, #button_annotatebutton {
+#topbar > button {
     display: none;
+}
+
+button.pressed {
+    background-color: rgb(238,238,153);
+    border-style: inset;
+    border-bottom-color: rgb(238,238,153);
+    border-right-color: rgb(238,238,153);
 }
 
 .editmenu {

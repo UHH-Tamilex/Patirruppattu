@@ -133,6 +133,7 @@
                         </div>
                         <button id="button_wordsplitbutton">Edit word splits</button>
                         <button id="button_editbutton">Edit apparatus</button>
+                        <button id="button_citebutton">Cite</button>
                         <button id="button_exportbutton">Export</button>
                         <button id="button_savebutton" class="important">Save as...</button>
                     </xsl:element>
@@ -249,6 +250,17 @@
                             <div>From text</div>
                         </div>
                     </div>
+                   </div>
+                   <div class="popup" id="citation-popup">
+                        <div class="popup-header">
+                            <span class="closeicon">
+<svg height="32px" width="32px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering: geometricprecision; text-rendering: geometricprecision; image-rendering: optimizequality; width: 15px; height: 15px;" viewBox="0 0 847 847" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd">
+<g><path class="fil0" d="M423 272l217 -217c99,-99 251,53 151,152l-216 216 216 217c100,99 -52,251 -151,151l-217 -216 -216 216c-99,100 -251,-52 -152,-151l217 -217 -217 -216c-99,-99 53,-251 152,-152l216 217z"></path></g></svg>
+                            </span>
+                        </div>
+                      <div class="boxen">
+                        <div></div>
+                      </div>
                    </div>
                 </div>
             <!--/xsl:if-->

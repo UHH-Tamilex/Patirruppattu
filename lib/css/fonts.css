@@ -159,7 +159,20 @@
 }
 
 [lang^="ta-Taml"] {
-    word-spacing: 0.5em;
+    word-spacing: 0.2em;
+}
+
+[lang^="ja"], [lang^="zh"] {
+    font-size-adjust: ex-height 0.4;
+}
+
+[lang^="ml-Mlym"], [lang^="te-Telu"], [lang^="kn-Knda"],
+[lang^="sa-Mlym"], [lang^="sa-Telu"], [lang^="sa-Knda"] {
+    font-size-adjust: ex-height 0.55;
+}
+
+[lang^="si-Sinh"], [lang^="pi-Sinh"] {
+    font-size-adjust: ex-height 0.5;
 }
 
 :lang(en) {

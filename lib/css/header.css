@@ -138,6 +138,7 @@ a[href^='http://']::after, a[href^='https://']::after {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+    background-color: rgb(255,255,248);
     padding-right: 0.8rem;
 }
 a[href^='http://']:hover::after, a[href^='https://']:hover::after {
@@ -145,7 +146,15 @@ a[href^='http://']:hover::after, a[href^='https://']:hover::after {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+    background-color: rgb(255,255,248);
     padding-right: 0.8rem;
+}
+
+a[href^='https://']:has(img)::after, a[href^='https://']:has(img):hover::after {
+    background: none;
+}
+a[href^='https://']:has(img), a[href^='https://']:has(img):hover {
+    background: none;
 }
 
 .cert-low::after {
