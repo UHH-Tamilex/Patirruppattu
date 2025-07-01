@@ -129,8 +129,18 @@ body {
     html {
         font-size: 12px;
     }
+    #topbar {
+        z-index: 3;
+    }
     #buttoncontainer {
         font-size: 1.17rem;
+        left: 0;
+    }
+    #record.thin {
+        padding-left: 1rem;
+    }
+    .line-view-icon {
+        margin-right: 0.8rem;
     }
 }
 
@@ -470,5 +480,15 @@ hr {
     */
     ul {
         list-style-type: none;
+    }
+    #togglers {
+        writing-mode: vertical-lr;
+        height: auto;
+        transform: rotate(180deg);
+        height: auto;
+        width: 100vw;
+    }
+    #rotator {  
+        display: none !important;
     }
 }

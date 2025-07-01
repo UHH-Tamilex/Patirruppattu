@@ -246,7 +246,7 @@
 <def>roaming</def>
 <form type="sandhi">vaḻaṅkuñ</form>
 <gramGrp>
-  <gram type="role">imperfect aspect</gram>
+  <gram type="role">imperfective aspect</gram>
   <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
@@ -387,7 +387,7 @@
 <form>paṉikkum</form>
 <def>trembling</def>
 <gramGrp>
-  <gram type="role">imperfect aspect</gram>
+  <gram type="role">imperfective aspect</gram>
   <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
@@ -486,7 +486,7 @@
 <def>being fragrant</def>
 <form type="sandhi">kamaḻuṅ</form>
 <gramGrp>
-  <gram type="role">imperfect aspect</gram>
+  <gram type="role">imperfective aspect</gram>
   <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
@@ -583,7 +583,7 @@
 <def>scaring away</def>
 <form type="sandhi">ōppuṅ</form>
 <gramGrp>
-  <gram type="role">imperfect aspect</gram>
+  <gram type="role">imperfective aspect</gram>
   <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
