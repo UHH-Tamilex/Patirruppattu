@@ -481,7 +481,7 @@
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:attribute name="data-glyph"><xsl:value-of select="$txt"/></xsl:attribute>
-                            <xsl:text>{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>
+                            <xsl:apply-templates/>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:when>

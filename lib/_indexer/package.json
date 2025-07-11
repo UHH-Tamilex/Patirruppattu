@@ -11,6 +11,7 @@
   },
   "scripts": {
     "todb": "node todb.mjs",
+    "tonikantudb": "node tonikantudb.mjs",
     "dbtohtml": "node dbtohtml.mjs",
     "pageindex": "node pageindex.mjs"
   },

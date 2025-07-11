@@ -150,11 +150,12 @@ section div.wide {
 .msid {
     font-variant: small-caps;
     font-size: 0.9rem;
-    margin-right: 0.2rem;
     word-break: normal;
     white-space: nowrap;
 }
-
+.msid + .msid {
+    margin-left: 0.2rem;
+}
 .msid a:link, .msid a:active,
 a.alignment-pointer:link, a.alignment-pointer:active {
     text-decoration: none;

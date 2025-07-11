@@ -221,13 +221,6 @@ span.invisible {
     margin: 0 0 1rem 0;
 }
 
-#buttoncontainer > div {
-    background: rgb(255,255,248);
-}
-#buttoncontainer > div:hover {
-    background: #ff9900;
-    border: 1px solid #ff9900;
-}
 /*
 .disabled {
     opacity: 0.4;
