@@ -82,6 +82,13 @@ div.edition[data-offset='3'] div.l:nth-of-type(5n + 3)::before {
 div.edition[data-offset='4'] div.l:nth-of-type(5n + 2)::before {
     opacity: 1;
 }
+
+@media (max-width: 600px) {
+    div.edition div.l::before {
+        opacity: 0 !important;
+    }
+}
+
 div.edition div.l.linenumbered::before {
     color: rgb(168,81,16);
     opacity: 1;
@@ -93,6 +100,7 @@ div.alternate {
     padding-left: 1rem;
     font-size: 90%;
     border: 1px dotted black;
+    border-radius: 4px;
 }
 div.alternate::before {
     content: attr(data-sameAs);

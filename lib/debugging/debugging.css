@@ -236,7 +236,7 @@ th.superEntry {
     white-space: break-spaces;
     position: relative;
 }
-#variants-popup {
+#variants-popup, #export-popup {
     width: 600px;
 }
 
