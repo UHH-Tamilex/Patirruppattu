@@ -551,7 +551,7 @@
             <xsl:choose>
                 <xsl:when test="@type='translation'"><xsl:text>translation</xsl:text></xsl:when>
                 <xsl:when test="../@rend = 'parallel' and @xml:lang"><xsl:text>translation</xsl:text></xsl:when>
-                <xsl:otherwise><xsl:text>edition nolemmaunderline</xsl:text></xsl:otherwise>
+                <xsl:otherwise><xsl:text>edition nolemmata</xsl:text></xsl:otherwise>
             </xsl:choose>
         </xsl:attribute>
         <xsl:call-template name="lang"/>
@@ -566,7 +566,7 @@
             <xsl:choose>
                 <xsl:when test="@type='translation'"><xsl:text>translation</xsl:text></xsl:when>
                 <xsl:when test="../@rend = 'parallel' and @xml:lang"><xsl:text>translation</xsl:text></xsl:when>
-                <xsl:otherwise><xsl:text>edition nolemmaunderline</xsl:text></xsl:otherwise>
+                <xsl:otherwise><xsl:text>edition nolemmata</xsl:text></xsl:otherwise>
             </xsl:choose>
         </xsl:attribute>
             <xsl:if test="@n">
