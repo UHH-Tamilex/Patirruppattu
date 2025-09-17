@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listWit xmlns="http://www.tei-c.org/ns/1.0">
+
+<witness xml:id="ET">
+  <abbr type="siglum">ET</abbr>
+  <expan><term xml:lang="ta">Turaicāmi Piḷḷai</term>edition 1950 Tirunelvēli</expan>
+</witness>
+
+<witness xml:id="VP">
+   <abbr type="siglum">VP</abbr>
+   <expan><term xml:lang="ta">Vaiyāpuri Piḷḷai</term>edition 1940 (Caṅka Ilakkiyam)</expan>
+ </witness>
+
+<witness xml:id="ER">
+  <abbr type="siglum">ER</abbr>
+  <expan><term xml:lang="ta">Rājam</term>edition 1957</expan>
+ </witness>
+
+<witness xml:id="Il">
+   <abbr type="siglum">Il</abbr>
+   <expan><term xml:lang="ta">Iḷampūraṇar on Tolkāppiyam Eḻuttu, Col and Poruḷ</term></expan>
+ </witness>
+
+ <witness xml:id="Cen">
+   <abbr type="siglum">Cen</abbr>
+   <expan><term xml:lang="ta">Cēṉāvaraiyar on Tolkāppiyam Col</term></expan>
+ </witness>
+ 
+ <witness xml:id="Nacc">
+   <abbr type="siglum">Nacc</abbr>
+   <expan><term xml:lang="ta">Nacciṉākkiṉiyar on Tolkāppiyam Mutaliyaṉa</term></expan>
+ </witness>
+
+ <witness xml:id="Per">
+   <abbr type="siglum">Nacc</abbr>
+   <expan><term xml:lang="ta">Pērāciriyar on Tolkāppiyam Poruḷ</term></expan>
+ </witness>
+
+</listWit>
