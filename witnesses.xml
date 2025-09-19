@@ -48,7 +48,7 @@
     <expan>palm-leaf manuscript from the UVSL [1075b] complete text, no commentary</expan>
     <listWit>
       <witness xml:id="C1v">
-        <abbr type="siglum">XXv</abbr>
+        <abbr type="siglum">C1v</abbr>
         <expan>palm-leaf manuscript from the UVSL [1075b] complete text, no commentary, variant reading</expan>
       </witness>
     </listWit>
@@ -133,22 +133,22 @@
   
   <witness xml:id="TE">
     <abbr type="siglum">TE</abbr>
-    <expan>Commentator on <term>Tolkāppiyam Eḻuttu</term></expan>
+    <expan>Commentary on <term>Tolkāppiyam Eḻuttu</term></expan>
     <listWit>
       <witness xml:id="TEv">
         <abbr type="siglum">TEv</abbr>
-        <expan>Commentator on <term>Tolkāppiyam Eḻuttu</term>, variant reading</expan>
+        <expan>Commentary on <term>Tolkāppiyam Eḻuttu</term>, variant reading</expan>
       </witness>
    </listWit>
   </witness>
 
   <witness xml:id="TC">
     <abbr type="siglum">TC</abbr>
-    <expan>Commentator on <term>Tolkāppiyam Col</term></expan>
+    <expan>Commentary on <term>Tolkāppiyam Col</term></expan>
     <listWit>
       <witness xml:id="TCv">
         <abbr type="siglum">TCv</abbr>
-        <expan>Commentator on <term>Tolkāppiyam Col</term>, variant reading</expan>
+        <expan>Commentary on <term>Tolkāppiyam Col</term>, variant reading</expan>
       </witness>
     </listWit>
   </witness>
