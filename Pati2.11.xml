@@ -3,10 +3,10 @@
     <fileDesc>
       <titleStmt>
         <title>
-            <title xml:lang="ta">Patiṟṟuppattu</title> 11.  <title xml:lang="ta">puṇṇumiḻ kuruti</title>
-            <persName xml:lang="ta">Kumattūr Kaṇṇaṉār</persName>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>2.11</num>. <title xml:lang="ta">puṇṇumiḻ kuruti</title>
+            <persName xml:lang="ta" role="poet">Kumattūr Kaṇṇaṉār</persName>
         </title>
-        <editor role="translator">Roland Ferenczi</editor>     
+        <editor role="translator">Roland Ferenczi</editor> 
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -16,7 +16,7 @@
            <msContents>
             <summary><p/>
             </summary>
-          </msContents>    
+          </msContents>
         </msDesc>
       </sourceDesc>
     </fileDesc>
@@ -55,7 +55,7 @@
 <l>teṉṉaṅ kumariyō ṭāyiṭai</l>
 <l>maṉmīk kūṟunar maṟantapak kaṭantē.</l>
       </lg>
-      <lg xml:lang="en">
+      <lg type="translation" xml:lang="en">
 <!--put your translation here-->
       </lg>
     </div>
