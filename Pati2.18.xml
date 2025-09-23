@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>2.18</num>. <title xml:lang="ta">kūntal viṟaliyar</title>
+            <persName xml:lang="ta" role="poet">Kumattūr Kaṇṇaṉār</persName>
+        </title>
+        <editor role="translator">Roland Ferenczi</editor> 
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p/>
+            </summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <p>
+      tuṟai: iyaṉmoḻi vāḻttu, vaṇṇam: oḻuku vaṇṇam, tūkku: centūkku.
+    </p>
+    <div rend="parallel">
+      <lg xml:id="Pati2.18">
+        <l>uṇmiṉ kaḷḷē yaṭumiṉ cōṟē</l>
+        <l>yeṟika tiṟṟi yēṟṟumiṉ puḻukkē</l>
+        <l>varunarkku varaiyātu polaṅkalan teḷirppa</l>
+        <l>viruḷvaṇa rolivarum puriyavi ḻaimpā</l>
+        <l>lēntukōṭ ṭalkuṉ mukiḻnakai maṭavaraṟ</l>
+        <l><hi rend="bold">kūntal viṟaliyar</hi
+        > vaḻaṅkuka vaṭuppē</l>
+        <l>peṟṟa tutavumiṉ ṟappiṉṟu piṉṉum </l>
+        <l>maṉṉuyi raḻiya yāṇṭupala tuḷakki</l>
+        <l>maṇṇuṭai ñālam puravetirkoṇṭa</l>
+        <l>taṇṇiya leḻili talaiyātu māṟi</l>
+        <l>māri poykkuva tāyiṉuñ</l>
+        <l>cēra lātaṉ poyyala ṉacaiyē</l>
+      </lg>
+      <lg type="translation" xml:lang="en">
+        <l></l>
+      </lg>
+    </div>
+  </body>
+</text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

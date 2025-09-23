@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>2.21</num>. <title xml:lang="ta">patikam</title>
+            <persName xml:lang="ta" role="poet"></persName>
+        </title>
+        <editor role="translator">Roland Ferenczi</editor> 
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p/>
+            </summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="Pati2.21">
+        <l>maṉṉiya perumpukaḻ maṟuvil vāymoḻi</l>
+        <l>iṉṉicai muraci ṉutiyañ cēraṟku</l>
+        <l>veḷiyaṉ vēṇmā ṇalliṉi yīṉṟamakaṉ</l>
+        <l>amaivara laruvi yimaiyam viṟpoṟit</l>
+        <l>timiḻkaṭal vēlit tamiḻakam viḷaṅkat</l>
+        <l>taṉkō ṉīṟīit takaicāl ciṟappoṭu</l>
+        <l>pēricai marapi ṉāriyar vaṇakki</l>
+        <l>nayaṉil vaṉcol yavaṉarp piṇittu</l>
+        <l>neytalaip peytu kaipiṟ koḷīi</l>
+        <l>aruvilai naṉkalam vayiramoṭu koṇṭu</l>
+        <l>peruviṟaṉ mutūrt tantupiṟark kutavi</l>
+        <l>amaiyārt tēytta vaṇaṅkuṭai nōṉṟā</l>
+        <l>ḷimaiyavarampaṉ neṭuñcēra lātaṉaik <persName xml:lang="ta">kumaṭṭūrk kaṇṇaṉār</persName> pāṭiṉār pattuppāṭṭu</l>
+      </lg>
+      <lg type="translation" xml:lang="en">
+        <l></l>
+      </lg>
+    </div>
+  </body>
+</text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>
