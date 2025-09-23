@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>2.16</num>. <title xml:lang="ta">tuyiliṉ pāyal</title>
+            <persName xml:lang="ta" role="poet">Kumattūr Kaṇṇaṉār</persName>
+        </title>
+        <editor role="translator">Roland Ferenczi</editor> 
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p/>
+            </summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <p>
+      tuṟai: centuṟaip pāṭāṇ pāṭṭu, vaṇṇam: oḻuku vaṇṇam, tūkku: centūkku.
+    </p>
+    <div rend="parallel">
+      <lg xml:id="Pati2.16">
+        <l>kōṭuṟaḻn teṭutta koṭuṅka ṇiñci</l>
+         <l>nāṭukaṇ ṭaṉṉa kaṇaituñcu vilaṅkaṟ</l>
+         <l>ṟuñcumarak kuḻāan tuvaṉṟip puṉiṟṟumakaḷ</l>
+         <l>pūṇā vaiyavi tūkkiya matila</l>
+         <l>nalleḻi ṉeṭumputavu murukkik kollu</l>
+         <l>mēṉa mākiya nuṉaimuri maruppiṟ</l>
+         <l>kaṭāam vārntu kaṭuñciṉam potti</l>
+         <l>maraṅkoṉ maḻakaḷiṟu muḻaṅkum pācaṟai</l>
+         <l>nīṭiṉai yākaliṟ kāṇkuvan ticiṉē</l>
+         <l>yāṟiya kaṟpi ṉaṭaṅkiya cāya</l>
+         <l>lūṭiṉu miṉiya kūṟu miṉṉakai</l>
+         <l>yamirtupoti tuvarvā yamartta nōkkiṟ</l>
+         <l>cuṭarnuta lacainaṭai yaḷḷalu muriyaḷ</l>
+         <l>pāya luyyumō tōṉṟa ṟāviṉṟu</l>
+         <l>tirumaṇi poruta tikaḻviṭu pacumpoṉ</l>
+         <l>vayaṅkukatir vayiramō ṭuṟaḻntu pūṇ cuṭarvara</l>
+         <l>veḻumuṭi keḻīiya tiruñema rakalattu</l>
+         <l>puraiyō ruṇkaṭ <hi rend="bold">ṭuyiliṉ pāyal</hi></l>
+         <l>pāluṅ koḷālum vallōyniṉ</l>
+         <l>cāyaṉ mārpu naṉiyalait teṉṟē</l>
+      </lg>
+      <lg type="translation" xml:lang="en">
+        <l></l>
+      </lg>
+    </div>
+  </body>
+</text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>
