@@ -3,7 +3,7 @@
     <fileDesc>
       <titleStmt>
         <title>
-            <title xml:lang="ta">Patiṟṟuppattu</title> <num>X.YY</num>. <title xml:lang="ta">patikam</title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>2.21</num>. <title xml:lang="ta">patikam</title>
             <persName xml:lang="ta" role="poet"></persName>
         </title>
         <editor role="translator">Roland Ferenczi</editor> 
@@ -25,7 +25,7 @@
 <text xml:lang="ta" type="edition">
   <body>
     <div rend="parallel">
-      <lg xml:id="PatiX.YY">
+      <lg xml:id="Pati2.21">
         <l>maṉṉiya perumpukaḻ maṟuvil vāymoḻi</l>
         <l>iṉṉicai muraci ṉutiyañ cēraṟku</l>
         <l>veḷiyaṉ vēṇmā ṇalliṉi yīṉṟamakaṉ</l>
@@ -38,7 +38,7 @@
         <l>aruvilai naṉkalam vayiramoṭu koṇṭu</l>
         <l>peruviṟaṉ mutūrt tantupiṟark kutavi</l>
         <l>amaiyārt tēytta vaṇaṅkuṭai nōṉṟā</l>
-        <l>ḷ<persName xml:lang="ta">imaiyavarampaṉ neṭuñcēra lātaṉ</persName>aik <persName xml:lang="ta">kumaṭṭūrk kaṇṇaṉār<persName> pāṭiṉār pattuppāṭṭu</l>
+        <l>ḷimaiyavarampaṉ neṭuñcēra lātaṉaik <persName xml:lang="ta">kumaṭṭūrk kaṇṇaṉār</persName> pāṭiṉār pattuppāṭṭu</l>
       </lg>
       <lg type="translation" xml:lang="en">
         <l></l>
