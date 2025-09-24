@@ -113,10 +113,6 @@ COPY STANDOFF FROM INTERFACE HERE
         </app>
 </listApp>
 <listWit>
-<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="ECv">
-      <abbr type="siglum">ECv</abbr>
-      <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading</expan>
-     </witness>
 <witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="TT" source="witnesses/TT.xml">
     <abbr type="siglum">TT</abbr>
     <expan>palm-leaf manuscript from Tiruvāvaṭutuṟai maṭam (no shelfmark) complete text, no commentary</expan>
