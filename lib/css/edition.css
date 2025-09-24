@@ -239,6 +239,7 @@ span.invisible {
     /*width: fit-content;*/
     position: relative;
     left: 0;
+    font-size-adjust: none;
 }
 #wordsplitbutton, #apparatusbutton {
     position: relative;

@@ -12,6 +12,7 @@
 }
 .dict-group div:first-child {
     flex-grow: 1;
+    flex-basis: 100%;
 }
 .record.fat h2.dict-letter {
     position: sticky;

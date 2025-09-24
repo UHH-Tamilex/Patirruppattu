@@ -51,7 +51,9 @@ section div.wide {
 
 .lem-inline:not(.lem-anchor) {
     /*display: inline-block;*/
-    text-decoration: underline wavy rgb(180,184,196);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(180,184,196);
     text-decoration-thickness: from-font;
 }
 
@@ -61,7 +63,7 @@ section div.wide {
 .lem .caesura {
     display: none;
 }
-.lem-inline:hover, .lem-inline:hover *, .lem .rdg-text:hover, .highlit, .highlit * {
+.lem-inline:hover, .lem-inline:hover *, .lem-inline.highlit, .lem-inline:has(.highlit), .lem .rdg-text:hover, .highlit, .highlit * { /* TODO: clean this up if highlighting is simplified */
     text-decoration: none;
     background: rgba(255,255,128,1);
 }
@@ -124,7 +126,10 @@ section div.wide {
 }
 
 .mshover {
-    border-bottom: 2px dotted rgb(168,81,16);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgb(168,81,16);
 }
 
 .rdg:not(:last-child) .rdg-wit::after, .lem-wit::after {

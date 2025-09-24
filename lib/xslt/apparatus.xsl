@@ -21,6 +21,27 @@
         <line class="st0" x1="186.5" x2="186.5" y1="185.42" y2="2.3798"/>
     </svg>
 </xsl:template>
+<xsl:variable name="listwit">
+     <xsl:variable name="witness" select="//x:listWit//x:witness"/>
+     <xsl:for-each select="$witness">
+         <xsl:variable name="parwit" select="ancestor::x:witness[@source]"/>
+         <xsl:variable name="mysource" select="@source"/>
+         <xsl:variable name="parsource" select="$parwit/@source"/>
+         <xsl:variable name="source" select="$mysource[$mysource] | $parsource[not($mysource)]"/>
+        <x:witness>
+            <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute> 
+            <xsl:if test="$parwit">
+                <xsl:attribute name="parid"><xsl:value-of select="$parwit/@xml:id"/></xsl:attribute>
+            </xsl:if>
+            <xsl:if test="$source">
+                <xsl:attribute name="source"><xsl:value-of select="$source"/></xsl:attribute>
+            </xsl:if>
+            <xsl:copy-of select="x:abbr"/>
+            <xsl:copy-of select="x:expan"/>
+        </x:witness>
+     </xsl:for-each>
+</xsl:variable>
+<xsl:variable name="witlist" select="exsl:node-set($listwit)"/>
 <xsl:template name="splitwit">
     <xsl:param name="mss" select="@wit | @select"/>
     <xsl:param name="corresp"/>
@@ -34,16 +55,23 @@
 
              <xsl:variable name="cleanstr" select="substring-after($msstring,'#')"/>
              <xsl:attribute name="data-id"><xsl:value-of select="$cleanstr"/></xsl:attribute>
-             <!--xsl:variable name="witness" select="/x:TEI/x:teiHeader/x:fileDesc/x:sourceDesc/x:listWit//x:witness[@xml:id=$cleanstr]"/-->
-             <xsl:variable name="witness" select="//x:listWit//x:witness[@xml:id=$cleanstr]"/>
+
+             <xsl:variable name="witness" select="$witlist/x:witness[@id=$cleanstr]"/>
+             <xsl:variable name="siglum" select ="$witness/x:abbr/node()"/>
+             <xsl:variable name="anno" select="$witness/x:expan"/>
+             <xsl:variable name="source" select="$witness/@source"/>
+             <xsl:variable name="parwit" select="$witness/@parid"/>
+             
+             <!--xsl:variable name="witness" select="//x:listWit//x:witness[@xml:id=$cleanstr]"/>
              <xsl:variable name="siglum" select="$witness/x:abbr/node()"/>
              <xsl:variable name="anno" select="$witness/x:expan"/>
 
-             <xsl:variable name="parwit" select="$witness/ancestor::x:witness"/>
+             <xsl:variable name="parwit" select="$witness/ancestor::x:witness[@source]"/-->
 
-             <xsl:variable name="mysource" select="$witness/@source"/>
+             <!--xsl:variable name="mysource" select="$witness/@source"/>
              <xsl:variable name="parsource" select="$parwit/@source"/>
-             <xsl:variable name="source" select="$mysource[$mysource] | $parsource[not($mysource)]"/>
+             <xsl:variable name="source" select="$mysource[$mysource] | $parsource[not($mysource)]"/-->
+
              <xsl:variable name="spacestring">
                 <xsl:text> </xsl:text>
                 <xsl:value-of select="$msstring"/>
@@ -75,7 +103,8 @@
                                 <xsl:value-of select="$source"/>
                                 <xsl:text>?corresp=</xsl:text>
                                 <xsl:choose>
-                                    <xsl:when test="$parwit"><xsl:value-of select="$parwit/@xml:id"/></xsl:when>
+                                    <!--xsl:when test="$parwit"><xsl:value-of select="$parwit/@xml:id"/></xsl:when-->
+                                    <xsl:when test="$parwit"><xsl:value-of select="$parwit"/></xsl:when>
                                     <xsl:otherwise><xsl:value-of select="$cleanstr"/></xsl:otherwise>
                                 </xsl:choose>
                             </xsl:variable>
@@ -288,7 +317,7 @@
                 </xsl:when>
                 <xsl:otherwise>
                         <xsl:attribute name="class">lem-inline lem-anchor</xsl:attribute>
-                        <xsl:text>*</xsl:text>
+                        <xsl:text>†</xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
         </span>
@@ -324,7 +353,7 @@
          <xsl:variable name="witness" select="//x:listWit//x:witness[@xml:id=$cleanstr]"/>
          <xsl:variable name="siglum" select="$witness/x:abbr/node()"/>
          <xsl:variable name="anno" select="$witness/x:expan"/>
-         <xsl:variable name="parwit" select="$witness/ancestor::x:witness"/>
+         <xsl:variable name="parwit" select="$witness/ancestor::x:witness[@source]"/>
 
          <xsl:variable name="mysource" select="$witness/@source"/>
          <xsl:variable name="parsource" select="$parwit/@source"/>
@@ -405,7 +434,7 @@
                 </xsl:call-template>
             </xsl:when>
             <xsl:otherwise>
-                <span class="lem lem-anchor">*</span>
+                <span class="lem lem-anchor">†</span>
             </xsl:otherwise>
         </xsl:choose>
         <xsl:if test="x:rdg | x:rdgGrp[not(@type='lemma')]">

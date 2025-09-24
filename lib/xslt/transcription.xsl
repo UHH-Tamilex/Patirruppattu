@@ -568,6 +568,14 @@
         <xsl:with-param name="hyphen"><xsl:value-of select="$hyphen"/></xsl:with-param>
     </xsl:call-template>
 </xsl:template>
+
+<xsl:template match="x:rubric/x:lb[1] | x:incipit/x:lb[1] | x:explicit/x:lb[1] | x:finalRubric/x:lb[1] | x:colophon/x:lb[1]">
+    <xsl:call-template name="lb">
+        <xsl:with-param name="hyphen">no</xsl:with-param>
+        <xsl:with-param name="excerpt">yes</xsl:with-param>
+    </xsl:call-template>
+</xsl:template>
+
 <xsl:template match="x:q[@rend='block']//x:lg//x:lb | x:quote[@rend='block']//x:lg//x:lb | x:q[not(@rend)]//x:lb | x:quote[not(@rend)]//x:lb | x:standOff[@type='apparatus']//x:lb">
     <xsl:call-template name="lb">
         <xsl:with-param name="diplo">false</xsl:with-param>
@@ -577,10 +585,12 @@
 <xsl:template name="lb">
     <xsl:param name="diplo">true</xsl:param>
     <xsl:param name="hyphen">yes</xsl:param>
+    <xsl:param name="excerpt">no</xsl:param>
     <xsl:element name="span">
         <xsl:attribute name="class">
             <xsl:text>lb</xsl:text>
             <xsl:if test="$diplo = 'true'"><xsl:text> diplo</xsl:text></xsl:if>
+            <xsl:if test="$excerpt = 'yes'"><xsl:text> nobreak</xsl:text></xsl:if>
             <xsl:if test="not(@n)"><xsl:text> unnumbered</xsl:text></xsl:if>
         </xsl:attribute>
         <xsl:attribute name="lang">en</xsl:attribute>
@@ -637,6 +647,12 @@
 
 <xsl:template match="x:pb">
     <xsl:param name="excerpt">no</xsl:param>
+    <xsl:call-template name="pb">
+        <xsl:with-param name="excerpt"><xsl:value-of select="$excerpt"/></xsl:with-param>
+    </xsl:call-template>
+</xsl:template>
+<xsl:template match="x:rubric/x:pb[1] | x:incipit/x:pb[1] | x:explicit/x:pb[1] | x:finalRubric/x:pb[1] | x:colophon/x:pb[1]">
+    <xsl:param name="excerpt">yes</xsl:param>
     <xsl:call-template name="pb">
         <xsl:with-param name="excerpt"><xsl:value-of select="$excerpt"/></xsl:with-param>
     </xsl:call-template>
@@ -819,6 +835,15 @@
     <xsl:element name="span">
         <xsl:call-template name="lang"/>
         <xsl:attribute name="class">expan</xsl:attribute>
+        <xsl:attribute name="data-anno">abbreviation</xsl:attribute>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
+
+<xsl:template match="x:abbr">
+    <xsl:element name="span">
+        <xsl:call-template name="lang"/>
+        <xsl:attribute name="class">abbr</xsl:attribute>
         <xsl:attribute name="data-anno">abbreviation</xsl:attribute>
         <xsl:apply-templates/>
     </xsl:element>

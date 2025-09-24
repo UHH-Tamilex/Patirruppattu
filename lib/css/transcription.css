@@ -40,7 +40,7 @@
     font-style: italic;
 }
 
-.foreign[lang^="ta-Taml"], .foreign[lang^="sa-Beng"], .foreign[lang^="sa-Deva"], .foreign[lang^="sa-Gran"], .foreign[lang^="sa-Mlym"], .foreign[lang^="sa-Nand"], .foreign[lang^="sa-Newa"], .foreign[lang^="sa-Shrd"], .foreign[lang^="sa-Telu"], .foreign[lang^="te-Telu"], .foreign[lang^="kn-Knda"], .foreign[lang^="sa-Knda"], .foreign[lang^="ml-Mlym"], .foreign[lang^="sa-Mlym"], .foreign[lang^="hi-Deva"], .foreign[lang^="si-Sinh"], .foreign[lang^="pi-Sinh"], .foreign[lang^="bo-Tibt"] {
+.foreign[lang^="ta-Taml"], .foreign[lang^="sa-Beng"], .foreign[lang^="sa-Deva"], .foreign[lang^="sa-Gran"], .foreign[lang^="sa-Mlym"], .foreign[lang^="sa-Nand"], .foreign[lang^="sa-Newa"], .foreign[lang^="sa-Shrd"], .foreign[lang^="sa-Telu"] {
     font-style: normal;
 }
 
@@ -203,7 +203,7 @@ span.lb, span.cb {
     content: "\a\a(" attr(data-n) ")";
 }
 
-.pb.diplo.nobreak::after {
+.pb.diplo.nobreak::after, .lb.diplo.nobreak::after {
     content: "(" attr(data-n) ")";
 }
 

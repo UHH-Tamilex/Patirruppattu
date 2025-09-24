@@ -125,6 +125,10 @@ a[href]::after {
 a[href] {
     color: #A85110;
 }
+#tooltip a[href] {
+    color: white;
+    text-decoration: underline;
+}
 
 a[href]:hover {
     color: #2B73B7;
@@ -138,7 +142,7 @@ a[href^='http://']::after, a[href^='https://']::after {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: rgb(255,255,248);
+    /*background-color: rgb(255,255,248);*/
     padding-right: 0.8rem;
 }
 a[href^='http://']:hover::after, a[href^='https://']:hover::after {
@@ -146,7 +150,7 @@ a[href^='http://']:hover::after, a[href^='https://']:hover::after {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: rgb(255,255,248);
+    /*background-color: rgb(255,255,248);*/
     padding-right: 0.8rem;
 }
 
