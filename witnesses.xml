@@ -164,23 +164,23 @@
    </listWit>
   </witness>
 
-  <witness xml:id="TPN">
-    <abbr type="siglum">TPN</abbr>
+  <witness xml:id="TPNKan">
+    <abbr type="siglum">TPNKan</abbr>
     <expan>Nacciṉākkiṉiyar on <term>Tolkāppiyam Poruḷ; Kaṇēca Aiyar edition</term></expan>
     <listWit>
-     <witness xml:id="TPNv">
-      <abbr type="siglum">TPNv</abbr>
+     <witness xml:id="TPNKanv">
+      <abbr type="siglum">TPNKanv</abbr>
       <expan>Nacciṉākkiṉiyar on <term>Tolkāppiyam Poruḷ; Kaṇēca Aiyar edition</term>, variant reading</expan>
      </witness>
    </listWit>
   </witness>
 
-   <witness xml:id="TPN">
-    <abbr type="siglum">TPN</abbr>
+   <witness xml:id="TPNTVG">
+    <abbr type="siglum">TPNTVG</abbr>
     <expan>Nacciṉākkiṉiyar on <term>Tolkāppiyam Poruḷ; T.V. Gopal Iyar edition</term></expan>
     <listWit>
-     <witness xml:id="TPNv">
-      <abbr type="siglum">TPNv</abbr>
+     <witness xml:id="TPNTVGv">
+      <abbr type="siglum">TPNTVGv</abbr>
       <expan>Nacciṉākkiṉiyar on <term>Tolkāppiyam Poruḷ; T.V. Gopal Iyar edition</term>, variant reading</expan>
      </witness>
 
