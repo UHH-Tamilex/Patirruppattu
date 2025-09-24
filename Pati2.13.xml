@@ -196,7 +196,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="178,190">
         <lem wit="#EC #EV #ER #TT #C1 #C4">ṉimiḻmarutiṟ</lem>
         <rdg wit="#C2">ṉi<sic>mi</sic>ḻmarutil</rdg>
-<rdg wit="#C3">ṉimiḻmarutiṟla</rdg>
+<rdg wit="#C3">ṉimiḻmarutiṟ<del>la</del></rdg>
 <rdg wit="#G1">rutiṟ</rdg>
 <rdg wit="#G2 #G3">ṉimiḻ marutiṟal</rdg>
         </app>
@@ -204,18 +204,18 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <lem wit="#EC #EV #ER">kāruṭai</lem>
         <rdg wit="#TT #C2 #G1 #G2 #G3">kārviṭai</rdg>
 <rdg wit="#C1">kārǂǂ</rdg>
-<rdg wit="#C3 #C4">kārvi(ru)ṭai</rdg>
+<rdg wit="#C3 #C4">kār<del>vi</del>(ru)ṭai</rdg>
         </app>
 <app loc="370,382">
         <lem wit="#EC #EV #ER">kavaittalaip</lem>
         <rdg wit="#TT #C1 #C2 #G1 #G2 #G3">kavvaittalaip</rdg>
-<rdg wit="#C3 #C4">kavvaittalaip</rdg>
+<rdg wit="#C3 #C4">ka<del>v</del>vaittalaip</rdg>
         </app>
 <app loc="382,390">
         <lem wit="#EC #EV #ER">pēymakaḷ</lem>
         <rdg wit="#TT #C2 #G1 #G2 #G3">pēymmakaḷ</rdg>
 <rdg wit="#C1">pēym{ma}kaḷ</rdg>
-<rdg wit="#C3 #C4">pēymmakaḷ</rdg>
+<rdg wit="#C3 #C4">pēy<del>m</del>makaḷ</rdg>
         </app>
 <app loc="398,405">
         <lem wit="#EC #EV #ER #C1 #C2 #C3 #C4 #G1 #G2">tiyaṅka</lem>
@@ -225,7 +225,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <lem wit="#EC #EV #ER">vūriya</lem>
         <rdg wit="#ECv #C1 #C2 #G1 #G2 #G3">vūṟiya</rdg>
 <rdg wit="#TT">vū<sic>ṟi</sic>ya</rdg>
-<rdg wit="#C3 #C4">vūṟi(ri)ya</rdg>
+<rdg wit="#C3 #C4">vū<del>ṟi</del>(ri)ya</rdg>
         </app>
 <app loc="411,418">
         <lem wit="#EC #TT #C1 #C3 #G1 #G2 #G3">neruñci</lem>
@@ -235,12 +235,12 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="418,424">
         <lem wit="#EC #EV #ER">nīṟāṭu</lem>
         <rdg wit="#TT #C1 #C2 #C4 #G1 #G2 #G3">nīṟāku</rdg>
-<rdg wit="#C3">nīṟāku(ṭu)</rdg>
+<rdg wit="#C3">nīṟā<del>ku</del>(ṭu)</rdg>
         </app>
 <app loc="499,507">
         <lem wit="#EC #EV #ER #TT #C2 #G1 #C1">paṉikkum</lem>
-        <rdg wit="#C3">paḻi(ṉi)kkum</rdg>
-<rdg wit="#C4">paṇi (ṉi)kkum</rdg>
+        <rdg wit="#C3">pa<del>ḻi</del>(ṉi)kkum</rdg>
+<rdg wit="#C4">pa<del>ṇi </del>(ṉi)kkum</rdg>
 <rdg wit="#">paṇikkum G2+3 (C1 citai)</rdg>
         </app>
 <app loc="522,533">
@@ -249,20 +249,20 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#C3 #C4">kaṭavu(ṇ) mēṉa</rdg>
         </app>
 <app loc="600,608">
-        <lem wit="#EC #TPNKan">pakarnar<note>Tol. Poruḷ. cū. 75</note></lem>
+        <lem wit="#EC #TPNKan">pakarnar</lem>
         <rdg wit="#TT #C1 #C2 #G1 #G2 #G3">pakainar</rdg>
-<rdg wit="#C3 #C4">pakai (kar)nar</rdg>
+<rdg wit="#C3 #C4">pa<del>kai </del>(kar)nar</rdg>
         </app>
 <app loc="608,623">
         <lem wit="#EC">kuṭipuṟan tarāak</lem>
         <rdg wit="#TT #C2 #G1 #G2 #G3">kuṭipiṟan tarāk</rdg>
-<rdg wit="#C3">kuṭipi(pu)ṟantarā(a)k</rdg>
-<rdg wit="#">kuṭipi(pu)ṟan tarāk C4 (C1 citai)</rdg>
+<rdg wit="#C3">kuṭi<del>pi</del>(pu)ṟantar<del>ā</del>(a)k</rdg>
+<rdg wit="#C4">kuṭi<del>pi</del>(pu)ṟan tarāk (C1 citai)</rdg>
         </app>
 <app loc="671,677">
         <lem wit="#EC #C2 #C3 #G2 #G3">yōṭātu</lem>
         <rdg wit="#TT #C1 #G1">pōṭātu</rdg>
-<rdg wit="#C4">yōṭāta (tu)</rdg>
+<rdg wit="#C4">yōṭā<del>ta </del>(tu)</rdg>
         </app>
 </listApp>
 </standOff>
