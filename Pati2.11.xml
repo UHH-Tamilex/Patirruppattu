@@ -231,9 +231,5 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
       </witness>
     </listWit>
   </witness>
-<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="ECv">
-      <abbr type="siglum">ECv</abbr>
-      <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading</expan>
-     </witness>
 </listWit></standOff>
 </TEI>
