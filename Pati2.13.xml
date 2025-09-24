@@ -203,7 +203,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="358,365">
         <lem wit="#EC #EV #ER">kāruṭai</lem>
         <rdg wit="#TT #C2 #G1 #G2 #G3">kārviṭai</rdg>
-<rdg wit="#ǂǂC1">kār</rdg>
+<rdg wit="#C1">kārǂǂ</rdg>
 <rdg wit="#C3 #C4">kārvi(ru)ṭai</rdg>
         </app>
 <app loc="370,382">
@@ -249,7 +249,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#C3 #C4">kaṭavu(ṇ) mēṉa</rdg>
         </app>
 <app loc="600,608">
-        <lem wit="#EC #TPNKan">pakarnar</lem>
+        <lem wit="#EC #TPNKan">pakarnar<note>Tol. Poruḷ. cū. 75</note></lem>
         <rdg wit="#TT #C1 #C2 #G1 #G2 #G3">pakainar</rdg>
 <rdg wit="#C3 #C4">pakai (kar)nar</rdg>
         </app>
