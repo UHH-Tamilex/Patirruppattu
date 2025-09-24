@@ -61,7 +61,9 @@
     </div>
   </body>
 </text>
-COPY STANDOFF FROM INTERFACE HERE
+
+COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+
 <standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati2.11" type="apparatus"><listApp>
 <app loc="60,69">
         <lem wit="#EC #EV #ER #C2 #C3 #C4 #G2 #G3">ṉaḷiyirum</lem>
@@ -73,51 +75,51 @@ COPY STANDOFF FROM INTERFACE HERE
 <rdg wit="#G2">rēkampuṇar kākkuñ</rdg>
 <rdg wit="#TT #G1 #G3">rēma puṇarkākkuñ</rdg>
 <rdg wit="#C2">ǂǂǂǂǂǂ kākkuñ</rdg>
-<rdg wit="#C3">rēka(ma)m puṇarkākkuñ</rdg>
-<rdg wit="#C4">nēca (rē ma)m puṇarkākkuñ</rdg>
+<rdg wit="#C3">rē<del>ka</del>(ma)m puṇar<del>kā</del>kkuñ</rdg>
+<rdg wit="#C4"><del>nēca</del>(rēma)m puṇar<del>kā</del>kkuñ</rdg>
         </app>
 <app loc="259,267">
         <lem wit="#EC #EV #ER">nīrniṟam</lem>
         <rdg wit="#ECv">nīṉiṟam</rdg>
 <rdg wit="#TT #C2 #G1 #G2 #G3">nīniṟam</rdg>
-<rdg wit="#C3">nī(r)ni(ṉi)ṟam</rdg>
+<rdg wit="#C3">nī(r)<del>ni</del>(ṉi)ṟam</rdg>
 <rdg wit="#C4">nī(r) niṟam</rdg>
         </app>
 <app loc="289,303">
         <lem wit="#EC #EV #ER #C2 #C3 #C4 #G2 #G3">pōla varaṇkoṉṟu</lem>
         <rdg wit="#ECv">pōla raṇkoṉṟu</rdg>
-<rdg wit="#">pe ------āṉṟu TT, G1(i.vi</rdg>
+<rdg wit="#">pe ------āṉṟu TT, G1(i.vi)</rdg>
         </app>
 <app loc="385,391">
         <lem wit="#EC #EV #ER #TT #C2 #C4 #G1">ṟumiya</lem>
         <rdg wit="#ECv">tumiya</rdg>
-<rdg wit="#C3">ṟuḻi(mi)ya</rdg>
+<rdg wit="#C3">ṟu<del>ḻi</del>(mi)ya</rdg>
 <rdg wit="#G2 #G3">ṟuḻiya</rdg>
         </app>
 <app loc="391,395">
         <lem wit="#EC #EV #ER #TT #G1">vēey</lem>
         <rdg wit="#ECv">vōoy</rdg>
 <rdg wit="#C2 #G2 #G3">vōy</rdg>
-<rdg wit="#C3 #C4">vēvōā(e)y</rdg>
+<rdg wit="#C3 #C4">vē<del>vōā</del>(e)y</rdg>
         </app>
 <app loc="425,431">
         <lem wit="#EC #EV #ER #G1">nārari</lem>
         <rdg wit="#TT">nāra<sic>ri</sic></rdg>
 <rdg wit="#C2 #G2 #G3">kārari</rdg>
-<rdg wit="#C3 #C4">kā(nā)rari</rdg>
+<rdg wit="#C3 #C4"><del>kā</del>(nā)rari</rdg>
         </app>
 <app loc="447,459">
         <lem wit="#EC #EV #ER #G3">pōraṭu tāṉaic</lem>
         <rdg wit="#ECv #C2 #G2">vēṇṭu tāṉaic</rdg>
 <rdg wit="#TT #G1">āraṭu tāṉaic</rdg>
-<rdg wit="#C3 #C4">vēṇ (pōra)ṭu tāṉaic</rdg>
+<rdg wit="#C3 #C4"><del>vēṇ</del> (pōra)ṭu tāṉaic</rdg>
         </app>
 <app loc="499,508">
         <lem wit="#EC #EV #ER">valaṉuyar</lem>
         <rdg wit="#TT #G1">valaṉumar</rdg>
 <rdg wit="#C2">valluyar</rdg>
-<rdg wit="#C3">mallalu (valaṉu)yar</rdg>
-<rdg wit="#C4">valalu(ṉu) yar</rdg>
+<rdg wit="#C3"><del>mallalu</del> (valaṉu)yar</rdg>
+<rdg wit="#C4">vala<del>lu</del>(ṉu) yar</rdg>
 <rdg wit="#G2 #G3">mallaluyar</rdg>
         </app>
 <app loc="537,544">
@@ -127,12 +129,12 @@ COPY STANDOFF FROM INTERFACE HERE
 <app loc="592,602">
         <lem wit="#EC #EV #ER #C2 #G2 #G3">kavirtatai</lem>
         <rdg wit="#TT #G1">kavirtata</rdg>
-<rdg wit="#C3 #C4">kavirtataic</rdg>
+<rdg wit="#C3 #C4">kavirtatai<del>c</del></rdg>
         </app>
 <app loc="679,687">
         <lem wit="#TT #C2 #G1 #G2 #G3">yimaiyan</lem>
         <rdg wit="#EC #EV #ER">yimayan</rdg>
-<rdg wit="#C3 #C4">yimai(ma)yan</rdg>
+<rdg wit="#C3 #C4">yi<del>mai</del>(ma)yan</rdg>
         </app>
 <app loc="721,731">
         <lem wit="#ECv #TT #C2 #G1 #G2 #G3">matantapak</lem>

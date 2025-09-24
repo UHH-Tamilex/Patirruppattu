@@ -70,13 +70,13 @@ COPY STANDOFF FROM INTERFACE HERE
 <app loc="140,147">
         <lem wit="#EC #EV #ER #C2 #C3 #G2 #G3">piṟamāṉ</lem>
         <rdg wit="#TT #C1">piramāṉ</rdg>
-<rdg wit="#C4">piṟa(payir)māṉ</rdg>
+<rdg wit="#C4"><del>piṟa</del>(payir)māṉ</rdg>
 <rdg wit="#G1">payirmāṉ</rdg>
         </app>
 <app loc="213,220">
         <lem wit="#EC #EV #ER">mātiram</lem>
         <rdg wit="#TT #C1 #C2 #G2 #G3">māturam</rdg>
-<rdg wit="#C3 #C4">mātu(ti)ram</rdg>
+<rdg wit="#C3 #C4">mā<del>tu</del>(ti)ram</rdg>
 <rdg wit="#G1">mātaram</rdg>
         </app>
 <app loc="245,251">
@@ -99,7 +99,7 @@ COPY STANDOFF FROM INTERFACE HERE
 <app loc="403,410">
         <lem wit="#EC #EV #ER">virumpē</lem>
         <rdg wit="#TT #C1 #C2 #G1 #G2 #G3">virumē</rdg>
-<rdg wit="#C3 #C4">viru(m)mē(pē</rdg>
+<rdg wit="#C3 #C4">viru(m)<del>mē</del>(pē)</rdg>
         </app>
 <app loc="598,606">
         <lem wit="#EC #EV #ER #C3 #C4 #G2 #G3">vālaraik</lem>
