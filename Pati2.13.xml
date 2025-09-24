@@ -185,13 +185,15 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         </app>
 <app loc="87,106">
         <lem wit="#EC #TT #C1 #C2 #C3 #C4 #G2 #G3">ṇerumaiyi ṉiraitaṭuk</lem>
-        <rdg wit="#">ṇerumai niraitaṭuk EV, ER (G1 viṭu)</rdg>
+        <rdg wit="#EV #ER">ṇerumai niraitaṭuk</rdg>
+        <rdg wit="#G1">(viṭu)</rdg>
         </app>
 <app loc="169,178">
         <lem wit="#EC #EV #ER #TT #C1 #C4">moliteṅki</lem>
         <rdg wit="#ECv">molitteṅki</rdg>
 <rdg wit="#C2 #G2 #G3">molimoliteṅki</rdg>
-<rdg wit="#"><del>moli</del>moliteṅki C3 (G1 viṭu)</rdg>
+<rdg wit="#C3"><del>moli</del>moliteṅki</rdg>
+<rdg wit="#G1">(viṭu)</rdg>
         </app>
 <app loc="178,190">
         <lem wit="#EC #EV #ER #TT #C1 #C4">ṉimiḻmarutiṟ</lem>
@@ -239,9 +241,10 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         </app>
 <app loc="499,507">
         <lem wit="#EC #EV #ER #TT #C2 #G1 #C1">paṉikkum</lem>
+        <rdg wit="#C1">(citai)</rdg>
         <rdg wit="#C3">pa<del>ḻi</del>(ṉi)kkum</rdg>
 <rdg wit="#C4">pa<del>ṇi </del>(ṉi)kkum</rdg>
-<rdg wit="#">paṇikkum G2+3 (C1 citai)</rdg>
+<rdg wit="#">paṇikkum G2+3</rdg>
         </app>
 <app loc="522,533">
         <lem wit="#EC #EV #ER">kaṭavuṇ mēṉa</lem>
@@ -255,9 +258,10 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         </app>
 <app loc="608,623">
         <lem wit="#EC">kuṭipuṟan tarāak</lem>
+        <rdg wit="#C1">(citai)</rdg>
         <rdg wit="#TT #C2 #G1 #G2 #G3">kuṭipiṟan tarāk</rdg>
 <rdg wit="#C3">kuṭi<del>pi</del>(pu)ṟantar<del>ā</del>(a)k</rdg>
-<rdg wit="#C4">kuṭi<del>pi</del>(pu)ṟan tarāk (C1 citai)</rdg>
+<rdg wit="#C4">kuṭi<del>pi</del>(pu)ṟan tarāk</rdg>
         </app>
 <app loc="671,677">
         <lem wit="#EC #C2 #C3 #G2 #G3">yōṭātu</lem>
