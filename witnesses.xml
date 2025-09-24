@@ -166,11 +166,11 @@
 
   <witness xml:id="TPN">
     <abbr type="siglum">TPN</abbr>
-    <expan>Nacciṉākkiṉiyar on <term>Tolkāppiyam Poruḷ</term></expan>
+    <expan>Nacciṉākkiṉiyar on <term>Tolkāppiyam Poruḷ; edition Kaṇ.</term></expan>
     <listWit>
      <witness xml:id="TPNv">
       <abbr type="siglum">TPNv</abbr>
-      <expan>Nacciṉākkiṉiyar on <term>Tolkāppiyam Poruḷ</term>, variant reading</expan>
+      <expan>Nacciṉākkiṉiyar on <term>Tolkāppiyam Poruḷ; edition Kaṇ.</term>, variant reading</expan>
      </witness>
    </listWit>
   </witness>
