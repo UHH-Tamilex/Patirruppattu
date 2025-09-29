@@ -172,7 +172,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         </app>
 <app loc="836,842">
         <lem wit="#EC #TT #C1 #C2 #C3 #G1 #G2 #G3">ceytaṉ</lem>
-        <rdg wit="#ECv #ER">ceyta</rdg>
+        <rdg wit="#EC3 #ER">ceyta</rdg>
 <rdg wit="#EV">ceytaṉa</rdg>
 <rdg wit="#C4">ceyta<del>ṉ</del></rdg>
         </app>
@@ -187,12 +187,30 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </listApp>
 <listWit>
 <witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="EC">
-  <abbr type="siglum">EC</abbr>
+  <abbr type="siglum" n="collective">EC</abbr>
   <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941</expan>
   <listWit>
     <witness xml:id="ECv">
       <abbr type="siglum">ECv</abbr>
       <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading</expan>
+     </witness>
+  </listWit>
+  <listWit>
+    <witness xml:id="EC1">
+      <abbr type="siglum">EC1</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1920</expan>
+     </witness>
+  </listWit>
+  <listWit>
+    <witness xml:id="EC2">
+      <abbr type="siglum">EC2</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1940</expan>
+     </witness>
+  </listWit>
+  <listWit>
+    <witness xml:id="EC3">
+      <abbr type="siglum">EC3</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1941</expan>
      </witness>
   </listWit>
  </witness>
