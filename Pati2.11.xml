@@ -74,7 +74,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <rdg wit="#ECv">rēmam puṇarkākkuñ</rdg>
 <rdg wit="#G2">rēkampuṇar kākkuñ</rdg>
 <rdg wit="#TT #G1 #G3">rēma puṇarkākkuñ</rdg>
-<rdg wit="#C2">ǂǂǂǂǂǂ kākkuñ</rdg>
+<rdg wit="#C2"><gap quantity="6" unit="character" reason="lost"/> kākkuñ</rdg>
 <rdg wit="#C3">rē<del>ka</del><add>ma</add>m puṇar<del>kā</del>kkuñ</rdg>
 <rdg wit="#C4"><del>nēca</del><add>rēma</add>m puṇar<del>kā</del>kkuñ</rdg>
         </app>
