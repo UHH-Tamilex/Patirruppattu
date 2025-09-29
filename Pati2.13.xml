@@ -186,14 +186,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="87,106">
         <lem wit="#EC #TT #C1 #C2 #C3 #C4 #G2 #G3">ṇerumaiyi ṉiraitaṭuk</lem>
         <rdg wit="#EV #ER">ṇerumai niraitaṭuk</rdg>
-        <rdg wit="#G1">/</rdg>
+        <rdg wit="#G1"/>
         </app>
 <app loc="169,178">
         <lem wit="#EC #EV #ER #TT #C1 #C4">moliteṅki</lem>
         <rdg wit="#ECv">molitteṅki</rdg>
 <rdg wit="#C2 #G2 #G3">molimoliteṅki</rdg>
 <rdg wit="#C3"><del>moli</del>moliteṅki</rdg>
-<rdg wit="#G1">/</rdg>
+<rdg wit="#G1"/>
         </app>
 <app loc="178,190">
         <lem wit="#EC #EV #ER #TT #C1 #C4">ṉimiḻmarutiṟ</lem>
