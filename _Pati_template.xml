@@ -43,8 +43,22 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 COPY APPARATUS STANDOFF FROM INTERFACE HERE
 </TEI>
 
-FOR RENDERING TITLE IN THE TEXT BOLD: <hi rend="bold"></hi>
 
-FOR ADDING cūtra NUMBER: <note>Toḷ Poruḷ. cū. XX</note> IN THE CORRESPONDING <app></app> SECTION OF THE APPARATUS STANDOFF
+
+FOR RENDERING TITLE IN THE TEXT BOLD:
+<hi rend="bold"></hi>
+
+FOR ADDING cūtra NUMBER:
+<note>Toḷ Poruḷ. cū. XX</note>
+IN THE CORRESPONDING <app></app> SECTION OF THE APPARATUS STANDOFF
+
+viṭu (omission): 
+<rdg wit="#WITNESS"/>
+
+citai (damaged portion in text):
+<rdg wit="#WITNESS"><gap reason="lost"/></rdg>
+
+blank portion in text:
+<rdg wit="#WITNESS"><gap reason="blank"/></rdg>
 
 <!-- instructions like these are ignored  -->
