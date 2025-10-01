@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>3.22</num>. <title xml:lang="ta">kayiṟukuṟu mukavai</title>
+            <persName xml:lang="ta" role="poet">Pālai Kautamaṉār</persName>
+        </title>
+        <editor role="translator">Roland Ferenczi</editor> 
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p/>
+            </summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <p>
+      tuṟai: vañcittuṟaip pāṭāṇpāṭṭu, vaṇṇam: oḻukuvaṇṇamuñ coṟcīrvaṇṇamum, tūkku: centūkkum vañcittūkkum.
+    </p>
+    <div rend="parallel">
+      <lg xml:id="Pati3.22">
+        <l>ciṉaṉē kāmaṅ kaḻikaṇ ṇōṭṭa</l>
+        <l>maccam poycco laṉpumika vuṭaimai</l>
+        <l>teṟalkaṭu maiyoṭu piṟavu mivvulakat</l>
+        <l>taṟanteri tikirikku vaḻiyaṭai yākun</l>
+        <l>tītucē ṇikantu naṉṟumikap purintu</l>
+        <l>kaṭaluṅ kāṉamum palapaya mutavap</l>
+        <l>piṟarpiṟar naliyātu vēṟṟupporuḷ veḵkātu</l>
+        <l>maiyi laṟiviṉar cevviti ṉaṭantutam</l>
+        <l>mamar tuṇaip piriyātu pāttuṇṭu mākkaṇ</l>
+        <l>mūtta yākkaiyoṭu piṇiyiṉṟu kaḻiya</l>
+        <l>vūḻi yuytta vuravō rumpal</l>
+        <l>poṉcey kaṇiccit tiṇpiṇi yuṭaittuc</l>
+        <l>ciraṟucila vūṟiya nīrvāyp pattaṟ</l>
+        <l><hi rend="bold">kayiṟukuṟu mukavai</hi> mūyiṉa moykku</l>
+        <l>mākeḻu koṅkar nāṭakap paṭutta</l>
+        <l>vēlkeḻu tāṉai veruvaru tōṉṟa </l>
+        <l>luḷaippolinta mā</l>
+        <l>viḻaippolinta kaḷiṟu</l>
+        <l>vampuparanta tē</l>
+        <l>ramarkketirnta pukaṉ maṟava roṭu</l>
+        <l>tuñcumaran tuvaṉṟiya malarakaṉ paṟantalai</l>
+        <l>yōṅkunilai vāyiṟ ṟūṅkupu tacaitta </l>
+        <l>vilvicai māṭṭiya viḻuccī raiyavik</l>
+        <l>kaṭimiḷaik kuṇṭukiṭaṅki</l>
+        <l>ṉeṭumati ṉiraippataṇat</l>
+        <l>taṇṇalam peruṅkōṭ ṭakappā veṟinta</l>
+        <l>poṉpuṉai yuḻiñai velpōrk kuṭṭuva</l>
+        <l>pōrtteṟinta paṟaiyāṟ puṉalceṟuk kunaru</l>
+        <l>nīrttaru pūca liṉampaḻik kunaru</l>
+        <l>molittalai viḻaviṉ maliyum yāṇar</l>
+        <l>nāṭukeḻu taṇpaṇai cīṟiṉai yātaliṟ</l>
+        <l>kuṭaticai māyntu kuṇamutaṟ ṟōṉṟip</l>
+        <l>pāyiru ḷakaṟṟum payaṅkeḻu paṇpiṉ</l>
+        <l>ñāyiṟu kōṭā naṉpaka lamayattuk</l>
+        <l>kavalai veṇṇari kūumuṟai payiṟṟik</l>
+        <l>kaḻalkaṭ kūkaik kuḻaṟukuraṟ pāṇik</l>
+        <l>karuṅkaṭ pēymakaḷ vaḻaṅkum</l>
+        <l>perumpā ḻākuma ṉaḷiya tāmē.</l>
+      </lg>
+      <lg type="translation" xml:lang="en">
+        <l></l>
+      </lg>
+    </div>
+  </body>
+</text>
+
+COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+
+COPY APPARATUS STANDOFF FROM INTERFACE HERE
+</TEI>

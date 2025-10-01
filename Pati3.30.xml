@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>3.30</num>. <title xml:lang="ta">pukaṉṟavāyam</title>
+            <persName xml:lang="ta" role="poet">Pālai Kautamaṉār</persName>
+        </title>
+        <editor role="translator">Roland Ferenczi</editor> 
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p/>
+            </summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <p>
+      tuṟai: peruñcōṟṟu nilai, vaṇṇam: atu, tūkku: atu.
+    </p>
+    <div rend="parallel">
+      <lg xml:id="Pati3.30">
+        <l></l>
+      </lg>
+      <lg type="translation" xml:lang="en">
+        <l>iṇartata ñāḻaṟ karaikeḻu peruntuṟai</l>
+        <l>maṇikkalat taṉṉa māyitaḻ neytaṟ</l>
+        <l>pācaṭaip paṉikkaḻi tuḻaiip puṉṉai</l>
+        <l>vāliṇarp paṭuciṉaik kurukiṟai koḷḷu</l>
+        <l>malkuṟu kāṉa lōṅkumaṇa laṭaikarai</l>
+        <l>tāḻaṭumpu malainta puṇarivaḷai narala</l>
+        <l>vilaṅkunīr muttamoṭu vārtuki reṭukkun</l>
+        <l>taṇkaṭaṟ paṭappai meṉpā leṉavuṅ</l>
+        <l>kāntaṭ kaṇṇik kolaivil vēṭṭuvar</l>
+        <l>ceṅkōṭ ṭāmā ṉūṉoṭu kāṭṭa</l>
+        <l>mataṉuṭai vēḻattu veṇkōṭu koṇṭu</l>
+        <l>poṉṉuṭai niyamattup piḻinoṭai koṭukkuṅ</l>
+        <l>kuṉṟutalai maṇanta puṉpula vaippuṅ</l>
+        <l>kāla maṉṟiyuṅ karumpaṟut toḻiyā</l>
+        <l>tarikā lavittup palapū viḻaviṟ</l>
+        <l>ṟēmpāy maruta mutalpaṭak koṉṟu</l>
+        <l>veṇṭalaic cempuṉal parantuvāy mikukkum</l>
+        <l>palacūḻ patappar pariya veḷḷattuc</l>
+        <l>ciṟaikoḷ pūcaliṟ <hi rend="bold">pukaṉṟa vāya</hi></l>
+        <l>muḻavumūtūr viḻavuk kāṇūup peyaruñ</l>
+        <l>ceḻumpal vaippiṟ paḻaṉap pālu</l>
+        <l>mēṉa luḻavar varaku mītiṭṭa</l>
+        <l>kāṉmiku kuḷaviya vaṉpucē rirukkai</l>
+        <l>meṉṟiṉai nuvaṇai muṟaimuṟai pakukkum</l>
+        <l>puṉpulan taḻīiya puṟavaṇi vaippum</l>
+        <l>palpūñ cemmaṟ kāṭupaya māṟi</l>
+        <l>yarakkat taṉṉa nuṇmaṇaṟ kōṭukoṇ</l>
+        <l>ṭoṇṇutaṉ makaḷir kaḻaṅkoṭu maṟukum </l>
+        <l>viṇṇuyarn tōṅkiya kaṭaṟṟavum piṟavum</l>
+        <l>paṇaikeḻu vēntarum vēḷiru moṉṟu moḻintu</l>
+        <l>kaṭalavuṅ kāṭṭavu maraṇvaliyār naṭuṅka</l>
+        <l>muraṇmiku kaṭuṅkural vicumpaṭai patirak</l>
+        <l>kaṭuñciṉaṅ kaṭāay muḻaṅku mantirat</l>
+        <l>taruntiṟaṉ marapiṟ kaṭavuṭ pēṇiya</l>
+        <l>ruyarntō ṉēntiya varumpeṟaṟ piṇṭaṅ</l>
+        <l>karuṅkaṭ pēymakaḷ kaipuṭaiyūu naṭuṅka</l>
+        <l>neyttōr tūuya niṟaimaki ḻirumpali</l>
+        <l>yeṟumpu mūcā viṟumpūtu marapiṟ</l>
+        <l>karuṅkaṭ kākkaiyoṭu paruntirun tāra</l>
+        <l>vōṭāp pūṭkai yoṇpoṟik kaḻaṟkāṟ</l>
+        <l>peruñcaman tatainta ceruppukaṉ maṟava</l>
+        <l>rurumunila ṉatirkkuṅ kuraloṭu koḷaipuṇarntu</l>
+        <l>peruñcō ṟukuttaṟ keṟiyuṅ</l>
+        <l>kaṭuñciṉa vēntēniṉ ṟaḻaṅkukuraṉ muracē.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+
+COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+
+COPY APPARATUS STANDOFF FROM INTERFACE HERE
+</TEI>

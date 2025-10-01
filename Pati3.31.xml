@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>3.31</num>. <title xml:lang="ta">patikam</title>
+            <persName xml:lang="ta" role="poet"></persName>
+        </title>
+        <editor role="translator">Roland Ferenczi</editor> 
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p/>
+            </summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+
+    <div rend="parallel">
+      <lg xml:id="Pati3.31">
+        <l>imaiya varampaṉ ṟampi yamaivara</l>
+        <l>vumpaṟ kāṭṭait taṉkō ṉiṟīi</l>
+        <l>yakappā veṟintu pakaṟṟī vēṭṭu</l>
+        <l>matiyuṟaḻ marapiṉ mutiyarait taḻīik</l>
+        <l>kaṇṇakaṉ vaippiṉ maṇvakut tīttuk</l>
+        <l>peruṅkaḷiṟṟi yāṉaip puṇarnirai nīṭṭi</l>
+        <l>yirukaṭa ṉīru morupaka lāṭi</l>
+        <l>yayirai paraii yāṟṟalcāṉ muṉpō</l>
+        <l>ṭoṭuṅkā nallicai yuyarnta kēḷvi</l>
+        <l>neṭumpā ratāyaṉār muntuṟak kāṭupōnta</l>
+        <l>palyāṉaic celkeḻu kuṭṭuvaṉaip</l>
+        <l><persName xml:lang="ta">pālaik kautamaṉār</persName> pāṭiṉār pattuppāṭṭu</l>
+      </lg>
+      <lg type="translation" xml:lang="en">
+        <l></l>
+      </lg>
+    </div>
+  </body>
+</text>
+
+COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+
+COPY APPARATUS STANDOFF FROM INTERFACE HERE
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>3.29</num>. <title xml:lang="ta">veṇkaimakaḷir</title>
+            <persName xml:lang="ta" role="poet">Pālai Kautamaṉār</persName>
+        </title>
+        <editor role="translator">Roland Ferenczi</editor> 
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p/>
+            </summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <p>
+      tuṟai: vañcittuṟaip pāṭāṇpāṭṭu, vaṇṇam: atu, tūkku: atu.
+    </p>
+    <div rend="parallel">
+      <lg xml:id="Pati3.29">
+        <l></l>
+      </lg>
+      <lg type="translation" xml:lang="en">
+        <l>avaleṟi vulakkai vāḻaic cērtti</l>
+        <l>vaḷaikkai makaḷir vaḷḷai koyyu</l>
+        <l>muṭantai nelliṉ viḷaivayaṟ paranta</l>
+        <l>taṭantā ṇārai yiriya vayiraik</l>
+        <l>koḻumī ṉārkaiya marantoṟuṅ kuḻāaliṉ</l>
+        <l><hi rend="bold">veṇkai makaḷir<hi> veṇkuru kōppu</l>
+        <l>maḻiyā viḻavi ṉiḻiyāt tivaviṉ</l>
+        <l>vayiriyar mākkaḷ paṇṇamait teḻīi</l>
+        <l>maṉṟa naṇṇi maṟuku ciṟaipāṭu</l>
+        <l>makaṉkaṇ vaippi ṉāṭuma ṉaḷiya</l>
+        <l>viravuvēṟu kūlamoṭu kuruti vaṭṭa</l>
+        <l>mayirputai mākkaṇ kaṭiya kaḻaṟa</l>
+        <l>vamarkō ṇērikan tāreyil kaṭakkum</l>
+        <l>perumpal yāṉaik kuṭṭuvaṉ</l>
+        <l>varampi ṟāṉai paravā vāṅkē.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+
+COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+
+COPY APPARATUS STANDOFF FROM INTERFACE HERE
+</TEI>

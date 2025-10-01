@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>3.24</num>. <title xml:lang="ta">cīrcālveḷḷi</title>
+            <persName xml:lang="ta" role="poet">Pālai Kautamaṉār</persName>
+        </title>
+        <editor role="translator">Roland Ferenczi</editor> 
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p/>
+            </summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <p>
+      tuṟai: iyaṉmoḻi vāḻttu, vaṇṇam: oḻukuvaṇṇam, tūkku: centūkku.
+    </p>
+    <div rend="parallel">
+      <lg xml:id="Pati3.24">
+        <l>neṭuvayi ṉoḷiṟu miṉṉup parantāṅkup</l>
+        <l>puliyuṟai kaḻitta pulavuvā yeḵka</l>
+        <l>mēva lāṭavar valaṉuyart tēnti</l>
+        <l>yāraraṇ kaṭanta tārarun takaippiṟ</l>
+        <l>pīṭukoṇ mālaip perumpaṭait talaiva</l>
+        <l>vōtal vēṭṭa lavaipiṟarc ceyta</l>
+        <l>līta lēṟṟaleṉ ṟāṟupurin toḻuku</l>
+        <l>maṟampuri yantaṇar vaḻimoḻin toḻuki</l>
+        <l>ñāla niṉvaḻi yoḻukap§ pāṭalcāṉṟu</l>
+        <l>nāṭuṭaṉ viḷaṅku nāṭā nallicait</l>
+        <l>tiruntiya viyaṉmoḻit tiruntiḻai kaṇava</l>
+        <l>kulaiyiḻi paṟiyāc cāpattu vayava</l>
+        <l>rampukaḷai vaṟiyāt tūṅkutuḷaṅ kirukkai</l>
+        <l>yiṭāa vēṇi yiyalaṟaik kuruci</l>
+        <l>ṉīrnilan tīvaḷi vicumpō ṭaintu</l>
+        <l>maḷantukaṭai yaṟiyiṉu maḷapperuṅ kuraiyainiṉ</l>
+        <l>vaḷamvīṅku perukka miṉitukaṇ ṭikumē</l>
+        <l>yuṇ marun tiṉmarum varaikō ḷaṟi yātu</l>
+        <l>kuraittoṭi maḻukiya vulakkai vayiṉṟō </l>
+        <l>ṟaṭaiccēm peḻunta vāṭuṟu maṭāvi</l>
+        <l>ṉeḵkuṟac civanta vūṉat tiyāvaruṅ</l>
+        <l>kaṇṭumati maruḷum vāṭāc coṉṟi</l>
+        <l>vayaṅkukatir virintu vāṉakañ cuṭarvara</l>
+        <l>vaṟituvaṭak kiṟaiñciya <hi rend="bold">cīrcāl veḷḷi</hi></l>
+        <l>payaṅkeḻu poḻutō ṭāniya niṟpak</l>
+        <l>kaliḻuṅ karuviyoṭu kaiyuṟa vaṇaṅki</l>
+        <l>maṉṉuyir puraiiya valaṉēr piraṅkuṅ </l>
+        <l>koṇṭaṟ ṟaṇṭaḷik kamañcūṉ māmaḻai</l>
+        <l>kāretir paruva maṟappiṉum</l>
+        <l>pērā yāṇarttāl vāḻkaniṉ vaḷaṉē.</l>
+      </lg>
+      <lg type="translation" xml:lang="en">
+        <l></l>
+      </lg>
+    </div>
+  </body>
+</text>
+
+COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+
+COPY APPARATUS STANDOFF FROM INTERFACE HERE
+</TEI>
