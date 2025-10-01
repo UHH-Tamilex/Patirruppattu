@@ -422,6 +422,11 @@ p blockquote {
     margin: 0.5em;
 }
 
+a:link {
+    text-decoration: underline;
+    text-decoration-skip-ink: all;
+}
+
 a.uri {
     word-break: break-word;
 }

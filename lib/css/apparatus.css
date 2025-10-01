@@ -170,6 +170,7 @@ a.alignment-pointer:link, a.alignment-pointer:active {
 
 .msid a[href]::after {
     background: none;
+    text-decoration: none;
     padding-right: 0;
 }
 

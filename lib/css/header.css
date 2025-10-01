@@ -156,9 +156,11 @@ a[href^='http://']:hover::after, a[href^='https://']:hover::after {
 
 a[href^='https://']:has(img)::after, a[href^='https://']:has(img):hover::after {
     background: none;
+    text-decoration: none;
 }
 a[href^='https://']:has(img), a[href^='https://']:has(img):hover {
     background: none;
+    text-decoration: none;
 }
 
 .cert-low::after {
