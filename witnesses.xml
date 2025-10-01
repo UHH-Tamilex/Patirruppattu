@@ -9,6 +9,13 @@
       <abbr type="siglum">ECv</abbr>
       <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading</expan>
     </witness>
+    <witness xml:id="ECv2">
+      <abbr type="siglum">ECv2</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading2</expan>
+    </witness><witness xml:id="ECv3">
+      <abbr type="siglum">ECv3</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading2</expan>
+    </witness>
      <witness xml:id="EC1">
       <abbr type="siglum">EC1</abbr>
       <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1920</expan>
