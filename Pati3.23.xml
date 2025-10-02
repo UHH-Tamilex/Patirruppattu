@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>3.23</num>. <title xml:lang="ta">tatainta kāñci</title>
+            <persName xml:lang="ta" role="poet">Pālai Kautamaṉār</persName>
+        </title>
+        <editor role="translator">Roland Ferenczi</editor> 
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p/>
+            </summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <p>
+      tuṟai: vañcittuṟaip pāṭāṇpāṭṭu, vaṇṇam: oḻukuvaṇṇam, tūkku: centūkku.
+    </p>
+    <div rend="parallel">
+      <lg xml:id="Pati3.23">
+        <l>alantalai yuṉṉat taṅkavaṭu poruntic</l>
+        <l>citaṭi karaiyap peruvaṟaṅ kūrntu</l>
+        <l>nilampai taṟṟa pulaṅkeṭu kālaiyum</l>
+        <l>vāṅkupu tacaitta kalappaiya rāṅkaṇ</l>
+        <l>maṉṟam pōntu maṟukuciṟai pāṭum</l>
+        <l>vayiriya mākkaḷ kaṭumpaci nīṅkap</l>
+        <l>poṉcey puṉaiyiḻai yolippap perituvantu</l>
+        <l>neñcumali yuvakaiya ruṇṭu malintāṭac</l>
+        <l>ciṟumaki ḻāṉum peruṅkalam vīcum</l>
+        <l>pōraṭu tāṉaip polantārk kuṭṭuva</l>
+        <l>niṉṉayantu varuvēṅ kaṇṭaṉam puṉmikku</l>
+        <l>vaḻaṅkuna raṟṟeṉa maruṅkukeṭat tūrntu</l>
+        <l>peruṅkavi ṉaḻinta vāṟṟa vēṟupuṇarn</l>
+        <l>taṇṇaṉ maraiyā vamarntiṉi tuṟaiyum</l>
+        <l>viṇṇuyar vaippiṉa kāṭāyiṉa vēniṉ</l>
+        <l>maintumali perumpuka ḻaṟiyār malainta</l>
+        <l>pōretir vēntar tāraḻin torāliṉ</l>
+        <l>marutimiḻn tōṅkiya naṉiyirum parappiṉ</l>
+        <l>maṇaṉmali peruntuṟait <hi rend="bold">tatainta kāñci</hi>yoṭu</l>
+        <l>murukuttāḻ peḻiliya neruppuṟa ḻaṭaikarai</l>
+        <l>nantu nāraiyoṭu cevvari yukaḷuṅ</l>
+        <l>kaḻaṉi vāyiṟ paḻaṉap paṭappai</l>
+        <l>yaḻaṉmaruḷ pūviṉ ṟāmarai vaḷaimakaḷ</l>
+        <l>kuṟāatu malarnta vāmpa</l>
+        <l>laṟāa yāṇa rakaṉṟalai nāṭē</l>
+      </lg>
+      <lg type="translation" xml:lang="en">
+        <l></l>
+      </lg>
+    </div>
+  </body>
+</text>
+
+COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+
+COPY APPARATUS STANDOFF FROM INTERFACE HERE
+</TEI>

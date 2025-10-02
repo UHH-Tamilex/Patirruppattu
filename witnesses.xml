@@ -14,7 +14,7 @@
       <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading2</expan>
     </witness><witness xml:id="ECv3">
       <abbr type="siglum">ECv3</abbr>
-      <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading2</expan>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading3</expan>
     </witness>
      <witness xml:id="EC1">
       <abbr type="siglum">EC1</abbr>
@@ -28,6 +28,10 @@
       <abbr type="siglum">EC3</abbr>
       <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1941</expan>
      </witness>
+     <witness xml:id="EC3v">
+      <abbr type="siglum">EC3v</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1941, variant reading</expan>
+    </witness>
      </listWit>
  </witness>
 
