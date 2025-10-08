@@ -57,7 +57,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati3.29" type="apparatus"><listApp>
 <app loc="0,7">
         <lem wit="#EV #ER #ECv #TPNKan #TT #C1 #C2 #C4 #G1 #G2 #G3 #NLK">avaleṟi</lem>
-        <note>Toḷ Poruḷ. cū. 80</note>
+        <note>Tol Poruḷ. cū. 80</note>
         <rdg wit="#EC">avaleṟinta</rdg>
 <rdg wit="#C3">avaleṟi(nta)</rdg>
         </app>
@@ -92,7 +92,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="187,194">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #C4 #G1 #G2 #G3">tivaviṉ</lem>
         <rdg wit="#TPNKan">tivaviṉa</rdg>
-        <note>Toḷ Poruḷ. cū. 80</note>
+        <note>Tol Poruḷ. cū. 80</note>
 <rdg wit="#C3">tī(ti)vviṉ</rdg>
         </app>
 <app loc="194,203">
@@ -118,7 +118,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="298,303">
         <lem wit="#EC #EV #C1 #C2 #C3 #C4 #G1 #G2 #NLK">vaṭṭa</lem>
         <rdg wit="#ER #TPNKan">vēṭṭa</rdg>
-        <note>Toḷ Poruḷ. cū. 80</note>
+        <note>Tol Poruḷ. cū. 80</note>
         <rdg wit="#TT"><gap reason="lost"/></rdg>
         </app>
 <app loc="338,345">

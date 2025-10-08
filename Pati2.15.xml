@@ -106,7 +106,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="320,330">
         <lem wit="#EC #EV #ER">niṟaimutaṟ</lem>
         <rdg wit="#TPNKan #TT #C1 #G1 #G2 #G3">niraimutaṟ</rdg>
-        <note>Toḷ Poruḷ. cū. 63</note>
+        <note>Tol Poruḷ. cū. 63</note>
 <rdg wit="#C2">nirai<gap reason="lost" quantity="3" unit="character"/></rdg>
 <rdg wit="#C3 #C4">ni<del>rai </del><add>ṟai</add>mutaṟ</rdg>
         </app>

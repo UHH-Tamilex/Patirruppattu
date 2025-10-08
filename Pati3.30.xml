@@ -99,7 +99,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="133,142">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">lōṅkumaṇa</lem>
         <rdg wit="#TPNKan">lōṅkiru</rdg>
-        <note>Toḷ Poruḷ. cū. 63</note>
+        <note>Tol Poruḷ. cū. 63</note>
         </app>
 <app loc="175,186">
         <lem wit="#TT #C1 #C2 #C4 #G1 #G2 #G3 #NLK">vaḷainarala</lem>
@@ -136,12 +136,12 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="377,384">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #C3 #C4 #G1 #G2 #G3">puṉpula</lem>
         <rdg wit="#TPIv">vaṉpula</rdg>
-        <note>Toḷ Poruḷ. cū. 65</note>
+        <note>Tol Poruḷ. cū. 65</note>
         </app>
 <app loc="403,413">
         <lem wit="#EC #EV #ER">karumpaṟut</lem>
         <rdg wit="#TPIv">karumpuyt</rdg>
-        <note>Toḷ Poruḷ. cū. 65</note>
+        <note>Tol Poruḷ. cū. 65</note>
 <rdg wit="#TT #C1 #G1">kaṟuppaṟut</rdg>
 <rdg wit="#C2 #C4 #G2 #G3 #NLK">kaṟumpaṟut</rdg>
 <rdg wit="#C3">ka<del>ṟu</del><add>rum</add>paṟut</rdg>
@@ -153,13 +153,13 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="433,439">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">palapū</lem>
         <rdg wit="#TPI #TPNKan">palpū</rdg>
-        <note>Toḷ Poruḷ. cū. 65 (Iḷampūraṇar)</note>
-        <note>Toḷ Poruḷ. cū. 63 (Nacciṉākkiṉiyar)</note>
+        <note>Tol Poruḷ. cū. 65 (Iḷampūraṇar)</note>
+        <note>Tol Poruḷ. cū. 63 (Nacciṉākkiṉiyar)</note>
         </app>
 <app loc="439,446">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">viḻaviṟ</lem>
         <rdg wit="#TPIv">uḻavar</rdg>
-        <note>Toḷ Poruḷ. cū. 65</note>
+        <note>Tol Poruḷ. cū. 65</note>
         </app>
 <app loc="529,538">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #C4 #G1">veḷḷattuc</lem>
@@ -177,7 +177,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="645,652">
         <lem wit="#EC #EV #ER #C2 #C3 #C4 #G2 #G3 #NLK">kāṉmiku</lem>
         <rdg wit="#TPNKan">kāṇmiku</rdg>
-        <note>Toḷ Poruḷ. cū. 65</note>
+        <note>Tol Poruḷ. cū. 65</note>
 <rdg wit="#TT #C1 #G1">kāṉmikka</rdg>
         </app>
 <app loc="716,723"> <!-- C2 and C3 appear twice in this apparatus, after checking both correct also here if necessary  -->
@@ -199,7 +199,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="991,1001">
         <lem wit="#EC #EV #ER #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">taruntiṟaṉ</lem>
         <rdg wit="#TPNKan">tarunteṟaṉ</rdg>
-        <note>Toḷ Poruḷ. cū. 63</note>
+        <note>Tol Poruḷ. cū. 63</note>
         </app>
 <app loc="1068,1078">
         <lem wit="#TT #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">kaipuṭaiyū</lem>
@@ -228,7 +228,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="1307,1315">
         <lem wit="#EC #EV #ER #C1 #C2 #C3 #C4 #G2 #G3 #NLK">vēntēniṉ</lem>
         <rdg wit="#TPIv">vēntucēṇ</rdg>
-<note>Toḷ Poruḷ. cū. 65</note>
+<note>Tol Poruḷ. cū. 65</note>
 <rdg wit="#TT #G1">vēntēnaṉ</rdg>
         </app>
 </listApp>
