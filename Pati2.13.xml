@@ -253,7 +253,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         </app>
 <app loc="600,608">
         <lem wit="#EC #TPNKan">pakarnar</lem>
-        <note>Toḷ Poruḷ. cū. 75</note>
+        <note>Tol Poruḷ. cū. 75</note>
         <rdg wit="#TT #C1 #C2 #G1 #G2 #G3">pakainar</rdg>
 <rdg wit="#C3 #C4">pa<del>kai </del><add>kar</add>nar</rdg>
         </app>
