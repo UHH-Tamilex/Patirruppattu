@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matrix editor</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+  <script type="module" crossorigin src="./script.js"></script>
+  <link rel="stylesheet" crossorigin href="./style.css">
+</head>
+
+<body>
+<div id="comboview">
+    <div id="stickytop">
+    <div id="menu" style="display: none">
+        <div id="left_menu">
+            <div id="matrixmenu" class="menubox">
+                <div class="heading">Matrix</div>
+                  <ul>
+                    <li>select CSV/XML file(s): <input type="file" id="file" name="file" accept=".xml,.csv" multiple>
+</li>
+                  </ul>
+            </div>
+            <div style="display: none" id="mssmenu" class="menubox">
+                <div class="heading">Texts</div>
+                <ul class="ms">
+                </ul>
+            </div>
+            <div style="display: none" id="treemenu" class="menubox">
+                <div class="heading">Trees</div>
+                    <ul class="tree">
+                        <li>select NeXML file: <input type="file" id="treefile" name="treefile" accept=".xml">
+</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--div id="right_menu"></div-->
+    </div>
+    <div id="descs"></div>
+        <!--hr-->
+    <div id="views">
+        <div id="splash">
+            <h1>matrix editor</h1>
+            <h2>version 0.89 (2023-10-02)</h2>
+            <ul style="text-align: left">
+                <li>more updates for Tamil</li>
+                <li>better keyboard navigation</li>
+                <li>minor bugfixes</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
