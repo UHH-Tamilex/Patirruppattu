@@ -205,7 +205,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="358,365">
         <lem wit="#EC #EV #ER">kāruṭai</lem>
         <rdg wit="#TT #C2 #G1 #G2 #G3">kārviṭai</rdg>
-<rdg wit="#C1">kārǂǂ</rdg>
+<rdg wit="#C1">kār<gap quantity="2" unit="character" reason="lost"/></rdg>
 <rdg wit="#C3 #C4">kār<del>vi</del><add>ru</add>ṭai</rdg>
         </app>
 <app loc="370,382">
