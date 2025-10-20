@@ -104,7 +104,7 @@ COPY STANDOFF FROM INTERFACE HERE
 <app loc="598,606">
         <lem wit="#EC #EV #ER #C3 #C4 #G2 #G3">vālaraik</lem>
         <rdg wit="#TT #C1 #G1">vāḻaraik</rdg>
-<rdg wit="#C2">vāǂ<sic>rai</sic>k</rdg>
+<rdg wit="#C2">vā<gap quantity="1" unit="character" reason="lost"/><sic>rai</sic>k</rdg>
         </app>
 <app loc="611,620">
         <lem wit="#EC #EV #ER">vaṇariruṅ</lem>
