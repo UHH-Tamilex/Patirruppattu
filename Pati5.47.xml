@@ -3,7 +3,7 @@
     <fileDesc>
       <titleStmt>
         <title>
-            <title xml:lang="ta">Patiṟṟuppattu</title> <num>5.44</num>. <title xml:lang="ta">nōytapunōṉṟoṭai</title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>5.47</num>. <title xml:lang="ta">naṉṉutal viṟaliyar</title>
             <persName xml:lang="ta" role="poet">Kācaṟu Ceyyuḷ Paraṇar</persName>
         </title>
         <editor role="translator">Roland Ferenczi</editor> 
@@ -28,30 +28,15 @@
       tuṟai: centuṟaip pāṭāṇpāṭṭu, vaṇṇam: atu, tūkku: atu.
     </p>
     <div rend="parallel">
-      <lg xml:id="Pati5.44">
-        <l>nilampuṭaip paṉṉavārp poṭuvicumpu tuṭaiyū</l>
-        <l>vāṉṟōy velkoṭi tērmicai nuṭaṅkap</l>
-        <l>periya vāyiṉu mamarkaṭantu peṟṟa</l>
-        <l>variya veṉṉā tōmpātu vīcik</l>
-        <l>kalañcelac curatta lallatu kaṉaviṉuṅ</l>
-        <l>kaḷaikeṉa vaṟiyāk kacaṭi ṉeñcat</l>
-        <l>tāṭunaṭai yaṇṇaṉiṟ pāṭumakaḷ kāṇiya</l>
-        <l>kāṇi liyarōniṟ pukaḻnta yākkai</l>
-        <l>muḻuvali tuñcu <hi rend="bold">nōytapu nōṉṟoṭai</hi></l>
-        <l>nuṇkoṭi yuḻiñai velpō raṟukai</l>
-        <l>cēṇa ṉāyiṉuṅ kēḷeṉa moḻintu</l>
-        <l>pulampeyarn toḷitta kaḷaiyāp pūcaṟ</l>
-        <l>karaṇkaṭā vuṟīi yaṇaṅkunikaḻn taṉṉa</l>
-        <l>mōkūr maṉṉaṉ muraicaṅ koṉṟu</l>
-        <l>neṭumoḻi paṇittavar vēmpumuta ṟaṭintu</l>
-        <l>muracuceya muraccik kaḷiṟupala pūṭṭi</l>
-        <l>yoḻukai yuytta koḻuvil paintuṇi</l>
-        <l>vaittalai maṟanta tuyttalaik kūkai</l>
-        <l>kavalai kavaṟṟuṅ kurālam paṟantalai</l>
-        <l>muracuṭait tāyat taracupala vōṭṭit</l>
-        <l>tuḷaṅkunīr viyalaka māṇṭiṉitu kaḻinta</l>
-        <l>maṉṉar maṟaitta tāḻi</l>
-        <l>vaṉṉi maṉṟattu viḷaṅkiya kāṭē</l>
+      <lg xml:id="Pati5.47">
+        <l>aṭṭā ṉāṉē kuṭṭuva ṉaṭutoṟum</l>
+        <l>peṟṟā ṉārē paricilar kaḷiṟē</l>
+        <l>varaimicai yiḻitaru maruviyiṉ māṭattu</l>
+        <l>vaḷimuṉai yavirvaruṅ koṭinuṭaṅku teruviṟ</l>
+        <l>coricurai kavaru neyvaḻi purāliṟ</l>
+        <l>pāṇṭil viḷakkup parūuccuṭa raḻala</l>
+        <l><hi rend="bold">naṉṉutal viṟaliya r</hi>āṭun</l>
+        <l>toṉṉakar varaippiṉava ṉuraiyā ṉāvē.</l>
       </lg>
       <lg type="translation" xml:lang="en">
         <l></l>
@@ -62,92 +47,36 @@
 
 COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 
-<standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati5.44" type="apparatus"><listApp>
-<app loc="102,107">
-        <lem wit="#EC #EV #ER #TT #C1 #C2 #C4 #G1">veṉṉā</lem>
-        <rdg wit="#G2 #G3 #NLK">ṉeṉṉā</rdg>
-<rdg wit="#C3"><del>ṉe</del><add>ve</add>ṉṉā</rdg>
+<standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati5.47" type="apparatus"><listApp>
+<app loc="66,75">
+        <lem wit="#EC #EV #ER">maruviyiṉ</lem>
+        <rdg wit="#TT #C1 #C2 #C4 #G1 #G2 #NLK">maruviyaṉ</rdg>
+<rdg wit="#C3">maruvi<del>ya</del><add>yi</add>ṉ</rdg>
         </app>
-<app loc="143,152">
-        <lem wit="#EC3 #ER">kaṉaviṉuṅ</lem>
-        <rdg wit="#EC1 #EC2 #EV #C2 #C3 #C4 #G2 #G3 #TT #C1 #G1 #NLK">kaviṉuṅ</rdg>
+<app loc="82,91">
+        <lem wit="#EC #EV #ER">vaḷimuṉai</lem>
+        <rdg wit="#TT #C1 #C2 #C4 #G1 #G2 #NLK">vaḷirmuṉai</rdg>
+<rdg wit="#C3">va<del>ṉi</del><add>ḷi</add>rmuṉai</rdg>
         </app>
-<app loc="189,197">
-        <lem wit="#EC #EV #ER">yaṇṇaṉiṟ</lem>
-        <rdg wit="#TT #C1 #C2 #G2 #G3 #NLK">yaṉiṟ</rdg>
-<rdg wit="#C3 #C4">ya(ṇṇa)ṉiṟ</rdg>
-<rdg wit="#G1">yiṉiṟ</rdg>
+<app loc="119,128">
+        <lem wit="#EC #EV #ER #TT #C1 #C2 #C4 #G1">coricurai</lem>
+        <rdg wit="#C3">coricu<del>ra</del><add>rai</add></rdg>
+<rdg wit="#NLK">coricura</rdg>
         </app>
-<app loc="206,212">
-        <lem wit="#TT #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">kāṇiya</lem>
-        <rdg wit="#EC">kāṇiyar</rdg>
+<app loc="128,134">
+        <lem wit="#EC #EV #ER #TT #C1 #C2 #C4 #G1">kavaru</lem>
+        <rdg wit="#C3">kai(ka)varu</rdg>
+<rdg wit="#NLK">kaikavaru</rdg>
         </app>
-<app loc="212,218">
-        <lem wit="#EC #EV #ER #TT #C1 #C2 #C4 #G1">kāṇili</lem>
-        <rdg wit="#C3">kā<del>ṇa</del><add>ṇi</add>li</rdg>
-<rdg wit="#G2 #G3 #NLK">kāṇali</rdg>
+<app loc="186,199">
+        <lem wit="#EC #TT #C1 #C2 #C4 #G1">viṟaliya rāṭun</lem>
+        <rdg wit="#C3">viṟali<del>yā</del><add>ya</add> <del>ro</del><add>rā</add>ṭun</rdg>
+<rdg wit="#G2 #NLK">viṟaliya roṭun</rdg>
         </app>
-<app loc="252,259">
-        <lem wit="#EC #EV #ER">nōytapu</lem>
-        <rdg wit="#TT #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">nōtapu</rdg>
-        </app>
-<app loc="293,297">
-        <lem wit="#EC #EV #ER #C2 #C4">cēṇa</lem>
-        <rdg wit="#ECv">cēṇō</rdg>
-<rdg wit="#C1 #G1">cēṉa</rdg>
-<rdg wit="#C3"><del>cō</del><add>cē</add>ṇa</rdg>
-<rdg wit="#G2 #G3 #NLK">cōṇa</rdg>
-<rdg wit="#TT"><gap reason="lost"/></rdg>
-        </app>
-<app loc="328,335">
-        <lem wit="#EC #EV #ER #TT #C1">toḷitta</lem>
-        <rdg wit="#C2 #C4">toḷirtta</rdg>
-<rdg wit="#C3">to<del>ḷar</del><add>ḷi</add>tta</rdg>
-<rdg wit="#G2 #G3 #NLK">toḷartta</rdg>
-        </app>
-<app loc="348,357">
-        <lem wit="#EC #EV #ER #C3 #G2 #G3 #NLK">karaṇkaṭā</lem>
-        <rdg wit="#TT #C1 #G1">karaṇtaṭāa</rdg>
-<rdg wit="#C4">(karaṇ)kaṭāa</rdg>
-<rdg wit="#C2">karaṇ kaṭāa</rdg>
-        </app>
-<app loc="391,399">
-        <lem wit="#TT #C1 #C3 #C4 #G1 #G2 #G3 #NLK">muraicaṅ</lem>
-        <rdg wit="#EC #EV #ER">muracaṅ</rdg>
-<rdg wit="#C2">mu{rai}caṅ</rdg>
-        </app>
-<app loc="399,404">
-        <lem wit="#TT #C1 #C2 #G1 #G2 #G3 #NLK">koṉṟu</lem>
-        <rdg wit="#EC #EV #ER">koṇṭu</rdg>
-<rdg wit="#C3 #C4">ko<del>ṉṟu</del><add>ṇṭu</add></rdg>
-        </app>
-<app loc="412,422">
-        <lem wit="#TT #C1 #C2 #C4 #G1 #G2 #G3 #NLK">paṇittavar</lem>
-        <rdg wit="#EC #EV #ER">paṇittavaṉ</rdg>
-<rdg wit="#C3">paṇit<del>tā</del><add>ta</add>var</rdg>
-        </app>
-<app loc="448,456">
-        <lem wit="#EC #EV #ER #TT #C1 #C2 #C4 #G1">muraccik</lem>
-        <rdg wit="#C3">murac<del>cu</del><add>ci</add>k</rdg>
-<rdg wit="#G2 #NLK">muraccuk</rdg>
-<rdg wit="#G3">muracuk</rdg>
-        </app>
-<app loc="478,484">
-        <lem wit="#EC #EV #C2 #C3 #C4 #G2 #G3 #NLK">yuytta</lem>
-        <rdg wit="#ER">yuyttōy</rdg>
-<rdg wit="#TT #C1 #G1">yotta</rdg>
-        </app>
-<app loc="499,508">
-        <lem wit="#EC #EV #ER">vaittalai</lem>
-        <rdg wit="#ECv #TT #C1 #C2 #G1 #G2 #G3 #NLK">vaittuttalai</rdg>
-<rdg wit="#C3 #C4">vait<del>tut</del>talai</rdg>
-        </app>
-<app loc="603,611">
-        <lem wit="#EC #EV #ER #TT #C1 #G1">viyalaka</lem>
-        <rdg wit="#C2">viyaṉakala</rdg>
-<rdg wit="#C3">viya<del>ka</del>la(ka)<del>ṉ</del></rdg>
-<rdg wit="#C4">viya<del>ṉa ava</del> <add>ṉi</add>kala</rdg>
-<rdg wit="#G2 #G3 #NLK">viya kalaṉ</rdg>
+<app loc="199,207">
+        <lem wit="#EC #EV #ER #C1 #C2 #C4 #G1">toṉṉakar</lem>
+        <rdg wit="#C3"><del>te</del><add>to</add>ṉṉakar</rdg>
+<rdg wit="#G2 #NLK">teṉṉakar</rdg>
         </app>
 </listApp>
 <listWit>
@@ -249,16 +178,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
       <witness xml:id="G2v">
         <abbr type="siglum">G2v</abbr>
         <expan>paper manuscript of GOML [D.114/TD 44] complete text and commentary, variant reading</expan>
-      </witness>
-    </listWit>
-  </witness>
-<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="G3" source="witnesses/G3.xml">
-    <abbr type="siglum">G3</abbr>
-    <expan>paper manuscript of GOML [D.115/TD 45] incomplete text and commentary (text ends with poem 45, its commentary is also missing)</expan>
-    <listWit>
-      <witness xml:id="G3v">
-        <abbr type="siglum">G3v</abbr>
-        <expan>paper manuscript of GOML [D.115/TD 45] incomplete text and commentary (text ends with poem 45, its commentary is also missing), variant reading</expan>
       </witness>
     </listWit>
   </witness>
