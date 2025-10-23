@@ -1,3 +1,4 @@
+/*
 @font-face {
     font-family: 'Pedantic Devanagari';
     src: url('fonts/PedanticDevanagariLight.woff');
@@ -50,9 +51,9 @@
     font-weight: normal;
     font-style: normal;
 }
-
+*/
 body {
-    font-family: 'Alegreya Sans', 'Pedantic Devanagari', 'Pedantic Malayalam', 'Pedantic Telugu', 'TSTTamil', sans-serif;
+    font-family: 'Alegreya Sans', 'PedanticDevanagari', 'PedanticMalayalam', 'PedanticTelugu', 'Noto Serif Tamil', 'TST Grantha', sans-serif;
     color: black;
     max-width: 100vw;
     margin: 0 auto;
@@ -195,6 +196,9 @@ hr {
     border-bottom: 1px solid rgb(185,185,182);
     border-radius: 2px 2px 0 0;
 }
+#views > div.matrix {
+	background: rgb(232,232,231);
+}
 
 #views > div.matrix, #views > div.tree-box {
     max-width: 100vw;
@@ -256,6 +260,23 @@ hr {
     border-radius: 0 2px 2px 2px;
     max-height: calc(100vh - 50px);
     overflow-y: auto; 
+}
+
+#menu li {
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+.shortcut {
+    font-variant: small-caps;
+	align-self: end;
+}
+#menu div .shortcut {
+    font-size: 80%;
 }
 
 #menu li.greyedout {
@@ -357,11 +378,11 @@ hr {
     font-size: 1.3rem;
 }
 
-.lemma:hover {
+.lemma:not(.dragging):hover {
     background-color: rgba(252,255,124,0.4);
 }
 
-.lemma:hover > .space {
+.lemma:not(.dragging):hover > .space {
     background-color: rgb(216,219,63);
 }
 
@@ -418,6 +439,7 @@ span.group::after {
 }
 
 .matrix table {
+    background: white;
     border-collapse: collapse; 
     table-layout: auto;
     user-select: none;
@@ -442,9 +464,9 @@ span.group::after {
     text-align: left;
     cursor: auto;
     font-weight: normal;
-    max-width: 0.5em;
-    font-size: 0.6em;
-    padding-left: 0;
+    /*max-width: 0.5em;*/
+    font-size: 0.5em;
+    padding: 0;
 }
 
 .matrix tr.header th .readings {
@@ -480,10 +502,12 @@ span.group::after {
 .matrix th {
     position: sticky;
     left: 0;
-    background: rgb(155,129,187);
+    /*background: rgb(104,59,160);*/
+    background: rgb(68,24,155,0.9);
     background-clip: padding-box;
     z-index: 2;
     cursor: grab;
+    color: white;
 }
 
 .matrix td {
@@ -555,9 +579,14 @@ td[contenteditable='true'] {
     outline: 2px ridge rgb(183,110,55);
 }
 
-.dragging, .dragging th {
-    color: rgb(191, 186, 197) !important;
-    background-color: #ffa !important;
+.dragging, td.dragging, .dragging th {
+    /*color: rgb(191, 186, 197) !important;
+    background-color: #ffa !important;*/
+    background-color: rgb(247,198,24);
+    /*box-shadow: 0 0 6px #44d;*/
+    background-clip: border-box;
+	filter: drop-shadow(0px 2px 2px #44d);
+    z-index: 2;
 }
 
 .dragenter, .moveinprogress:hover {

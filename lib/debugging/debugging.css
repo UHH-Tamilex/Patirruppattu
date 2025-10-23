@@ -280,6 +280,7 @@ th.superEntry {
     border-radius: 0.3rem;
     color: black;
     height: fit-content;
+    width: fit-content;
     font-size: 1.1rem;
     padding: 0.2rem 0.4rem 0.2rem 0.4rem;
 }

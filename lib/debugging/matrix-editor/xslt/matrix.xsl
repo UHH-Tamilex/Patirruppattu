@@ -18,7 +18,8 @@
 </xsl:template>
 <xsl:template match="x:text">
     <xsl:element name="tr">
-        <xsl:attribute name="data-n"><xsl:value-of select="../@n"/></xsl:attribute>
+        <xsl:variable name="rowid" select="../@n"/>
+        <xsl:attribute name="data-n"><xsl:value-of select="$rowid"/></xsl:attribute>
         <xsl:if test="../@corresp">
             <xsl:attribute name="data-treename"><xsl:value-of select="../@corresp"/></xsl:attribute>
             <xsl:attribute name="data-nodename"><xsl:value-of select="../@select"/></xsl:attribute>
@@ -26,11 +27,36 @@
         <xsl:element name="th">
             <xsl:attribute name="scope">row</xsl:attribute>
             <xsl:attribute name="draggable">true</xsl:attribute>
-            <xsl:value-of select="../@n"/>
+            <xsl:variable name="abbr" select="//x:witness[@xml:id=$rowid]/x:abbr"/>
+            <xsl:choose>
+                <xsl:when test="$abbr">
+                    <xsl:apply-templates select="$abbr/node()"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$rowid"/>
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:element>
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>
+<xsl:template match="x:hi">
+    <xsl:choose>
+        <xsl:when test="@rend='italic'">
+            <i><xsl:apply-templates/></i>
+        </xsl:when>
+        <xsl:when test="@rend='super' or @rend='superscript'">
+            <sup><xsl:apply-templates/></sup>
+        </xsl:when>
+        <xsl:when test="@rend='sub' or @rend='subscript'">
+            <sub><xsl:apply-templates/></sub>
+        </xsl:when>
+        <xsl:otherwise>
+            <b><xsl:apply-templates/></b>
+        </xsl:otherwise>
+    </xsl:choose>
+</xsl:template>
+
 <xsl:template match="x:w">
     <xsl:element name="td">
         <xsl:choose>
