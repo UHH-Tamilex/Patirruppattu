@@ -154,11 +154,12 @@ a[href^='http://']:hover::after, a[href^='https://']:hover::after {
     padding-right: 0.8rem;
 }
 
-a[href^='https://']:has(img)::after, a[href^='https://']:has(img):hover::after {
+a[href^='https://']:has(img)::after, a[href^='https://']:has(img):hover::after, a.graph-bar[href^='https://']::after {
     background: none;
     text-decoration: none;
 }
-a[href^='https://']:has(img), a[href^='https://']:has(img):hover {
+
+a[href^='https://']:has(img), a[href^='https://']:has(img):hover, a.graph-bar[href^='https://'], a.graph-bar[href^='https://']:hover {
     background: none;
     text-decoration: none;
 }
