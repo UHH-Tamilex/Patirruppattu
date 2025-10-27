@@ -159,13 +159,13 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="701,711">
         <lem wit="#EC #EV #ER #C2 #C3 #C4 #G2 #G3">neṭuṅkōṭṭu</lem>
         <rdg wit="#TPNKan">neṭuntōṭṭu</rdg>
-        <note>Tol Poruḷ. cū. 86</note>
+        <note>Tol Poruḷ. cū. 86.</note>
         <rdg wit="#TT #C1 #G1"><gap reason="lost"/></rdg>
         </app>
 <app loc="761,767">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #C3 #C4 #G1 #G2 #G3">pañcāc</lem>
         <rdg wit="#TPNKan">pañcarac</rdg>
-        <note>Tol Poruḷ. cū. 86</note>
+        <note>Tol Poruḷ. cū. 86.</note>
         </app>
 <app loc="829,840">
         <lem wit="#EC #EV #ER #C2 #C4">yāṇṭupiḻaip</lem>

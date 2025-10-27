@@ -108,11 +108,11 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="453,463">
         <lem wit="#EC #EV #ER #C1 #C2 #C3 #C4 #G1 #G2 #G3">toḻutiyoṭu</lem>
         <rdg wit="#TPNKan">tokutiyoṭu</rdg>
-        <note>Tol Poruḷ. cū. 82</note>
+        <note>Tol Poruḷ. cū. 82.</note>
         </app>
 <app loc="537,545">
         <lem wit="#EC #EV #ER #TPNKan">kaṭalaka</lem>
-        <note>Tol Poruḷ. cū. 82</note>
+        <note>Tol Poruḷ. cū. 82.</note>
         <rdg wit="#TT #C1 #C2 #G1 #G2 #G3">kaṭala</rdg>
 <rdg wit="#C3 #C4">kaṭala(ka)</rdg>
         </app>
@@ -124,7 +124,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="625,634">
         <lem wit="#EC #EV #ER #TT #G1 #G2 #G3 #C1 #C2 #C3 #C4">liyarōviv</lem>
         <rdg wit="#TPNKan">viyarōviv</rdg>
-        <note>Tol Poruḷ. cū. 82</note>
+        <note>Tol Poruḷ. cū. 82.</note>
         </app>
 </listApp>
 <listWit>
