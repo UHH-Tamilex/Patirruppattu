@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>6.54</num>. <title xml:lang="ta">nillāttāṉai</title>
+            <persName xml:lang="ta" role="poet">Kākkaipāṭiṉiyār Nacceḷḷaiyār</persName>
+        </title>
+        <editor role="translator">Roland Ferenczi</editor> 
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p/>
+            </summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <p>
+      tuṟai: kāṭci vāḻttu, vaṇṇam: atu, tūkku: atu.
+    </p>
+    <div rend="parallel">
+      <lg xml:id="Pati6.54">
+        <l>vaḷḷiyai yeṉṟaliṟ kāṇkuvan ticiṉē</l>
+        <l>yuḷḷiyatu muṭitti vāḻkaniṉ kaṇṇi </l>
+        <l>vīṅkiṟait taṭaiiya vamaimaruḷ paṇaittō</l>
+        <l>ḷēnteḻiṉ maḻaikkaṇ vaṉaintuvara liḷamulaip</l>
+        <l>pūntuki lalkuṟ ṟēmpāy kūntaṉ</l>
+        <l>miṉṉiḻai viṟaliyar niṉmaṟam pāṭa</l>
+        <l>viravalar puṉkaṇ ṭīra nāṭoṟu</l>
+        <l>muraicā ṉaṉkalam varaivila vīci </l>
+        <l>yaṉaiyai yākaṉ māṟē yeṉaiyatūu</l>
+        <l>muyarnilai yulakattuc cellā tivaṇiṉ</l>
+        <l>ṟirunila maruṅki ṉeṭitumaṉ ṉiyarō</l>
+        <l>nilantapa viṭūu mēṇip pulampaṭarntu </l>
+        <l>paṭukaṇ muraca naṭuvaṇ cilaippat </l>
+        <l>tōmara valattar nāmañ ceymmā </l>
+        <l>rēval viyaṅkoṇ ṭiḷaiyaro ṭeḻutaru</l>
+        <l>mollār yāṉai kāṇi</l>
+        <l><hi rend="bold">ṉillāt tāṉai</hi> yiṟaikiḻa vōyē.</l>
+      </lg>
+      <lg type="translation" xml:lang="en">
+        <l></l>
+      </lg>
+    </div>
+  </body>
+</text>
+
+COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati6.54" type="apparatus"><listApp>
+<app loc="111,123">
+        <lem wit="#EC #EV #ER #C2 #C3 #G2">vaṉaintuvara</lem>
+        <rdg wit="#TT #C1">vaḷaintuvara</rdg>
+<rdg wit="#C4">va<del>ḷai</del><add>ṉai</add>ntuvara</rdg>
+        </app>
+<app loc="175,183">
+        <lem wit="#EC #EV #ER #C1 #C2 #C3 #G2">niṉmaṟam</lem>
+        <rdg wit="#TT">naṉmaṟam</rdg>
+<rdg wit="#C4"><del>na</del><add>ni</add>ṉmaṟam</rdg>
+        </app>
+<app loc="212,227">
+        <lem wit="#EC">muraicā ṉaṉkalam</lem>
+        <rdg wit="#EV #ER #TT #C1 #C2 #C3 #C4 #G2">muraicāl naṉkalam</rdg>
+        </app>
+<app loc="227,236">
+        <lem wit="#EC #EV #ER">varaivila</lem>
+        <rdg wit="#ECv">varaivilai</rdg>
+<rdg wit="#TT #G2">varivilai</rdg>
+<rdg wit="#C1 #C2">varivalai</rdg>
+<rdg wit="#C3">va<del>ri</del><add>rai</add> vilai</rdg>
+<rdg wit="#C4">va<del>ri</del><add>rai</add>vi<del>lai</del><add>la</add></rdg>
+        </app>
+<app loc="257,267">
+        <lem wit="#EC #EV #ER">yeṉaiyatūu</lem>
+        <rdg wit="#TT #C1">yeṉaiyatu</rdg>
+<rdg wit="#C2 #C3 #G2">yeṉaiyatū</rdg>
+<rdg wit="#C4">yeṉai ya<del>tu</del><add>tū</add></rdg>
+        </app>
+<app loc="287,292">
+        <lem wit="#EC #EV #ER #TT #C1 #C2 #C4">cellā</lem>
+        <rdg wit="#C3">cel<del>la</del><add>lā</add></rdg>
+<rdg wit="#G2">cella</rdg>
+        </app>
+<app loc="292,299">
+        <lem wit="#EC #EV #ER #C3 #G2">tivaṇiṉ</lem>
+        <rdg wit="#TT #C1">tavaṇaṉ</rdg>
+<rdg wit="#C4"><del>ta</del><add>ti</add>vaṇiṉ</rdg>
+        </app>
+<app loc="409,415">
+        <lem wit="#EC #EV #ER">ceymmā</lem>
+        <rdg wit="#TT #C1 #C2 #C3 #G2">ceymā</rdg>
+<rdg wit="#C4">cey(ku)<del>mā</del><add>mar</add></rdg>
+        </app>
+<app loc="428,437">
+        <lem wit="#EC1 #EC3 #EV #ER #TT #C1 #C2 #C3 #C4 #G2">ṭiḷaiyaro</lem>
+        <rdg wit="#EC2">ṭilaiyaro</rdg>
+        </app>
+</listApp>
+<listWit>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="EC">
+  <abbr type="siglum" n="collective">EC</abbr>
+  <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941</expan>
+  <listWit>
+    <witness xml:id="ECv">
+      <abbr type="siglum">ECv</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading</expan>
+    </witness>
+    <witness xml:id="ECv2">
+      <abbr type="siglum">ECv2</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading2</expan>
+    </witness><witness xml:id="ECv3">
+      <abbr type="siglum">ECv3</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading3</expan>
+    </witness>
+     <witness xml:id="EC1">
+      <abbr type="siglum">EC1</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1920</expan>
+     </witness>
+     <witness xml:id="EC2">
+      <abbr type="siglum">EC2</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1940</expan>
+     </witness>
+     <witness xml:id="EC3">
+      <abbr type="siglum">EC3</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1941</expan>
+     </witness>
+     <witness xml:id="EC3v">
+      <abbr type="siglum">EC3v</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1941, variant reading</expan>
+    </witness>
+     </listWit>
+ </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="EV">
+     <abbr type="siglum">EV</abbr>
+     <expan><term xml:lang="ta">Vaiyāpuri Piḷḷai</term>edition 1940 (Caṅka Ilakkiyam)</expan>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="ER">
+    <abbr type="siglum">ER</abbr>
+    <expan><term xml:lang="ta">Rājam</term>edition 1957</expan>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="C2" source="witnesses/C2.xml">
+    <abbr type="siglum">C2</abbr>
+    <expan>palm-leaf manuscript from the UVSL [98a] complete text and commentary</expan>
+    <listWit>
+      <witness xml:id="C2v">
+        <abbr type="siglum">C2v</abbr>
+        <expan>palm-leaf manuscript from the UVSL [98a] complete text and commentary, variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="C3" source="witnesses/C3.xml">
+    <abbr type="siglum">C3</abbr>
+    <expan>paper manuscript from the UVSL [559] complete text and commentary</expan>
+    <listWit>
+      <witness xml:id="C3v">
+        <abbr type="siglum">C3v</abbr>
+        <expan>paper manuscript from the UVSL [559] complete text and commentary, variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="G2" source="witnesses/G2.xml">
+    <abbr type="siglum">G2</abbr>
+    <expan>paper manuscript of GOML [D.114/TD 44] complete text and commentary</expan>
+    <listWit>
+      <witness xml:id="G2v">
+        <abbr type="siglum">G2v</abbr>
+        <expan>paper manuscript of GOML [D.114/TD 44] complete text and commentary, variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="TT" source="witnesses/TT.xml">
+    <abbr type="siglum">TT</abbr>
+    <expan>palm-leaf manuscript from Tiruvāvaṭutuṟai maṭam (no shelfmark) complete text, no commentary</expan>
+    <listWit>
+      <witness xml:id="TTv">
+        <abbr type="siglum">TTv</abbr>
+        <expan>palm-leaf manuscript from Tiruvāvaṭutuṟai maṭam (no shelfmark) complete text, no commentary, variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="C1" source="witnesses/C1.xml">
+    <abbr type="siglum">C1</abbr>
+    <expan>palm-leaf manuscript from the UVSL [1075b] complete text, no commentary</expan>
+    <listWit>
+      <witness xml:id="C1v">
+        <abbr type="siglum">C1v</abbr>
+        <expan>palm-leaf manuscript from the UVSL [1075b] complete text, no commentary, variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="C4" source="witnesses/C4.xml">
+    <abbr type="siglum">C4</abbr>
+    <expan>paper manuscript in two notebooks from the UVSL [439 and 560] complete text and commentary</expan>
+    <listWit>
+      <witness xml:id="C4v">
+        <abbr type="siglum">C4v</abbr>
+        <expan>paper manuscript in two notebooks from the UVSL [439 and 560] complete text and commentary, variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+</listWit></standOff>
+</TEI>
