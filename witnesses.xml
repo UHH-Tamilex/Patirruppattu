@@ -55,6 +55,17 @@
    <expan><term xml:lang="ta">Turaicāmi Piḷḷai</term>edition 1950 Tirunelvēli</expan>
   </witness>
 
+  <witness xml:id="PT">
+    <abbr type="siglum">PT</abbr>
+    <expan>edition of Puṟattiraṭṭu, edited by S.Vaiyāppurippiḷḷai, 1938 (reprint 1939)</expan>
+    <listWit>
+      <witness xml:id="PTv">
+        <abbr type="siglum">PTv</abbr>
+        <expan>edition of Puṟattiraṭṭu, edited by S.Vaiyāppurippiḷḷai, 1938 (reprint 1939), variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+
  <witness xml:id="TT" source="witnesses/TT.xml">
     <abbr type="siglum">TT</abbr>
     <expan>palm-leaf manuscript from Tiruvāvaṭutuṟai maṭam (no shelfmark) complete text, no commentary</expan>
