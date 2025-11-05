@@ -23,16 +23,19 @@
 </xsl:template>
 <xsl:template match="x:superEntry/x:entry">
     <xsl:apply-templates>
-        <xsl:with-param name="type">superEntry</xsl:with-param>
+        <xsl:with-param name="super">superEntry</xsl:with-param>
     </xsl:apply-templates>
 </xsl:template>
 
 <xsl:template match="x:entry">
-    <xsl:param name="type"/>
+    <xsl:param name="super"/>
     <xsl:element name="tr">
-        <xsl:element name="th">
-            <xsl:if test="$type = 'superEntry'">
-                <xsl:attribute name="class">superEntry</xsl:attribute>
+      <xsl:if test="@type">
+        <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+      </xsl:if>
+      <xsl:element name="th">
+            <xsl:if test="$super = 'superEntry'">
+              <xsl:attribute name="class">superEntry</xsl:attribute>
             </xsl:if>
             <xsl:attribute name="lang">ta-Latn</xsl:attribute>
             <xsl:choose>

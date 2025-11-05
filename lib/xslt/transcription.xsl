@@ -849,6 +849,26 @@
     </xsl:element>
 </xsl:template>
 
+<xsl:template match="x:abbr[@ref]">
+    <xsl:variable name="ref" select="@ref"/>
+    <xsl:variable name ="abbr" select="$TST/tst:abbreviations/tst:entry[@key=$ref]"/>
+    <xsl:element name="abbr">
+        <xsl:if test="$abbr">
+            <xsl:attribute name="title"><xsl:value-of select="$abbr"/></xsl:attribute>
+            <xsl:value-of select="$abbr/@short"/>
+        </xsl:if>
+    </xsl:element>
+</xsl:template>
+<xsl:template match="x:expan[@ref]">
+    <xsl:variable name="ref" select="@ref"/>
+    <xsl:variable name ="abbr" select="$TST/tst:abbreviations/tst:entry[@key=$ref]"/>
+    <xsl:element name="span">
+        <xsl:if test="$abbr">
+            <xsl:apply-templates select="$abbr"/>
+        </xsl:if>
+    </xsl:element>
+</xsl:template>
+
 <xsl:template match="x:ex">
     <xsl:element name="span">
         <xsl:call-template name="lang"/>

@@ -194,6 +194,14 @@ th.superEntry {
     border-left: 2px solid black;
 }
 
+tr.main {
+  box-shadow: inset 2px 2px gray, inset -2px -2px gray;
+}
+
+tr.supp {
+  opacity: 0.5;
+}
+
 .closeicon {
     display: flex;
     justify-content: flex-end;

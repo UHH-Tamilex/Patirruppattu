@@ -555,6 +555,14 @@
     <tst:entry key="eccentric_ductus">eccentric ductus</tst:entry>
 </tst:unclear>
 
+<tst:abbreviations>
+    <tst:entry key="#PN" short="PN"><x:title xml:lang="ta">Puṟanāṉūṟu</x:title></tst:entry>
+    <tst:entry key="#AN" short="AN"><x:title xml:lang="ta">Akanāṉūṟu</x:title></tst:entry>
+    <tst:entry key="#Kali" short="Kali"><x:title xml:lang="ta">Kalittokai</x:title></tst:entry>
+    <tst:entry key="#Nacc" short="Nacc"><x:persName xml:lang="ta">Nacciṉārkkiṉiyār</x:persName></tst:entry>
+    <tst:entry key="#TL" short="TL"><x:title xml:lang="en">University of Madras Tamil Lexicon</x:title></tst:entry>
+    <tst:entry key="#Cre-A" short="Cre-A"><x:title xml:lang="ta">Kriyāviṉ Tarḵālat Tamiḻ Akarāti</x:title></tst:entry>
+</tst:abbreviations>
 </xsl:variable>
 
 <xsl:variable name="TST" select="exsl:node-set($defRoot)"/>
