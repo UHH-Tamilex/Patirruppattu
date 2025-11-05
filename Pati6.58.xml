@@ -57,6 +57,7 @@
 </text>
 
 COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+
 <!-- there were a lot of problems with this poem, look lines 17b and 18a; probably correction will be needed after those are corrected  -->
 <standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati6.58" type="apparatus"><listApp>
 <app loc="117,124">
@@ -78,7 +79,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         </app>
 <app loc="193,202">
         <lem wit="#EC2 #EC3 #EV #ER">pukāveṉak</lem>
-        <rdg wit="#EC">pukarveṉak</rdg>
+        <rdg wit="#EC1">pukarveṉak</rdg>
 <rdg wit="#ECv #TT #C1 #C2 #G2">pukaveṉak</rdg>
 <rdg wit="#C3 #C4">puka(r)veṉa</rdg>
 <rdg wit="#G1">mākaveṉak</rdg>
