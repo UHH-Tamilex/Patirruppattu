@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Patiṟṟuppattu</title> <num>9.83</num>. <title xml:lang="ta">paḵṟōṟ ṟoḻuti</title>
+            <persName xml:lang="ta" role="poet">Peruṅkuṉṟūr-kiḻār</persName>
+        </title>
+        <editor role="translator">Roland Ferenczi</editor> 
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p/>
+            </summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <p>
+      tuṟai: tumpai yaravam, vaṇṇam: oḻuku vaṇṇam, tūkku: centūkku.
+    </p>
+    <div rend="parallel">
+      <lg xml:id="Pati9.83">
+        <l>kārmaḻai muṉpiṟ kaiparin teḻutarum</l>
+        <l>vāṉpaṟaik kuruki ṉeṭuvari poṟpak</l>
+        <l>kolkaḷiṟu miṭainta <hi rend="bold">paḵṟōṟ ṟoḻuti</hi>yoṭu</l>
+        <l>neṭuntēr nuṭaṅkukoṭi yavirvarap polintu</l>
+        <l>celavuperi tiṉituniṟ kāṇu mōrkkē</l>
+        <l>yiṉṉā tammavatu tāṉē paṉmā</l>
+        <l>ṇāṭukeṭa verukki naṉkalan tarūuniṉ</l>
+        <l>pōraruṅ kaṭuñciṉa metirntu</l>
+        <l>māṟukoḷ vēntar pācaṟai yōrkkē.</l>
+      </lg>
+      <lg type="translation" xml:lang="en">
+        <l></l>
+      </lg>
+    </div>
+  </body>
+</text>
+
+COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati9.83" type="apparatus"><listApp>
+<app loc="31,40">
+        <lem wit="#EC #EV #ER #TT #C1 #C3 #G2">vāṉpaṟaik</lem>
+        <rdg wit="#C2">vāṉpāṟaik</rdg>
+<rdg wit="#C4">vāṉ<del>pā</del><add>pa</add>ṟaik</rdg>
+<rdg wit="#G1">vaṟaṉpaṟaik</rdg>
+        </app>
+<app loc="54,60">
+        <lem wit="#EC #EV #ER">poṟpak</lem>
+        <rdg wit="#ECv">pōrppa</rdg>
+<rdg wit="#TT #C1 #C2 #C4 #G1 #G2">porppak</rdg>
+<rdg wit="#C3">po<del>rp pa</del><add>ṟ</add>pak</rdg>
+        </app>
+<app loc="139,148">
+        <lem wit="#EC #EV #ER #TT #C1 #G1">tiṉituniṟ</lem>
+        <rdg wit="#C2 #C3 #G2">tiṉitu</rdg>
+<rdg wit="#C4">tiṉitu(niṟ)</rdg>
+        </app>
+<app loc="163,172">
+        <lem wit="#EC #EV #ER">tammavatu</lem>
+        <rdg wit="#ECv #C2 #C3 #C4 #G2">tamma</rdg>
+<rdg wit="#TT #C1 #G1">tatamma</rdg>
+        </app>
+<app loc="176,189">
+        <lem wit="#ECv">paṉmā ṇāṭukeṭa</lem>
+        <rdg wit="#EC #EV #ER">paṉmānāṭukeṭa</rdg>
+<rdg wit="#TT #C1 #C2 #G1 #G2">paṉmā ṉāṭukeṭa</rdg>
+<rdg wit="#C3 #C4">paṉma <del>ṉā</del><add>ṇā</add>ṭukeṭa</rdg>
+        </app>
+<app loc="189,196">
+        <lem wit="#EC #EV #ER #C2 #C3 #C4 #G2">verukki</lem>
+        <rdg wit="#TT #C1 #G1">perukki</rdg>
+        </app>
+<app loc="256,262">
+        <lem wit="#EC #EV #ER #C3 #G2">yōrkkē</lem>
+        <rdg wit="#TT #C1 #C2 #G1">yōṟkē</rdg>
+<rdg wit="#C4">yō<del>ṟ</del><add>rk</add>kē</rdg>
+        </app>
+</listApp>
+<listWit>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="EC">
+  <abbr type="siglum" n="collective">EC</abbr>
+  <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941</expan>
+  <listWit>
+    <witness xml:id="ECv">
+      <abbr type="siglum">ECv</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading</expan>
+    </witness>
+    <witness xml:id="ECv2">
+      <abbr type="siglum">ECv2</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading2</expan>
+    </witness><witness xml:id="ECv3">
+      <abbr type="siglum">ECv3</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941, variant reading3</expan>
+    </witness>
+     <witness xml:id="EC1">
+      <abbr type="siglum">EC1</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1920</expan>
+     </witness>
+     <witness xml:id="EC2">
+      <abbr type="siglum">EC2</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1940</expan>
+     </witness>
+     <witness xml:id="EC3">
+      <abbr type="siglum">EC3</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1941</expan>
+     </witness>
+     <witness xml:id="EC3v">
+      <abbr type="siglum">EC3v</abbr>
+      <expan><term xml:lang="ta">Cāminātaiyar</term>edition 1941, variant reading</expan>
+    </witness>
+     </listWit>
+ </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="EV">
+     <abbr type="siglum">EV</abbr>
+     <expan><term xml:lang="ta">Vaiyāpuri Piḷḷai</term>edition 1940 (Caṅka Ilakkiyam)</expan>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="ER">
+    <abbr type="siglum">ER</abbr>
+    <expan><term xml:lang="ta">Rājam</term>edition 1957</expan>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="TT" source="witnesses/TT.xml">
+    <abbr type="siglum">TT</abbr>
+    <expan>palm-leaf manuscript from Tiruvāvaṭutuṟai maṭam (no shelfmark) complete text, no commentary</expan>
+    <listWit>
+      <witness xml:id="TTv">
+        <abbr type="siglum">TTv</abbr>
+        <expan>palm-leaf manuscript from Tiruvāvaṭutuṟai maṭam (no shelfmark) complete text, no commentary, variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="C1" source="witnesses/C1.xml">
+    <abbr type="siglum">C1</abbr>
+    <expan>palm-leaf manuscript from the UVSL [1075b] complete text, no commentary</expan>
+    <listWit>
+      <witness xml:id="C1v">
+        <abbr type="siglum">C1v</abbr>
+        <expan>palm-leaf manuscript from the UVSL [1075b] complete text, no commentary, variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="C3" source="witnesses/C3.xml">
+    <abbr type="siglum">C3</abbr>
+    <expan>paper manuscript from the UVSL [559] complete text and commentary</expan>
+    <listWit>
+      <witness xml:id="C3v">
+        <abbr type="siglum">C3v</abbr>
+        <expan>paper manuscript from the UVSL [559] complete text and commentary, variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="G2" source="witnesses/G2.xml">
+    <abbr type="siglum">G2</abbr>
+    <expan>paper manuscript of GOML [D.114/TD 44] complete text and commentary</expan>
+    <listWit>
+      <witness xml:id="G2v">
+        <abbr type="siglum">G2v</abbr>
+        <expan>paper manuscript of GOML [D.114/TD 44] complete text and commentary, variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="C2" source="witnesses/C2.xml">
+    <abbr type="siglum">C2</abbr>
+    <expan>palm-leaf manuscript from the UVSL [98a] complete text and commentary</expan>
+    <listWit>
+      <witness xml:id="C2v">
+        <abbr type="siglum">C2v</abbr>
+        <expan>palm-leaf manuscript from the UVSL [98a] complete text and commentary, variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="C4" source="witnesses/C4.xml">
+    <abbr type="siglum">C4</abbr>
+    <expan>paper manuscript in two notebooks from the UVSL [439 and 560] complete text and commentary</expan>
+    <listWit>
+      <witness xml:id="C4v">
+        <abbr type="siglum">C4v</abbr>
+        <expan>paper manuscript in two notebooks from the UVSL [439 and 560] complete text and commentary, variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="G1" source="witnesses/G1.xml">
+    <abbr type="siglum">G1</abbr>
+    <expan>paper manuscript of GOML [D.116/TD 46] incomplete text, no commentary (missing the first 20 line of poem 50 and the first seven poems of the 6th dekad)</expan>
+    <listWit>
+      <witness xml:id="G1v">
+        <abbr type="siglum">G1v</abbr>
+        <expan>paper manuscript of GOML [D.116/TD 46] incomplete text, no commentary (missing the first 20 line of poem 50 and the first seven poems of the 6th dekad), variant reading</expan>
+      </witness>
+    </listWit>
+  </witness>
+</listWit></standOff>
+</TEI>
