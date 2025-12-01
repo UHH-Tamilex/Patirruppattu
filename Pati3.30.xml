@@ -36,7 +36,7 @@
         <l>malkuṟu kāṉa lōṅkumaṇa laṭaikarai</l>
         <l>tāḻaṭumpu malainta puṇarivaḷai narala</l>
         <l>vilaṅkunīr muttamoṭu vārtuki reṭukkun</l>
-        <l>taṇkaṭaṟ paṭappai meṉpā laṉavuṅ</l>
+        <l>taṇkaṭaṟ paṭappai meṉpā leṉavuṅ</l>
         <l>kāntaṭ kaṇṇik kolaivil vēṭṭuvar</l>
         <l>ceṅkōṭ ṭāmā ṉūṉoṭu kāṭṭa</l>
         <l>mataṉuṭai vēḻattu veṇkōṭu koṇṭu</l>
@@ -113,8 +113,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#NLK"><gap reason="lost"/></rdg>
         </app>
 <app loc="241,248">
-        <lem wit="#EC #EV #ER">laṉavuṅ</lem>
-        <rdg wit="#TT #C1 #C2 #G1 #G2 #G3 #NLK">leṉavuṅ</rdg>
+        <lem wit="#TT #C1 #C2 #G1 #G2 #G3 #NLK">leṉavuṅ</lem>
+        <rdg wit="#EC #EV #ER">laṉavuṅ</rdg>
 <rdg wit="#C3 #C4"><del>le</del><add>la</add>ṉavuṅ</rdg>
         </app>
 <app loc="248,259">
@@ -153,8 +153,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="433,439">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">palapū</lem>
         <rdg wit="#TPI #TPNKan">palpū</rdg>
-        <note>Tol Poruḷ. cū. 65 (Iḷampūraṇar).</note>
-        <note>Tol Poruḷ. cū. 63 (Nacciṉākkiṉiyar).</note>
+        <note>Tol Poruḷ. cū. 65. (Iḷampūraṇar).</note>
+        <note>Tol Poruḷ. cū. 63. (Nacciṉākkiṉiyar).</note>
         </app>
 <app loc="439,446">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">viḻaviṟ</lem>
@@ -180,7 +180,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <note>Tol Poruḷ. cū. 65.</note>
 <rdg wit="#TT #C1 #G1">kāṉmikka</rdg>
         </app>
-<app loc="716,723"> <!-- C2 and C3 appear twice in this apparatus, after checking both correct also here if necessary  -->
+<app loc="716,723">
         <lem wit="#EC #EV #ER #TT #G1">taḻīiya</lem>
         <rdg wit="#C2 #G2 #G3 #NLK">taḻīi</rdg>
 <rdg wit="#C3 #C4">taḻīi(ya)</rdg>

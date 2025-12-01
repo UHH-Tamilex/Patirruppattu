@@ -74,8 +74,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#C3 #C4">puraviṉ ṟā<del>ti</del><add>ki</add></rdg>
         </app>
 <app loc="218,229">
-        <lem wit="#TT #C1 #C2 #C4 #G1 #G2 #G3">kaipuṭaiyūu</lem>
-        <rdg wit="#EC #EV #ER #C3">kaipuṭaiyū</rdg>
+        <lem wit="#TT #C1 #C2 #G1 #G2 #G3">kaipuṭaiyūu</lem>
+        <rdg wit="#EC #EV #ER #C3 #C4">kaipuṭaiyū</rdg>
         </app>
 <app loc="292,304">
         <lem wit="#EC #EV #ER">kaṭuneṟi yāka</lem>

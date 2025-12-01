@@ -61,7 +61,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati2.16" type="apparatus"><listApp>
 <app loc="0,8">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #C3 #C4 #G1 #G2 #G3">kōṭuṟaḻn</lem>
-        <rdg wit="#Comv">kōṭupuran</rdg> <!-- which commentary? again a new witness or could this be specified?  -->
+        <rdg wit="#Comv">kōṭupuran</rdg>
         </app>
 <app loc="49,57">
         <lem wit="#EC #EV #ER">vilaṅkaṟ</lem>
@@ -85,8 +85,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="143,152">
         <lem wit="#EC2 #EC3 #EV #ER">kollu pēṉa</lem>
         <rdg wit="#EC">kollu mēṉa</rdg>
-<rdg wit="#TT #G1">tollu miṉa</rdg>
-<rdg wit="#C1 #G2 #G3">tollu mēṉa</rdg>
+<rdg wit="#TT #C1 #G1">tollu miṉa</rdg>
+<rdg wit="#G2 #G3">tollu mēṉa</rdg>
 <rdg wit="#C3 #C4"><del>to</del><add>ko</add>llu mēṉa</rdg>
         </app>
 <app loc="181,187">

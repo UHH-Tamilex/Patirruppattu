@@ -85,7 +85,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="193,204">
         <lem wit="#EC #EV #ER">vēṟṟupporuḷ</lem>
         <rdg wit="#TT #C1 #C2 #C4 #G1 #G2 #G3 #NLK">vēṟṟumaipporuḷ</rdg>
-<rdg wit="#C3">vēṟṟu <del>mai</del>pporuḷ</rdg>
+<rdg wit="#C3">vēṟṟu<del>mai</del>pporuḷ</rdg>
         </app>
 <app loc="211,216">
         <lem wit="#EC">maiyi</lem>
@@ -129,8 +129,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#C3 #C4">veruvaru <del>tāṉai</del> tōṉṟca</rdg>
         </app>
 <app loc="512,526">
-        <lem wit="#EC #EV #ER #TT #C1">tē ramarkketirn</lem>
-        <rdg wit="#G1 #G2 #G3 #NLK">ke ramarkketirn</rdg>
+        <lem wit="#EC #EV #ER #TT #C1 #G1">tē ramarkketirn</lem>
+        <rdg wit="#G2 #G3 #NLK">ke ramarkketirn</rdg>
 <rdg wit="#C3 #C4"><del>kē</del><add>tē</add> ramarkketirn</rdg>
         </app>
 <app loc="603,611">

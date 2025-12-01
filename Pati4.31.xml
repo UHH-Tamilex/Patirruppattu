@@ -144,8 +144,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <rdg wit="#TT #C1 #G1">piṟaṅkala</rdg>
         </app>
 <app loc="902,907">
-        <lem wit="#EC #EV #ER #TT #G1">vēṉmū</lem>
-        <rdg wit="#C1 #C2 #G2 #G3 #NLK">vēṇmū</rdg>
+        <lem wit="#EC #EV #ER #TT #C1 #G1">vēṉmū</lem>
+        <rdg wit="#C2 #G2 #G3 #NLK">vēṇmū</rdg>
 <rdg wit="#C3 #C4">vē<del>ṇ</del><add>ṉ</add>mū</rdg>
         </app>
 <app loc="931,940">

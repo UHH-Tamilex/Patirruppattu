@@ -123,7 +123,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <lem wit="#EC #EV #ER #TT #C4 #G1">maṟantutup</lem>
         <rdg wit="#C1">maṟantatup</rdg>
 <rdg wit="#C2 #G2 #G3">malarṟantutup</rdg>
-<rdg wit="#C3">ma<del>lar</del>ṟantu (tu)p</rdg>
+<rdg wit="#C3">ma<del>lar</del>ṟantu(tu)p</rdg>
         </app>
 <app loc="461,474">
         <lem wit="#EC #EV #ER">nāṭuṅ kaṇṭuvan</lem>
