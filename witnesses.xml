@@ -65,7 +65,10 @@
       </witness>
     </listWit>
   </witness>
-
+  <witness xml:id="Comv">
+      <abbr type="siglum">Com.v.</abbr>
+      <expan>Old commentary variant</expan>
+  </witness>
  <witness xml:id="TT" source="witnesses/TT.xml">
     <abbr type="siglum">TT</abbr>
     <expan>palm-leaf manuscript from Tiruvāvaṭutuṟai maṭam (no shelfmark) complete text, no commentary</expan>
