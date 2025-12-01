@@ -60,7 +60,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         </app>
 <app loc="217,232">
         <lem wit="#EC #EV #ER">yavaṉarp piṇittu</lem>
-        <rdg wit="#C3 #C4">yavarp piṇittu C2, G2+3 yava(ṉa)rp piṇittu</rdg>
+        <rdg wit="  #C3 #C4">yavarp piṇittu</rdg>
+        <rdg wit="#C2 #G2 #G3">yava(ṉa)rp piṇittu</rdg>
         </app>
 <app loc="246,257">
         <lem wit="#EC #EV #ER">kaipiṟ koḷīi</lem>

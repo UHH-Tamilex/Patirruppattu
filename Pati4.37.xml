@@ -31,7 +31,7 @@
       <lg xml:id="Pati4.37">
         <l>vāḻkaniṉ vaḷaṉē niṉṉuṭai vāḻkkai</l>
         <l>vāymoḻi vāyar niṉpuka ḻēttap</l>
-        <l>pakaiva rāyiṉum paḻaṅka ṇaruḷi</l>
+        <l>pakaiva rārap paḻaṅka ṇaruḷi</l>
         <l>nacaiva rāra naṉkalañ citaṟi</l>
         <l>yāṉṟavin taṭaṅkiya ceyirtīr cemmal</l>
         <l>vāṉṟōy nallicai yulakamoṭu yirppat</l>
@@ -59,8 +59,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#G2 #G3 #NLK">vāya</rdg>
         </app>
 <app loc="54,68">
-        <lem wit="#ECv #TT #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">pakaiva rāyiṉum</lem>
-        <rdg wit="#EC #EV #ER">pakaiva rārap</rdg>
+        <lem wit="#EC #EV #ER">pakaiva rārap</lem>
+        <rdg wit="#ECv #TT #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">pakaiva rāyiṉum</rdg>
         </app>
 <app loc="81,92">
         <lem wit="#TT #C1 #C2 #G1 #G2 #G3 #NLK">nacaiva rāra</lem>

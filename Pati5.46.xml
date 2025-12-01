@@ -42,7 +42,7 @@
         <l>kōṭunaral pauvaṅ kalaṅka vēliṭ</l>
         <l>ṭuṭaitiraip parappiṟ paṭukaṭa lōṭṭiya</l>
         <l>velpukaḻk kuṭṭuvaṟ kaṇṭōr </l>
-        <l>celvaku meṇṇār pāṭupu peyarntē</l>
+        <l>celva meṇṇār pāṭupu peyarntē</l>
       </lg>
       <lg type="translation" xml:lang="en">
         <l></l>
@@ -81,7 +81,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#NLK"><gap reason="lost"/></rdg>
         </app>
 <app loc="386,393">
-        <lem wit="#EV #TT #C1 #C2 #C4 #G2 #NLK">celvaku</lem>
+        <lem wit="#EV #TT #C1 #C2 #C4 #G2 #NLK">celva</lem>
         <rdg wit="#EC #ER">celkuva</rdg>
 <rdg wit="#G3">cel(ku)va</rdg>
 <rdg wit="#G1"><gap reason="lost"/></rdg>

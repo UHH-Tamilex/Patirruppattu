@@ -68,7 +68,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="83,91">
         <lem wit="#EC #EV #ER">kālaiyum</lem>
         <rdg wit="#TT #C1 #G1">kālai</rdg>
-<rdg wit="#C2 #G2">kālaiyu</rdg>
+<rdg wit="#C2 #G2 #G3">kālaiyu</rdg>
 <rdg wit="#C3 #C4">kālaiyu(m)</rdg>
         </app>
 <app loc="98,106">
@@ -116,9 +116,9 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <rdg wit="#TT #C1 #G1">maruntimiḻn</rdg>
         </app>
 <app loc="538,547">
-        <lem wit="#EC #EV #ER">naḷiyirum</lem>
+        <lem wit="#C1 #C2 #C3 #C4 #G1 #G2 #G3">naṉiyirum</lem>
+        <rdg wit="#EC #EV #ER">naḷiyirum</rdg>
         <rdg wit="#TT">na<sic>ṉi</sic>yirum</rdg>
-<rdg wit="#C1 #C2 #C3 #C4 #G1 #G2 #G3">naṉiyirum</rdg>
         </app>
 <app loc="592,602">
         <lem wit="#TT #C1 #C2 #C3 #C4 #G1 #G2 #G3">murukuttāḻ</lem>

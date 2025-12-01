@@ -100,12 +100,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <rdg wit="#EC #EV #ER">vayiriya</rdg>
         <rdg wit="#NLK"><gap reason="lost"/></rdg>
         </app>
-<app loc="203,209"><!-- this whole apparatus line is crossed out, delete if necessary; if typo check C3 as a likely candidate for the typo   -->
-        <lem wit="#EC #C1 #C2 #C4 #G1">mākkaḷ</lem>
-        <rdg wit="#C3">mākkaṉ(ḷ)</rdg>
-<rdg wit="#G2 #G3">mākkaṇ</rdg>
-<rdg wit="#TT"><gap reason="lost"/></rdg>
-        </app>
 <app loc="256,274">
         <lem wit="#EC #EV #ER">vaippiṉāṭuma ṉaḷiya</lem>
         <rdg wit="#C1">vappi -- ṭu maṉṉiya</rdg>
