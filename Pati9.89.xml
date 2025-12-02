@@ -38,7 +38,7 @@
         <l>payaṅkaṭai yaṟiyā vaḷaṅkeḻu ciṟappiṟ</l>
         <l>perumpal yāṇark kūlaṅ keḻuma </l>
         <l>naṉpal lūḻi naṭuvuniṉ ṟoḻukap </l>
-        <l>palvē lirumpoṟai kōol cemmaiyi</l>
+        <l>palvē lirumpoṟai niṉkōl cemmaiyi</l>
         <l>ṉāḷi ṉāḷi ṉāṭutoḻu tētta</l>
         <l>viyaṉilai yulakat tuyarntōr parava</l>
         <l>varaciyal piḻaiyātu cerumēn tōṉṟi</l>
@@ -92,11 +92,11 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#C4">keḻu<del>va</del><add>ma</add></rdg>
         </app>
 <app loc="230,244">
-        <lem wit="#ECv #TT #C1 #C4 #G1">lirumpoṟai kōol</lem>
-        <rdg wit="#EC #EV #ER">lirumpoṟai niṉkōl</rdg>
+        <lem wit="#EC #EV #ER">lirumpoṟai niṉkōl</lem>
+        <rdg wit="#ECv #TT #C1 #C4 #G1">lirumpoṟai kōol</rdg>
+        <rdg wit="#C2">ǂyaṉilai</rdg>
 <rdg wit="#C3">lirumpoṟai<del>k</del> kō<del>vu</del><add>o</add>l</rdg>
 <rdg wit="#G2">lirumpoṟaik kōvul</rdg>
-<rdg wit="#C2"><gap reason="lost"/></rdg>
         </app>
 <app loc="273,282">
         <lem wit="#TT #C1 #C4 #G1 #G2">viyaṉilai</lem>
@@ -105,8 +105,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#C3"><del>viyaṉi </del><add>vuyarni</add>lai</rdg>
         </app>
 <app loc="341,348">
-        <lem wit="#EC #EV #ER #TT #C1 #C4">yākiyar</lem>
-        <rdg wit="#G1">yākiyar</rdg>
+        <lem wit="#EC #EV #ER #TT #C1 #C3 #C4 #G1">yākiyar</lem>
 <rdg wit="#G2">yākiya</rdg>
 <rdg wit="#C2"><gap reason="lost"/></rdg>
         </app>

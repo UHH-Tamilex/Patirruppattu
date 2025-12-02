@@ -64,10 +64,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <rdg wit="#EC #EV #ER">ṉaṉaiyai</rdg>
 <rdg wit="#C3 #C4">(ṉa)ṉai<del>ya</del><add>yai</add></rdg>
         </app>
-<app loc="133,148">
-        <lem wit="#EC #EV #TT #C1 #C2 #C3 #C4 #G1 #G2">ṉeṉmik kaṟaiyuṟu</lem>
-        <rdg wit="#ER">nelmik kaṟaivuṟu</rdg>
-        </app>
 <app loc="176,183">
         <lem wit="#EC #EV #ER">varaiyā</lem>
         <rdg wit="#TT #C1 #C2 #G2">varaiyār</rdg>

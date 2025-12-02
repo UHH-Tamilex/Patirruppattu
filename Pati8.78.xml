@@ -32,7 +32,7 @@
         <l>valampaṭu muraci ṉilaṅkuvaṉa viḻūu</l>
         <l>mavveḷ ḷaruvi yuvvarai yatuvē </l>
         <l>cilvaḷai viṟali celkuvai yāyiṉ </l>
-        <l>vaḷḷitaṭ ṭāmarai neytalo ṭarintu</l>
+        <l>vaḷḷitaḻt tāmarai neytalo ṭarintu</l>
         <l>melliyaṉ makaḷirol kuvaṉa riyalik</l>
         <l>kiḷikaṭi mēvalar puṟavutoṟu nuvalap</l>
         <l>palpaya ṉilaiiya kaṭaṟuṭai vaippiṉ</l>
@@ -61,8 +61,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#C4"><gap reason="lost" quantity="1" unit="character"/>veḷ</rdg>
         </app>
 <app loc="84,99">
-        <lem wit="#ECv #TT #C1 #G1">vaḷḷitaṭ ṭāmarai</lem>
-        <rdg wit="#EC #EV #ER #C2 #C3 #C4 #G2">vaḷḷitaḻt tāmarai</rdg>
+        <lem wit="#EC #EV #ER #C2 #C3 #C4 #G2">vaḷḷitaḻt tāmarai</lem>
+        <rdg wit="#ECv #TT #C1 #G1">vaḷḷitaṭ ṭāmarai</rdg>
         </app>
 <app loc="190,206">
         <lem wit="#EC #EV #ER">kaṭaṟuṭai vaippiṉ</lem>

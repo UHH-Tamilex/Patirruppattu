@@ -148,8 +148,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#G2">peruna</rdg>
         </app>
 <app loc="720,725">
-        <lem wit="#EC #EV #ER #C2 #C3 #C4 #G2">veṇpū</lem>
-        <rdg wit="#TT #C1 #G1">taṉveṇpū</rdg>
+        <lem wit="#EC #EV #ER #C2 #C3 #C4 #G1 #G2">veṇpū</lem>
+        <rdg wit="#TT #C1">taṉveṇpū</rdg>
         </app>
 <app loc="744,753">
         <lem wit="#ECv #TT #C4 #G1">mayaṅkiya</lem>
