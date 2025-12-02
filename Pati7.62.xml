@@ -66,7 +66,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         </app>
 <app loc="218,226">
         <lem wit="#TT #C1 #C2 #G1 #G2">peḻutaru</lem>
-        <rdg wit="#EC">puḻitaru</rdg>
+        <rdg wit="#EC #EV #ER">puḻitaru</rdg>
 <rdg wit="#C3 #C4"><del>peḻu</del><add>puḻi</add>taru</rdg>
         </app>
 <app loc="356,366">

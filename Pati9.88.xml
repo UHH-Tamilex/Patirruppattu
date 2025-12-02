@@ -104,12 +104,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#G2">varavukkāṉiṟṟu</rdg>
 <rdg wit="#C2"><gap reason="lost"/></rdg>
         </app>
-<app loc="546,556">
-        <lem wit="#EC #EV #ER">koṅkar kōvē</lem> <!-- this whole line is crossed out in R's text, check why and correct if needed  -->
-        <rdg wit="#TT #C1 #G1 #G2">koṅkarvē</rdg>
-<rdg wit="#C3 #C4">koṅkar (kō)vē</rdg>
-<rdg wit="#C2"><gap reason="lost"/></rdg>
-        </app>
 <app loc="692,697">
         <lem wit="#TT #C1 #C2 #G1 #G2">kūṟṟa</lem>
         <rdg wit="#EC #EV #ER">kūṭṭa</rdg>

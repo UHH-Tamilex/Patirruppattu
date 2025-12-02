@@ -47,7 +47,7 @@
         <l>maipaṭu malarkkaḻi malarnta neyta</l>
         <l>ṉitaḻvaṉap puṟṟa tōṟṟamo ṭuyarnta</l>
         <l>maḻaiyiṉum perumpayam poḻiti yataṉāṟ</l>
-        <l>paciyuṭai yokkalai vorīiya</l>
+        <l>paciyuṭai yokkalai yorīiya</l>
         <l>vicaimēn tōṉṟaṉiṉ pācaṟai yāṉē.</l>
       </lg>
       <lg type="translation" xml:lang="en">
@@ -111,7 +111,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#C3">po<del>ḻu</del><add>ḻi</add>ti</rdg>
         </app>
 <app loc="542,549">
-        <lem wit="#EC #EV #ER #TT #C1 #C2 #G1 #G2">vorīiya</lem>
+        <lem wit="#EC #EV #ER #TT #C1 #C2 #G1 #G2">yorīiya</lem>
         <rdg wit="#C3">vo<del>ri</del><add>rī</add><del>ye</del><add>iya</add></rdg>
 <rdg wit="#C4"><del>ve</del><add>yo</add>rīiya</rdg>
         </app>
