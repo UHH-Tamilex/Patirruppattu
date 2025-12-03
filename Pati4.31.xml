@@ -89,8 +89,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#TT #G1">pañilam</rdg>
         </app>
 <app loc="341,349">
-        <lem wit="#EC #EV #ER #TT #C1 #C2 #C4 #G1">kōṭukūṭu</lem>
-        <rdg wit="#C3"><del>kūṭu</del>kōṭu(kūṭu)</rdg>
+        <lem wit="#EC #EV #ER #TT #C1 #C2 #G1">kōṭukūṭu</lem>
+        <rdg wit="#C3 #C4"><del>kūṭu</del>kōṭu(kūṭu)</rdg>
 <rdg wit="#G2 #G3 #NLK">kūṭukōṭu</rdg>
         </app>
 <app loc="379,389">
