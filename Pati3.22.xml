@@ -124,8 +124,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#G2 #G3">cīraṟucela</rdg>
         </app>
 <app loc="453,466">
-        <lem wit="#EC #EV #ER">veruvaru tōṉṟa</lem>
-        <rdg wit="#TT #C1 #C2 #G1 #G2 #G3 #NLK">veruvaru tāṉaitōṉṟa</rdg>
+        <lem wit="#EC #EV #ER #G1">veruvaru tōṉṟa</lem>
+        <rdg wit="#TT #C1 #C2 #G2 #G3 #NLK">veruvaru tāṉaitōṉṟa</rdg>
 <rdg wit="#C3 #C4">veruvaru <del>tāṉai</del> tōṉṟca</rdg>
         </app>
 <app loc="512,526">
