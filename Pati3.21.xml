@@ -84,8 +84,11 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#C3 #C4">neñca <del>mai</del> <add>meṉ</add></rdg>
         </app>
 <app loc="27,36">
-        <lem wit="#EC #EV #ER #C3 #C4">ṟaintuṭaṉ</lem>
-        <rdg wit="#TT #C1 #G1">ṟaintuṭaṉē</rdg>
+        <lem wit="#EC #EV #ER #G2v">ṟaintuṭaṉ</lem>
+        <rdg wit="#TT #C1">ṟaintuṭaṉē</rdg>
+        <rdg wit="#C3 #C4 #G2 #G3">maintuṭaṉ</rdg>
+        <rdg wit="#G1">ṉaṟaikatuṭaṉē</rdg>
+        <rdg wit="#C2"><gap reason="illegible"/></rdg><!-- C2 is illegible, because the line on the photo is out of focus  -->
         </app>
 <app loc="61,67">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #C4 #G1">cūḻātu</lem>

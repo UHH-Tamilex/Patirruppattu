@@ -76,8 +76,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <lem wit="#EC">varuṅkaṭa</lem>
         <rdg wit="#TT #C1 #C2 #G1">yiruṅkaṭa</rdg>
 <rdg wit="#C3"><del>yi</del><add>va</add>ru(ṅ)kaṭa</rdg>
-<rdg wit="#C4"><del>vi</del><add>va</add>ruṅkaṭa</rdg>
-<rdg wit="#G2">yirukaṭa</rdg>
+<rdg wit="#C4 #G2"><del>vi</del><add>va</add>ruṅkaṭa</rdg> <!-- is G2 correct so?  -->
         </app>
 <app loc="312,317">
         <lem wit="#EC #EV #ER">tuvvā</lem>
