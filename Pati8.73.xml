@@ -54,7 +54,7 @@
         <!-- EW's second suggestion is probably the same as EFEO, and adopted by R as her main text, see above   -->
         <!-- R's lemma in apparatus does NOT correspond to the main text: ...kūnta loṇṇutal polinta, niṟantikaḻ pāciḻai yuyartiṇai makaḷirum, teyvan tarūu neñcat tāṉṟōr EV, ER  -->
         <!-- R's first witness is EFEO, but she leaves out chunks, so this should be checked: polinta kūnta loṇṇutal ….. …. niṟantikaḻ pāciḻai EFEO  -->
-        <!-- R's second witness is the same as EW's first suggestion: (niṟantikaḻ pāciḻai) kūntal oṇṇutal polinta makaḷir niṟantikaḻ uyartiṇai makaḷir neñcattum , kuṟunteyvam tarūum āṉṟōr C4 -->
+        <!-- R's second witness is the same as EW's first suggestion: (niṟantikaḻ pāciḻai) kūntal oṇṇutal polinta makaḷir niṟantikaḻ uyartiṇai makaḷir neñcattum, kuṟunteyvam tarūum āṉṟōr C4 -->
         <!-- What SEA has done here: main text: EFEO, lemma: EFEO, witnesses: editions and C4; what still needs to be added: EC and other mss witnesses even when the omit these 3 lines  -->
       </lg>
       <lg type="translation" xml:lang="en">
@@ -100,8 +100,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <lem wit="#EC #EV #ER">yāṉceṉ</lem>
         <rdg wit="#ECv">yāñceṉ</rdg>
 <rdg wit="#TT #C1 #C2 #G1 #G2">yāñce</rdg>
-<rdg wit="#C3">yā<del>ru</del><add>ñ</add>ce(ṉ</rdg>
-<rdg wit="#C4">yāñce(ṉ</rdg>
+<rdg wit="#C3">yā<del>ru</del><add>ñ</add>ce(ṉ)</rdg>
+<rdg wit="#C4">yāñce(ṉ)</rdg>
         </app>
 <app loc="483,488">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #G1">tēṟār</lem>
