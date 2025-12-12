@@ -131,10 +131,9 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#C3">lā<del>ṭ</del>ṭiya</rdg>
         </app>
 <app loc="490,503">
-        <lem wit="#EC3 #EV #ER">ṉalaṅkukatirt</lem>
+        <lem wit="#EC3 #EV #ER #C2 #C3 #C4 #G2">ṉalaṅkukatirt</lem>
         <rdg wit="#EC">lalaṅkukatirt</rdg>
-<rdg wit="#ECv #TT #C1 #G1 #G2">ṉilaṅkukatirt</rdg>
-<rdg wit="#C2 #C3 #C4">laṅkukatirt</rdg>
+<rdg wit="#ECv #TT #C1 #G1">ṉilaṅkukatirt</rdg>
         </app>
 </listApp>
 <listWit>
