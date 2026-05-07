@@ -556,12 +556,42 @@
 </tst:unclear>
 
 <tst:abbreviations>
-    <tst:entry key="#PN" short="PN"><x:title xml:lang="ta">Puṟanāṉūṟu</x:title></tst:entry>
+    <tst:entry key="#Aink" short="Aiṅk"><x:title xml:lang="ta">Aiṅkuṟunūṟu</x:title></tst:entry>
+    <tst:entry key="#Atiyar" short="Aṭi"><x:persName xml:lang="ta">Aṭiyārkkunallār</x:persName></tst:entry>
     <tst:entry key="#AN" short="AN"><x:title xml:lang="ta">Akanāṉūṟu</x:title></tst:entry>
-    <tst:entry key="#Kali" short="Kali"><x:title xml:lang="ta">Kalittokai</x:title></tst:entry>
-    <tst:entry key="#Nacc" short="Nacc"><x:persName xml:lang="ta">Nacciṉārkkiṉiyār</x:persName></tst:entry>
-    <tst:entry key="#TL" short="TL"><x:title xml:lang="en">University of Madras Tamil Lexicon</x:title></tst:entry>
+    <tst:entry key="#Beschi" short="Beschi">Beschi's <x:title xml:lang="en">Caturakarāti</x:title></tst:entry>
+    <tst:entry key="#CC" short="Cānti"><x:foreign xml:lang="ta">Cānti Cātaṉa</x:foreign> edition</tst:entry>
+    <tst:entry key="#Cena" short="Cēṉā"><x:persName xml:lang="ta">Cēṉāvaraiyar</x:persName></tst:entry>
+    <tst:entry key="#Cila" short="Cila"><x:title xml:lang="ta">Cilappatikāram</x:title></tst:entry>
+    <tst:entry key="#Cint" short="Cint"><x:title xml:lang="ta">Cīvakacintāmaṇi</x:title></tst:entry>
     <tst:entry key="#Cre-A" short="Cre-A"><x:title xml:lang="ta">Kriyāviṉ Tarḵālat Tamiḻ Akarāti</x:title></tst:entry>
+    <tst:entry key="#Ilam" short="Iḷam"><x:persName xml:lang="ta">Iḷampūraṇar</x:persName></tst:entry>
+    <tst:entry key="#io" short="i.o.">isolated occurence</tst:entry>
+    <tst:entry key="#Kali" short="Kali"><x:title xml:lang="ta">Kalittokai</x:title></tst:entry>
+    <tst:entry key="#Kall" short="Kall"><x:persName xml:lang="ta">Kallāṭaṉār</x:persName></tst:entry>
+    <tst:entry key="#KT" short="KT"><x:title xml:lang="ta">Kuṟuntokai</x:title></tst:entry>
+    <tst:entry key="#Mani" short="Maṇi"><x:title xml:lang="ta">Maṇimēkalai</x:title></tst:entry>
+    <tst:entry key="#MuTA" short="MuTA"><x:title xml:lang="ta">Mūṉṟān Tiruvantāti</x:title></tst:entry>
+    <tst:entry key="#NA" short="NA"><x:title xml:lang="ta">Naṟṟiṇai</x:title></tst:entry>
+    <tst:entry key="#Nacc" short="Nacc"><x:persName xml:lang="ta">Nacciṉārkkiṉiyār</x:persName></tst:entry>
+    <tst:entry key="#Pati" short="Pati"><x:title xml:lang="ta">Patiṟṟuppattu</x:title></tst:entry>
+    <tst:entry key="#Pari" short="Pari"><x:title xml:lang="ta">Paripāṭal</x:title></tst:entry>
+    <tst:entry key="#Parim" short="Parim"><x:title xml:lang="ta">Parimēlaḻakar</x:title></tst:entry>
+    <tst:entry key="#Pink" short="Piṅk"><x:title xml:lang="ta">Piṅkalam</x:title></tst:entry>
+    <tst:entry key="#PN" short="PN"><x:title xml:lang="ta">Puṟanāṉūṟu</x:title></tst:entry>
+    <tst:entry key="#pu" short="p.u."><x:term xml:lang="ta">paḻaiyavurai</x:term></tst:entry>
+    <tst:entry key="#Tev" short="Tēv"><x:title xml:lang="ta">Tēvāram</x:title></tst:entry>
+    <tst:entry key="#Tiv" short="Tiv"><x:title xml:lang="ta">Tivākaram</x:title></tst:entry>
+    <tst:entry key="#TK" short="TK"><x:title xml:lang="ta">Tirukkuṛaḷ</x:title></tst:entry>
+    <tst:entry key="#TL" short="TL"><x:title xml:lang="en">University of Madras Tamil Lexicon</x:title></tst:entry>
+    <tst:entry key="#TNV" short="TNV"><x:title xml:lang="ta">Tamiḻneṟi Viḷakkam</x:title></tst:entry>
+    <tst:entry key="#Tol" short="Tol"><x:title xml:lang="ta">Tolkāppiyam</x:title></tst:entry>
+    <tst:entry key="#Teyv" short="Teyv"><x:persName xml:lang="ta">Teyvaccilaiyār</x:persName></tst:entry>
+    <tst:entry key="#UVC" short="UVC"><x:persName xml:lang="ta">U. Vē. Cāminātaiyar</x:persName></tst:entry>
+    <tst:entry key="#UVSL" short="UVSL"><x:persName xml:lang="ta">U. Vē. Cāminātaiyar</x:persName> Library</tst:entry>
+    <tst:entry key="#VAMTIPA" short="VAMTIPA"><x:title xml:lang="ta">Varalāṟṟumuṟait Tamiḻ Ilakkiyap Pērakarāti</x:title></tst:entry>
+    <tst:entry key="#VMS" short="VMS"><x:persName xml:lang="ta">V. M. Subramanya Aiyar</x:persName></tst:entry>
+    <tst:entry key="#VTCSP" short="VTCSP"><x:title xml:lang="pt">Vocabulario Tamulico com Asignificaçam Portugueza</x:title></tst:entry>
 </tst:abbreviations>
 </xsl:variable>
 

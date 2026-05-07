@@ -20,8 +20,8 @@
 
 <xsl:template name="langstart">
     <xsl:choose>
-        <xsl:when test="./@xml:lang='ta'"><xsl:text>\texttamil{</xsl:text></xsl:when>
-        <xsl:when test="./@xml:lang='en'"><xsl:text>\textenglish{</xsl:text></xsl:when>
+      <xsl:when test="./@xml:lang='ta'"><xsl:text>\texttamil{</xsl:text></xsl:when>
+      <xsl:when test="./@xml:lang='en'"><xsl:text>\textenglish{</xsl:text></xsl:when>
         <xsl:otherwise/>
     </xsl:choose>
 </xsl:template>
@@ -76,7 +76,7 @@
 
 <xsl:template match="x:TEI">
     <xsl:text>\documentclass[12pt]{extarticle}
-\usepackage{polyglossia,fontspec,xunicode}
+\usepackage{fontspec,xunicode}
 \usepackage[normalem]{ulem}
 \usepackage[noend,noeledsec,noledgroup]{reledmac}
 \usepackage{reledpar}
@@ -95,27 +95,26 @@
 \renewcommand{\headrulewidth}{0pt}
 
 \arrangementX[A]{paragraph}
-\renewcommand*{\thefootnoteA}{\textenglish{\arabic{footnoteA}}}
+\renewcommand*{\thefootnoteA}{\foreignlanguage{english}{\arabic{footnoteA}}}
 \arrangementX[B]{paragraph}
-\renewcommand*{\thefootnoteB}{\textenglish{\Roman{footnoteB}}}
+\renewcommand*{\thefootnoteB}{\foreignlanguage{english}{\Roman{footnoteB}}}
 \arrangementX[C]{paragraph}
-\renewcommand*{\thefootnoteC}{\textenglish{\alph{footnoteC}}}
+\renewcommand*{\thefootnoteC}{\foreignlanguage{english}{\alph{footnoteC}}}
 \arrangementX[D]{paragraph}
-\renewcommand*{\thefootnoteD}{\textenglish{\roman{footnoteD}}}
+\renewcommand*{\thefootnoteD}{\foreignlanguage{english}{\roman{footnoteD}}}
 
 \Xarrangement[A]{paragraph}
 \Xnotenumfont[A]{\bfseries}
 \Xlemmafont[A]{\bfseries}
 
-\setdefaultlanguage{english}
-\setmainfont{Brill}
+\usepackage[english]{babel}
+\babelfont{rm}{Brill-Roman.ttf}
+\babelfont[tamil]{rm}{TSTTamil.otf}[Script=Tamil,Ligatures=Historic,BoldFont={NotoSerifTamil-Bold.ttf}]
 
-\setotherlanguage{tamil}
-\newfontfamily\tamilfont{TSTTamil.otf}[Script=Tamil,Ligatures=Historic,BoldFont={NotoSerifTamil-Bold.ttf}]
+\newcommand{\textenglish}[1]{\foreignlanguage{english}{#1}}
+\newcommand{\texttamil}[1]{\foreignlanguage{tamil}{#1}}
 \newICUfeature{AllAlternates}{1}{+aalt}
-\newcommand{\vowelsign}{\tamilfont\addfontfeature{AllAlternates=1}}
-\tamilfont\fontdimen2\font=0.8em
-\tamilfont\large\fontdimen2\font=0.5em
+\newcommand{\vowelsign}[1]{\texttamil{\addfontfeature{AllAlternates=1}#1}}
 
 \setlength{\parskip}{12pt}
 
@@ -220,7 +219,7 @@
     <xsl:text>\medskip </xsl:text>
 </xsl:template>
 
-<xsl:template match="x:lg/x:l">
+<xsl:template match="x:l">
     <!--xsl:text>\large </xsl:text-->
     <xsl:call-template name="langstart"/>
     <xsl:if test="@rend='italic'">
@@ -346,7 +345,7 @@
 </xsl:template>
 
 <!--xsl:template match="x:pb">
-    <xsl:text>\textenglish{\color{gray}⎡}</xsl:text>
+    <xsl:text>\foreignlanguage{english}{\color{gray}⎡}</xsl:text>
 </xsl:template-->
 <xsl:template match="x:pb"/>
 
@@ -354,7 +353,7 @@
     <xsl:text>\uwave{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>           
 </xsl:template>
 <xsl:template match="x:g[@rend='vowel-sign']">
-    <xsl:text>{\vowelsign{}</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>           
+    <xsl:text>\vowelsign{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>           
 </xsl:template>
 
 <xsl:template match="x:supplied">

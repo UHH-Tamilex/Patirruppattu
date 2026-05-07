@@ -21,17 +21,20 @@
 <xsl:template match="x:xenoData"/>
 
 <xsl:template match="x:titleStmt/x:title">
-    <xsl:element name="h1">
-        <xsl:call-template name="lang"/>
-        <xsl:apply-templates/>
-    </xsl:element>
-</xsl:template>
-
-<xsl:template match="x:titleStmt/x:title[@type='sub']">
-    <xsl:element name="h3">
-        <xsl:call-template name="lang"/>
-        <xsl:apply-templates/>
-    </xsl:element>
+  <xsl:choose>
+    <xsl:when test="@type='sub'">
+      <xsl:element name="h3">
+          <xsl:call-template name="lang"/>
+          <xsl:apply-templates/>
+      </xsl:element>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:element name="h1">
+          <xsl:call-template name="lang"/>
+          <xsl:apply-templates/>
+      </xsl:element>
+    </xsl:otherwise>
+  </xsl:choose>
 </xsl:template>
 
 <xsl:template name="editors">
@@ -100,7 +103,7 @@
             <xsl:text> by </xsl:text>
             <xsl:apply-templates select="x:publisher"/> 
             <xsl:if test="x:pubPlace">
-                <xsl:text>in </xsl:text><xsl:apply-templates select="x:pubPlace"/>
+                <xsl:text> in </xsl:text><xsl:apply-templates select="x:pubPlace"/>
             </xsl:if>
             <xsl:text>.</xsl:text>
         </xsl:element>
@@ -414,11 +417,12 @@
     </xsl:for-each>
     <xsl:apply-templates select="x:textLang"/>
     <xsl:apply-templates select="x:filiation"/>
-    <xsl:for-each select="x:rubric | ancestor::x:TEI/x:text[@corresp=$thisid]//*[@function='rubric' and not(@corresp)] | ancestor::x:TEI/x:text//*[@function='rubric' and @corresp=$thisid] | 
-    x:incipit | ancestor::x:TEI/x:text[@corresp=$thisid]//*[@function='incipit' and not(@corresp)] | ancestor::x:TEI/x:text//*[@function='incipit' and @corresp=$thisid] |
-    x:explicit | ancestor::x:TEI/x:text[@corresp=$thisid]//*[@function='explicit' and not(@corresp)] | ancestor::x:TEI/x:text//*[@function='explicit' and @corresp=$thisid] |
-    x:finalRubric | ancestor::x:TEI/x:text[@corresp=$thisid]//*[@function='completion-statement' and not(@corresp)] | ancestor::x:TEI/x:text//*[@function='completion-statement' and @corresp=$thisid] |
-   x:colophon | ancestor::x:TEI/x:text[@corresp=$thisid]//*[@function='colophon' and not(@corresp)] | ancestor::x:TEI/x:text//*[@function='colophon' and @corresp=$thisid]">
+    <xsl:variable name="tei" select="ancestor::x:TEI"/>
+    <xsl:for-each select="x:rubric | $tei/x:text[@corresp=$thisid]//*[@function='rubric' and not(@corresp)] | $tei/x:text//*[@function='rubric' and @corresp=$thisid] | 
+    x:incipit | $tei/x:text[@corresp=$thisid]//*[@function='incipit' and not(@corresp)] | $tei/x:text//*[@function='incipit' and @corresp=$thisid] |
+    x:explicit | $tei/x:text[@corresp=$thisid]//*[@function='explicit' and not(@corresp)] | $tei/x:text//*[@function='explicit' and @corresp=$thisid] |
+    x:finalRubric | $tei/x:text[@corresp=$thisid]//*[@function='completion-statement' and not(@corresp)] | $tei/x:text//*[@function='completion-statement' and @corresp=$thisid] |
+   x:colophon | $tei/x:text[@corresp=$thisid]//*[@function='colophon' and not(@corresp)] | $tei/x:text//*[@function='colophon' and @corresp=$thisid]">
          <xsl:call-template name="excerpt">
             <xsl:with-param name="el" select="."/>
         </xsl:call-template>
@@ -1015,7 +1019,8 @@
 </xsl:template-->
 
 <xsl:template match="x:msDesc/x:physDesc/x:additions">
-  <xsl:variable name="ps" select="ancestor::x:TEI/x:text//*[
+  <xsl:variable name="tei" select="ancestor::x:TEI"/>
+  <xsl:variable name="ps" select="$tei/x:text//x:seg[
                                 @function != '' and
                                 @function != 'rubric' and 
                                 @function != 'incipit' and
@@ -1023,12 +1028,12 @@
                                 @function != 'completion-statement' and
                                 @function != 'colophon' and 
                                 not(ancestor::x:seg or ancestor::x:fw)] |
-                                ancestor::x:TEI/x:text//*[@function = 'rubric']/*[@function != ''] |
-                                ancestor::x:TEI/x:text//*[@function = 'incipit']/*[@function != ''] |
-                                ancestor::x:TEI/x:text//*[@function = 'explicit']/*[@function != ''] |
-                                ancestor::x:TEI/x:text//*[@function = 'completion-statement']/*[@function != ''] |
-                                ancestor::x:TEI/x:text//*[@function = 'colophon']/*[@function != ''] |
-                                ancestor::x:TEI/x:text//x:fw"/>
+                                $tei/x:text//x:seg[@function = 'rubric']/x:seg[@function] |
+                                $tei/x:text//x:seg[@function = 'incipit']/x:seg[@function] |
+                                $tei/x:text//x:seg[@function = 'explicit']/x:seg[@function] |
+                                $tei/x:text//x:seg[@function = 'completion-statement']/x:seg[@function] |
+                                $tei/x:text//x:seg[@function = 'colophon']/x:seg[@function] |
+                                $tei/x:text//x:fw"/>
   <xsl:if test="node()[not(self::text())] or $ps">
       <tr>
         <th>Paratexts</th>
@@ -1107,7 +1112,7 @@
                         <xsl:text>)</xsl:text>
                     </xsl:if>
                     <xsl:call-template name="moretypes">
-                        <xsl:with-param name="node" select="."/>
+                        <xsl:with-param name="typenode" select="."/>
                     </xsl:call-template>
                 </span>
             </span>
@@ -1126,8 +1131,8 @@
 </xsl:template>
 
 <xsl:template name="moretypes">
-    <xsl:param name="node"/>
-    <xsl:variable name="moretypes" select="$node//x:seg"/>
+    <xsl:param name="typenode"/>
+    <xsl:variable name="moretypes" select="$typenode//x:seg"/>
     <xsl:if test="$moretypes/@function">
         <xsl:text>: </xsl:text>
         <xsl:for-each select="$moretypes/@function">
@@ -1180,7 +1185,7 @@
                 </xsl:call-template>
             </xsl:if>
             <xsl:call-template name="moretypes">
-                <xsl:with-param name="node" select="."/>
+                <xsl:with-param name="typenode" select="."/>
             </xsl:call-template>
             <xsl:if test="@subtype">
                 <xsl:text> (</xsl:text>
@@ -1244,9 +1249,8 @@
     </xsl:if>
     <xsl:if test="@notBefore or @notAfter">
         <xsl:value-of select="@notBefore"/>
-        <xsl:if test="@notAfter">
-            <xsl:text>―</xsl:text><xsl:value-of select="@notAfter"/>
-        </xsl:if>
+        <xsl:text>―</xsl:text>
+        <xsl:value-of select="@notAfter"/>
         <xsl:text>. </xsl:text>
     </xsl:if>
 </xsl:template>
@@ -1324,7 +1328,9 @@
 
 <xsl:template match="x:ref">
     <xsl:element name="a">
-        <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
+        <xsl:if test="@target">
+          <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
+        </xsl:if>
         <xsl:if test="substring(@target,1,1) = '#'">
             <!--xsl:attribute name="class">local</xsl:attribute-->
         </xsl:if>

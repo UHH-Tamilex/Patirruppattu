@@ -140,19 +140,6 @@ div.lg div.l.indent9 {
     padding-left: 90%;
 }
 
-.trailer {
-    font-size: inherit;
-    width: 60%;
-    display: inline-block;
-    text-align: right;
-    line-height: 2rem; 
-    font-size: 1.2rem; 
-}
-.trailer[lang^='ta-Taml'] {
-    line-height: 2.3rem;
-    font-size: 1.15rem;
-}
-
 .text-block.lg {
     line-height: 3.5rem; 
     margin-right: 0.25rem;

@@ -2,6 +2,7 @@
                 xmlns:exsl="http://exslt.org/common"
                 xmlns:x="http://www.tei-c.org/ns/1.0"
                 xmlns:tst="https://github.com/tst-project"
+                xmlns:xhtml="http://www.w3.org/1999/xhtml"
                 exclude-result-prefixes="x tst">
 
 <xsl:import href="copy.xsl"/>
@@ -96,18 +97,17 @@
             </xsl:element-->
             <xsl:element name="script">
                 <xsl:attribute name="type">module</xsl:attribute>
-                <xsl:text>import { TSTViewer } from '</xsl:text>
-                <xsl:value-of select="$root"/>
-                <xsl:text>js/tst.mjs';
-                window.addEventListener('load',TSTViewer.init);
-                </xsl:text>
-                <xsl:variable name="annos" select="x:teiHeader/x:xenoData[@type='webannotation']"/>
-                <xsl:if test="$annos">
-                        <xsl:text>TSTViewer.setAnnotations(</xsl:text>
-                        <xsl:value-of select="$annos"/>
-                        <xsl:text>);</xsl:text>
-                </xsl:if>
+                <xsl:attribute name="src"><xsl:value-of select="$root"/>js/tst-init.mjs</xsl:attribute>
+                <xsl:text> </xsl:text>
             </xsl:element>
+            <xsl:variable name="annos" select="x:teiHeader/x:xenoData[@type='webannotation']"/>
+            <xsl:if test="$annos">
+              <xsl:element name="script">
+                <xsl:attribute name="type">application/json</xsl:attribute>
+                <xsl:attribute name="id">tst-annotations</xsl:attribute>
+                <xsl:value-of select="$annos"/>
+              </xsl:element>
+            </xsl:if>
         </xsl:element>
         <xsl:element name="body">
             <xsl:attribute name="lang">en</xsl:attribute>   

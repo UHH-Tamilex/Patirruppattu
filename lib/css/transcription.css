@@ -40,6 +40,10 @@
     font-style: italic;
 }
 
+abbr[data-anno] {
+  text-decoration: underline dotted;
+}
+
 .foreign[lang^="ta-Taml"], .foreign[lang^="sa-Beng"], .foreign[lang^="sa-Deva"], .foreign[lang^="sa-Gran"], .foreign[lang^="sa-Mlym"], .foreign[lang^="sa-Nand"], .foreign[lang^="sa-Newa"], .foreign[lang^="sa-Shrd"], .foreign[lang^="sa-Telu"] {
     font-style: normal;
 }
@@ -101,6 +105,19 @@ div.lg div.l {
 }
 div.lg div.l.diplo {
     text-indent: 0;
+}
+
+.trailer {
+    font-size: inherit;
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+    line-height: 2rem; 
+    font-size: 1.2rem; 
+}
+.trailer[lang^='ta-Taml'] {
+    line-height: 2.3rem;
+    font-size: 1.15rem;
 }
 
 [lang^="sa-Deva"] .l {

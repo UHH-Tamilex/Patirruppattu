@@ -234,6 +234,10 @@
                                     <input type="checkbox" id="mergerdgs" checked="true"/>
                                     <label>Merge groups</label>
                                 </div>
+                                <div>
+                                    <input type="checkbox" id="maxom" checked="true"/>
+                                    <label>Separate note for omissions over <input type="number" id="maxomlen" value="20" style="width: 6ch"/> characters</label>
+                                </div>
                                 <div id="filefinder">
                                     <span>Found file: </span><span style="font-weight: bold" id="foundfile"></span>
                                     <button type="button" id="usefoundfile" style="margin-left: 1rem">Align from file</button>

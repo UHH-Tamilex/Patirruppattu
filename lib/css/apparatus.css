@@ -20,6 +20,10 @@ section div.wide {
     background: none;
 }
 
+.text-block.nolemmata .anchor {
+  display: none;
+}
+
 .apparatus-block {
     top: 0;
     padding-top: 1rem;
@@ -29,6 +33,10 @@ section div.wide {
     line-height: 1.3rem;
     position: sticky;
 }
+.apparatus-block[lang^='bo-Tibt'] {
+  line-height: 2rem;
+}
+
 .hidden {
     display: none;
 }
@@ -48,6 +56,9 @@ section div.wide {
     /*margin-right: 2em;*/
     white-space: normal;
 }
+.app::after {
+  content: ' ';
+}
 
 .lem-inline:not(.lem-anchor) {
     /*display: inline-block;*/
@@ -55,6 +66,9 @@ section div.wide {
     text-decoration-style: wavy;
     text-decoration-color: rgb(180,184,196);
     text-decoration-thickness: from-font;
+}
+.lem-inline:not(.lem-anchor)[lang^='bo-Tibt'] {
+  text-underline-offset: -0.3rem;
 }
 
 .lem-anchor {
@@ -80,12 +94,12 @@ section div.wide {
 
 .lem {
     white-space: nowrap;
-    margin-right: 0.4rem;
+    /*margin-right: 0.4rem;*/
 }
 
 .lem .rdg-text {
     font-weight: bold;
-    margin-right: 0.5em;
+    margin-right: 0.4rem;
     white-space: normal;
 }
 
@@ -93,8 +107,8 @@ section div.wide {
     content: ']';
 }
 
-.lem-wit {
-    white-space: normal;
+.negapp .lem-wit {
+  display: none;
 }
 
 .rdg-text {
@@ -119,16 +133,18 @@ section div.wide {
     font-variant: normal;
     margin-left: 0.2rem;
     white-space: normal;
+    cursor: text;
+    color: black;
 }
 
 .rdg-alt:before {
     content: ': ';
 }
 
-.mshover {
+.mshover, a:link.msid.mshover {
     text-decoration-line: underline;
     text-decoration-style: dotted;
-    text-decoration-thickness: 1px;
+    text-decoration-thickness: 0.2ch;
     text-decoration-color: rgb(168,81,16);
 }
 
@@ -161,7 +177,7 @@ section div.wide {
 .msid + .msid {
     margin-left: 0.2rem;
 }
-.msid a:link, .msid a:active,
+.msid a:link, a:link.msid, .msid a:active,
 a.alignment-pointer:link, a.alignment-pointer:active {
     text-decoration: none;
     text-shadow: none;
@@ -170,7 +186,6 @@ a.alignment-pointer:link, a.alignment-pointer:active {
 
 .msid a[href]::after {
     background: none;
-    text-decoration: none;
     padding-right: 0;
 }
 
@@ -200,11 +215,13 @@ a.alignment-pointer:link, a.alignment-pointer:active {
     top: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(50,50,50,.5);
+    background: none;
+    backdrop-filter: blur(5px) brightness(60%) saturate(150%);
 }
 #alignment-viewer {
     max-width: 60%;
-    overflow: scroll;
+    max-height: 90vh;
+    overflow: auto;
     background-color: #fffff8;
     padding: 10px 10px 10px 0;
     font-size: 1.1rem;
@@ -254,11 +271,25 @@ a.alignment-pointer:link, a.alignment-pointer:active {
 .anchor::after, .anchored-note::before {
     content: '*';
     color: rgb(168,81,16);
+    line-height: normal;
+    font-size: 90%;
     cursor: default;
+}
+.anchored-note::before {
+  margin-right: 1ch;
+}
+
+.anchor[data-n]::after, .anchored-note[data-n]::before {
+  content: attr(data-n);
+}
+.anchor[data-n]::after {
+  vertical-align: super;
+  font-size: 75%;
 }
 
 .apparatus-block .anchored-note {
     display: inline-block;
+    margin-bottom: 1ch;
 }
 
 .anchor.highlit::after {

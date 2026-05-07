@@ -198,6 +198,7 @@ hr {
 }
 #views > div.matrix {
 	background: rgb(232,232,231);
+  padding-bottom: 10px;
 }
 
 #views > div.matrix, #views > div.tree-box {
@@ -279,7 +280,7 @@ hr {
     font-size: 80%;
 }
 
-#menu li.greyedout {
+#menu li.greyedout, .greyedout {
     color: grey;
 }
 
@@ -384,6 +385,9 @@ hr {
 
 .lemma:not(.dragging):hover > .space {
     background-color: rgb(216,219,63);
+}
+.nohover .lemma:not(.dragging):hover, .nohover .lemma:not(.dragging):hover > .space {
+  background-color: rgb(247,198,24);
 }
 
 span.group::after {
