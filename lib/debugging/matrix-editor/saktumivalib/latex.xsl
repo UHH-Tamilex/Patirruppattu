@@ -73,14 +73,16 @@
                  </xsl:otherwise>
              </xsl:choose>
              -->
+    <text>\textsc{</text>
     <xsl:choose>
         <xsl:when test="$siglum">
-            <xsl:apply-templates select="$siglum"/>
+          <xsl:apply-templates select="$siglum"/>
         </xsl:when>
         <xsl:otherwise>
             <xsl:value-of select="substring-after($msstring,'#')"/>
         </xsl:otherwise>
     </xsl:choose>
+    <text>}</text>
     <xsl:variable name="nextstr" select="substring-after($mss, ' ')"/>
     <xsl:if test="$nextstr != ''">
         <xsl:text> </xsl:text>
@@ -133,7 +135,7 @@
 % Download the TST Tamil font here: https://github.com/UHH-Tamilex/lib/blob/main/fonts/TSTTamil.otf
 \babelfont[tamil]{rm}{TSTTamil.otf}[Script=Tamil,Ligatures=Historic,BoldFont={NotoSerifTamil-Bold.ttf}]
 \newICUfeature{AllAlternates}{1}{+aalt}
-\newcommand{\vowelsign}{\foreignlanguage{tamil}\addfontfeature{AllAlternates=1}}
+\newcommand{\vowelsign}[1]{\foreignlanguage{tamil}{\addfontfeature{AllAlternates=1}#1}}
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>
@@ -148,7 +150,7 @@
 % Download Pedantic Devangari here: https://github.com/chchch/PedanticIndic/tree/master/PedanticDevanagari
 \babelfont[sanskrit]{rm}{PedanticDevanagariLight.otf}[Script=Devanagari,BoldFont={PedanticDevanagariBold.otf}]
 \newICUfeature{AllAlternates}{1}{+aalt}
-  \newcommand{\vowelsign}{\foreignlanguage{sanskrit}\addfontfeature{AllAlternates=1}}
+\newcommand{\vowelsign}[1]{\foreignlanguage{sanskrit}{\addfontfeature{AllAlternates=1}#1}}
         </xsl:when>
         <xsl:otherwise>
         <xsl:text>
@@ -397,7 +399,7 @@
     <xsl:text>\uwave{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>           
 </xsl:template>
 <xsl:template match="x:g[@rend='vowel-sign']">
-    <xsl:text>{\vowelsign{}</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>           
+    <xsl:text>{\vowelsign{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>           
 </xsl:template>
 
 <xsl:template match="x:supplied">
@@ -436,6 +438,10 @@
         <xsl:with-param name="count" select="$quantity"/>
     </xsl:call-template>
     <xsl:text>{\color{gray}]}}</xsl:text>
+</xsl:template>
+
+<xsl:template match="x:gap[@reason='ellipsis']">
+    <xsl:text>\foreignlanguage{english}{…}</xsl:text>
 </xsl:template>
 
 <xsl:template match="x:space">
@@ -566,19 +572,19 @@
     <xsl:text>\foreignlanguage{english}{</xsl:text>
     <xsl:variable name="mss" select="./x:lem/@wit | ./x:rdgGrp[@type='lemma']/@select"/>
     <xsl:choose>
-        <xsl:when test="$mss">
+      <xsl:when test="$mss">
             <xsl:call-template name="splitwit">
-                <xsl:with-param name="mss" select="$mss"/>
+                <xsl:with-param name="mss" select="concat($mss,' ')"/>
             </xsl:call-template>
+          <xsl:text>;</xsl:text>
         </xsl:when>
         <xsl:otherwise>
             <xsl:if test="//x:text[@type='edition']">
-                <xsl:text>\textsc{em.}</xsl:text>
+          <xsl:text>\textsc{em.};</xsl:text>
             </xsl:if>
         </xsl:otherwise>
     </xsl:choose>
-    <xsl:text>}</xsl:text>
-    <xsl:text>; \foreignlanguage{</xsl:text>
+    <xsl:text>} \foreignlanguage{</xsl:text>
     <xsl:value-of select="$export-lang"/>
     <xsl:text>}{</xsl:text>
     <xsl:apply-templates select="./x:rdg | ./x:rdgGrp"/>
@@ -635,4 +641,22 @@
     <xsl:apply-templates/>
     <xsl:text>}</xsl:text>
 </xsl:template>
+
+<xsl:template match="x:abbr[@corresp]">
+  <xsl:variable name="corresp" select="@corresp"/>
+  <xsl:variable name="cleanstr" select="substring-after(@corresp,'#')"/>
+   <xsl:variable name="witness" select="$witlist/x:witness[@hashid=$corresp]"/>
+   <xsl:variable name="siglum" select="$witness/x:abbr/node()"/>
+   <text>\textsc{</text>
+    <xsl:choose>
+        <xsl:when test="$siglum">
+          <xsl:apply-templates select="$siglum"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$cleanstr"/>
+        </xsl:otherwise>
+    </xsl:choose>
+   <text>}</text>
+</xsl:template>
+
 </xsl:stylesheet>

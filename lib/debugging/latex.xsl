@@ -32,14 +32,25 @@
         <xsl:otherwise/>
     </xsl:choose>
 </xsl:template>
+<xsl:variable name="listwit">
+   <xsl:variable name="witness" select="//x:witness"/>
+   <xsl:for-each select="$witness">
+    <x:witness>
+      <xsl:attribute name="hashid"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute> 
+      <xsl:copy-of select="x:abbr"/>
+    </x:witness>
+   </xsl:for-each>
+</xsl:variable>
+<xsl:variable name="witlist" select="exsl:node-set($listwit)"/>
 <xsl:template name="splitwit">
-    <xsl:param name="mss" select="@wit | @select"/>
-    <xsl:variable name="msstring" select="substring-before(
-                            concat($mss,' '),
-                          ' ')"/>
-
-    <xsl:variable name="cleanstr" select="substring-after($msstring,'#')"/>
-    <xsl:variable name="witness" select="//x:listWit//x:witness[@xml:id=$cleanstr]"/>
+    <xsl:param name="mss">
+      <xsl:choose>
+        <xsl:when test="@wit"><xsl:value-of select="concat(@wit,' ')"/></xsl:when>
+        <xsl:when test="@select"><xsl:value-of select="concat(@select,' ')"/></xsl:when>
+      </xsl:choose>
+    </xsl:param>
+    <xsl:variable name="msstring" select="substring-before($mss,' ')"/>
+    <xsl:variable name="witness" select="$witlist/x:witness[@hashid=$msstring]"/>
     <xsl:variable name="siglum" select="$witness/x:abbr/node()"/>
              <!-- TODO: subvariants
              <xsl:variable name="spacestring">
@@ -57,16 +68,18 @@
                  </xsl:otherwise>
              </xsl:choose>
              -->
+    <text>\textsc{</text>
     <xsl:choose>
         <xsl:when test="$siglum">
-            <xsl:apply-templates select="$siglum"/>
+          <xsl:apply-templates select="$siglum"/>
         </xsl:when>
         <xsl:otherwise>
-            <xsl:value-of select="$cleanstr"/>
+            <xsl:value-of select="substring-after($msstring,'#')"/>
         </xsl:otherwise>
     </xsl:choose>
+    <text>}</text>
     <xsl:variable name="nextstr" select="substring-after($mss, ' ')"/>
-    <xsl:if test="string-length($nextstr)">
+    <xsl:if test="$nextstr != ''">
         <xsl:text> </xsl:text>
         <xsl:call-template name="splitwit">
             <xsl:with-param name="mss" select="$nextstr"/>
