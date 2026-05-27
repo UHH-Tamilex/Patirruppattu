@@ -564,6 +564,7 @@
     <tst:entry key="#Cena" short="Cēṉā"><x:persName xml:lang="ta">Cēṉāvaraiyar</x:persName></tst:entry>
     <tst:entry key="#Cila" short="Cila"><x:title xml:lang="ta">Cilappatikāram</x:title></tst:entry>
     <tst:entry key="#Cint" short="Cint"><x:title xml:lang="ta">Cīvakacintāmaṇi</x:title></tst:entry>
+      <tst:entry key="#Ciru" short="Ciru"><x:title xml:lang="ta">Ciṟupāṇāṟṟuppaṭai</x:title></tst:entry>
     <tst:entry key="#Cre-A" short="Cre-A"><x:title xml:lang="ta">Kriyāviṉ Tarḵālat Tamiḻ Akarāti</x:title></tst:entry>
     <tst:entry key="#Ilam" short="Iḷam"><x:persName xml:lang="ta">Iḷampūraṇar</x:persName></tst:entry>
     <tst:entry key="#io" short="i.o.">isolated occurence</tst:entry>
@@ -577,6 +578,7 @@
     <tst:entry key="#Pati" short="Pati"><x:title xml:lang="ta">Patiṟṟuppattu</x:title></tst:entry>
     <tst:entry key="#Pari" short="Pari"><x:title xml:lang="ta">Paripāṭal</x:title></tst:entry>
     <tst:entry key="#Parim" short="Parim"><x:title xml:lang="ta">Parimēlaḻakar</x:title></tst:entry>
+    <tst:entry key="#Peru" short="Peru"><x:title xml:lang="ta">Perumpāṇāṟṟuppaṭai</x:title></tst:entry>
     <tst:entry key="#Pink" short="Piṅk"><x:title xml:lang="ta">Piṅkalam</x:title></tst:entry>
     <tst:entry key="#PN" short="PN"><x:title xml:lang="ta">Puṟanāṉūṟu</x:title></tst:entry>
     <tst:entry key="#pu" short="p.u."><x:term xml:lang="ta">paḻaiyavurai</x:term></tst:entry>
