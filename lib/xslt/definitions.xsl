@@ -581,6 +581,7 @@
     <tst:entry key="#Peru" short="Peru"><x:title xml:lang="ta">Perumpāṇāṟṟuppaṭai</x:title></tst:entry>
     <tst:entry key="#Pink" short="Piṅk"><x:title xml:lang="ta">Piṅkalam</x:title></tst:entry>
     <tst:entry key="#PN" short="PN"><x:title xml:lang="ta">Puṟanāṉūṟu</x:title></tst:entry>
+    <tst:entry key="#PTM" short="PTM"><x:title xml:lang="ta">Periya Tirumoḻi</x:title></tst:entry>
     <tst:entry key="#pu" short="p.u."><x:term xml:lang="ta">paḻaiyavurai</x:term></tst:entry>
     <tst:entry key="#Tev" short="Tēv"><x:title xml:lang="ta">Tēvāram</x:title></tst:entry>
     <tst:entry key="#Tiv" short="Tiv"><x:title xml:lang="ta">Tivākaram</x:title></tst:entry>

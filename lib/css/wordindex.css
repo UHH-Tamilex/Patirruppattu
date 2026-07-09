@@ -126,6 +126,23 @@ details.dict details.dict[open] {
     font-size: 1.2rem;
 }
 
+.dictrow {
+  display: flex;
+  justify-content: space-between;
+  width: 87.5%;
+}
+
+.lemma-grammar {
+  font-style: italic;
+}
+
+.newentry {
+  display: none;
+}
+
+a.lemma-name[href] {
+  text-decoration: none;
+}
 /*
 .spinner {
   width: 40px;
