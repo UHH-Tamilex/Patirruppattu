@@ -53,10 +53,12 @@
     font-family: 'Noto Serif Tamil';
     src: url('../fonts/TSTTamil.woff');
     unicode-range: U+200D, U+0020,U+0B80-0BFF;
+    /*
     font-weight: normal;
     font-style: normal;
+    */
 }
-
+/*
 @font-face {
     font-family: 'Noto Serif Tamil';
     src: url('../fonts/noto/NotoSerifTamilSlanted-Regular.ttf');
@@ -64,6 +66,7 @@
     font-weight: normal;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'Noto Serif Tamil';
     src: url('../fonts/noto/NotoSerifTamilSlanted-Bold.ttf');
@@ -84,7 +87,7 @@
     src: url('../fonts/noto/NotoSansTamilSupplement-Regular.ttf');
     unicode-range: U+200D, U+11FC0-11FFF;
 }
-
+*/
 @font-face {
     font-family: 'TST Grantha';
     src: url('../fonts/TSTGrantha.woff');

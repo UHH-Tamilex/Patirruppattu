@@ -456,7 +456,11 @@ span.surplus::after {
     font-size: 0.8em;
 }
 
-span.hi {font-weight: bold;
+span.hi {
+  font-weight: bold;
+}
+span.hi[lang^='ta-Taml'] {
+  font-weight: 1000;
 }
 
 span.expan {
