@@ -40,6 +40,7 @@
 <xsl:template match="x:trailer">
     <xsl:element name="div">
         <xsl:attribute name="class">trailer</xsl:attribute>
+        <xsl:call-template name="lang"/>
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>

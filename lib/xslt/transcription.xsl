@@ -30,6 +30,9 @@
             <xsl:attribute name="class">
                 <xsl:text>teitext edition</xsl:text>
             </xsl:attribute>
+            <xsl:if test="$textid">
+              <xsl:attribute name="data-corresp"><xsl:value-of select="$textid"/></xsl:attribute>
+            </xsl:if>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:attribute name="class">
@@ -298,7 +301,7 @@
         <xsl:attribute name="class">
             <xsl:value-of select="local-name()"/>
             <xsl:if test="@reason='ellipsis'">
-                <xsl:text> ellipsis</xsl:text>
+                <xsl:text> ellipsis ignored</xsl:text>
             </xsl:if>
         </xsl:attribute>
         <xsl:attribute name="data-anno">
@@ -495,6 +498,7 @@
 <xsl:template match="x:milestone">
     <xsl:param name="excerpt">no</xsl:param>
     <xsl:variable name="unit" select="@unit"/>
+    <xsl:variable name="form" select="ancestor::x:TEI/x:teiHeader/x:fileDesc/x:sourceDesc/x:msDesc/x:physDesc/x:objectDesc/@form"/>
     <xsl:element name="span">
         <xsl:attribute name="class">
             <xsl:text>milestone diplo</xsl:text>
@@ -517,10 +521,10 @@
             </xsl:choose>
             <xsl:if test="@n"><xsl:text> </xsl:text></xsl:if>
         </xsl:when>
-        <xsl:when test="ancestor::x:TEI/x:teiHeader/x:fileDesc/x:sourceDesc/x:msDesc/x:physDesc/x:objectDesc[@form = 'pothi']">
+        <xsl:when test="$form = 'pothi'">
             <xsl:text>folio </xsl:text>
         </xsl:when>
-<xsl:when test="ancestor::x:TEI/x:teiHeader/x:fileDesc/x:sourceDesc/x:msDesc/x:physDesc/x:objectDesc[@form = 'book']">
+        <xsl:when test="$form = 'codex'">
             <xsl:text>page </xsl:text>
         </xsl:when>
         </xsl:choose>
@@ -570,7 +574,7 @@
     </xsl:call-template>
 </xsl:template>
 
-<xsl:template match="x:rubric/x:lb[1] | x:incipit/x:lb[1] | x:explicit/x:lb[1] | x:finalRubric/x:lb[1] | x:colophon/x:lb[1]">
+<xsl:template match="x:rubric/child::*[1][local-name() = 'lb'] | x:incipit/child::*[1][local-name() = 'lb'] | x:explicit/child::*[1][local-name() = 'lb'] | x:finalRubric/child::*[1][local-name() = 'lb'] | x:colophon/child::*[1][local-name() = 'lb']">
     <xsl:call-template name="lb">
         <xsl:with-param name="hyphen">no</xsl:with-param>
         <xsl:with-param name="excerpt">yes</xsl:with-param>
@@ -625,12 +629,48 @@
 </xsl:template>
 
 <xsl:template match="x:cb">
+    <xsl:param name="hyphen">yes</xsl:param>
+    <xsl:call-template name="cb">
+        <xsl:with-param name="hyphen"><xsl:value-of select="$hyphen"/></xsl:with-param>
+    </xsl:call-template>
+</xsl:template>
+
+<xsl:template match="x:rubric/child::*[1][local-name() = 'cb'] | x:incipit/child::*[1][local-name() = 'cb'] | x:explicit/child::*[1][local-name() = 'cb'] | x:finalRubric/child::*[1][local-name() = 'cb'] | x:colophon/child::*[1][local-name() = 'cb']">
+    <xsl:call-template name="cb">
+        <xsl:with-param name="hyphen">no</xsl:with-param>
+        <xsl:with-param name="excerpt">yes</xsl:with-param>
+    </xsl:call-template>
+</xsl:template>
+
+<xsl:template match="x:q[@rend='block']//x:lg//x:cb | x:quote[@rend='block']//x:lg//x:cb | x:q[not(@rend)]//x:cb | x:quote[not(@rend)]//x:cb | x:standOff[@type='apparatus']//x:cb">
+    <xsl:call-template name="cb">
+        <xsl:with-param name="diplo">false</xsl:with-param>
+    </xsl:call-template>
+</xsl:template>
+
+<xsl:template name="cb">
+    <xsl:param name="diplo">true</xsl:param>
+    <xsl:param name="hyphen">yes</xsl:param>
+    <xsl:param name="excerpt">no</xsl:param>
     <xsl:element name="span">
-        <xsl:attribute name="class">cb diplo</xsl:attribute>
+        <xsl:attribute name="class">
+            <xsl:text>cb</xsl:text>
+            <xsl:if test="$diplo = 'true'"><xsl:text> diplo</xsl:text></xsl:if>
+            <xsl:if test="$excerpt = 'yes'"><xsl:text> nobreak</xsl:text></xsl:if>
+            <xsl:if test="not(@n)"><xsl:text> unnumbered</xsl:text></xsl:if>
+        </xsl:attribute>
         <xsl:attribute name="lang">en</xsl:attribute>
-        <xsl:if test="@break = 'no'">
-            <xsl:attribute name="data-nobreak"/>
-        </xsl:if>
+        <xsl:choose>
+            <xsl:when test="@break = 'no' and $hyphen = 'yes'">
+                <xsl:attribute name="data-nobreak"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:variable name="pretext" select="preceding::text()[1]"/>
+                <xsl:if test="position() != 1 and normalize-space(substring($pretext,string-length($pretext))) != ''">
+                    <xsl:attribute name="data-nobreak"/>
+                </xsl:if>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:if test="@n">
             <xsl:attribute name="data-n">
                 <xsl:text>col. </xsl:text>
@@ -652,7 +692,7 @@
         <xsl:with-param name="excerpt"><xsl:value-of select="$excerpt"/></xsl:with-param>
     </xsl:call-template>
 </xsl:template>
-<xsl:template match="x:rubric/x:pb[1] | x:incipit/x:pb[1] | x:explicit/x:pb[1] | x:finalRubric/x:pb[1] | x:colophon/x:pb[1]">
+<xsl:template match="x:rubric/child::*[1][local-name() = 'pb'] | x:incipit/child::*[1][local-name() = 'pb'] | x:explicit/child::*[1][local-name() = 'pb'] | x:finalRubric/child::*[1][local-name() = 'pb'] | x:colophon/child::*[1][local-name() = 'pb']">
     <xsl:param name="excerpt">yes</xsl:param>
     <xsl:call-template name="pb">
         <xsl:with-param name="excerpt"><xsl:value-of select="$excerpt"/></xsl:with-param>
@@ -1096,6 +1136,7 @@
 <xsl:template match="x:num">
     <xsl:element name="span">
         <xsl:call-template name="lang"/>
+        <xsl:attribute name="data-teiname">num</xsl:attribute>
         <xsl:choose>
             <xsl:when test="@rend='traditional'">
                 <xsl:attribute name="class">num trad</xsl:attribute>
