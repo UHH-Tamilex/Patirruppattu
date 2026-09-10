@@ -58,7 +58,6 @@
 
 COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 
-<!-- there were a lot of problems with this poem, look lines 17b and 18a; probably correction will be needed after those are corrected  -->
 <standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati6.58" type="apparatus"><listApp>
 <app loc="117,124">
         <lem wit="#EC #EV #ER #TT #C1 #C4">tarīiya</lem>

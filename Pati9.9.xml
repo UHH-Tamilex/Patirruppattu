@@ -94,7 +94,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <app loc="230,244">
         <lem wit="#EC #EV #ER">lirumpoṟai niṉkōl</lem>
         <rdg wit="#ECv #TT #C1 #C4 #G1">lirumpoṟai kōol</rdg>
-        <rdg wit="#C2">ǂyaṉilai</rdg>
+        <rdg wit="#C2"><gap reason="lost"/></rdg>
 <rdg wit="#C3">lirumpoṟai<del>k</del> kō<del>vu</del><add>o</add>l</rdg>
 <rdg wit="#G2">lirumpoṟaik kōvul</rdg>
         </app>
@@ -102,7 +102,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <lem wit="#TT #C1 #C4 #G1 #G2">viyaṉilai</lem>
         <rdg wit="#EC #EV #ER">vuyarnilai</rdg>
 <rdg wit="#C2"><gap reason="lost" quantity="1" unit="character"/>yaṉilai</rdg>
-<rdg wit="#C3"><del>viyaṉi </del><add>vuyarni</add>lai</rdg>
+<rdg wit="#C3"><del>viyaṉi</del><add>vuyarni</add>lai</rdg>
         </app>
 <app loc="341,348">
         <lem wit="#EC #EV #ER #TT #C1 #C3 #C4 #G1">yākiyar</lem>
