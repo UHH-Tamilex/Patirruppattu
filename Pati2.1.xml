@@ -237,7 +237,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati2.11" type="wordsplit">
-<interp type="alignment" select="0">39MG10MG12ML35MG64MG13MG77MG32MG64MG40ML13MG43ML103ML46MG37MG5MG69MG35M2GM,757M</interp>
+<interp type="alignment" select="0">39MG10MG12ML35MG64MG13MG77MG96MG40ML13MG43ML103ML46MG37MG5MG69MG35M2GM,756M</interp>
 <entry>
 <form>varai</form>
 <def>mountain</def>
@@ -669,9 +669,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>maṉālam<c type="geminated"/></form>
+<form>maṉāla<c type="geminated">k</c></form>
 <def>saffron</def>
-<form type="sandhi">maṉālak<c type="geminated"/></form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -946,6 +945,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <def>Cēralātaṉ</def>
 <gramGrp>
   <gram type="role">proper name</gram>
+  <gram type="role">vocative</gram>
 </gramGrp>
 </entry>
 <entry>
