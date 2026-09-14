@@ -44,6 +44,9 @@
         <l>yamaiyārt tēytta vaṇaṅkuṭai nōṉṟā</l>
         <l>ḷimaiya varampa ṉeṭuñcēra lātaṉaik kumaṭṭūrk</l>
         <l>kaṇṇaṉār pāṭiṉār pattup pāṭṭu.</l>
+        <l> </l>
+        <l>avaitām: puṇṇumiḻkuruti, maṟamvīṅkupalpukaḻ, pūttaneytal, cāṉṟōr meymmaṟai, niraiyaveḷḷam, tuyiliṉpāyal, valampaṭuviyaṉpaṇai, kūntal viṟaliyar, vaḷaṉaṟupaitiram, aṭṭumalar mārpaṉ. ivai pāṭṭiṉ patikam.</l>
+        <l>pāṭip peṟṟa paricil: umpaṟ kāṭṭu aiññūṟu piramatāyaṅ koṭuttu muppat teṭṭi yāṇṭu taṉṉāṭṭuḷ varuvataṉiṟ pākaṅ koṭuttāṉakkō. imaiyavarampa ṉeṭuñcēralātaṉ aimpatteṭṭiyāṇṭu vīṟṟiruntāṉ.</l>
       </lg>
       <lg type="translation" xml:lang="en">
         <l/>
@@ -66,7 +69,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         </app>
 <app loc="218,233">
         <lem wit="#EC #EV #ER">yavaṉarp piṇittu</lem>
-        <rdg wit="#C3 #C4">yavarp piṇittu C2, G2+3 yava(ṉa)rp piṇittu</rdg>
+        <rdg wit="#C2 #G2 #G3">yavarp piṇittu</rdg>
+<rdg wit="#C3 #C4">yava(ṉa)rp piṇittu</rdg>
         </app>
 <app loc="247,258">
         <lem wit="#EC #EV #ER">kaipiṟ koḷīi</lem>
@@ -81,6 +85,21 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <lem wit="#EC #EC2 #EC3 #EV #ER">ḷimaiyavarampa ṉeṭuñcēra</lem>
         <rdg wit="#C2 #G2 #G3">ḷiyavarampi ṉeṭuñcēra</rdg>
 <rdg wit="#C3 #C4">ḷi(ma)ya varam<del>pi</del><add>pa</add> ṉeṭuñcēra</rdg>
+        </app>
+<app loc="569,578">
+        <lem wit="#EC">aṭṭumalar</lem>
+        <rdg wit="#C2 #G2 #G3">maṭṭumalar</rdg>
+<rdg wit="#C3 #C4">ma(a)ṭṭumalar</rdg>
+        </app>
+<app loc="672,681">
+        <lem wit="#C2 #G2 #G3">taṉṉāṭṭuḷ</lem>
+        <rdg wit="#EC #C4">teṉṉāṭṭuḷ</rdg>
+<rdg wit="#C3">ta(te)ṉṉāṭṭuḷ</rdg>
+        </app>
+<app loc="710,732">
+        <lem wit="#EC">imaiyavarampa ṉeṭuñcēra</lem>
+        <rdg wit="#C2 #G2 #G3">imaiyavarampi ṉeṭuñcēra</rdg>
+<rdg wit="#C3 #C4">imaiyavaram<del>pi</del><add>pa</add>ṉeṭuñcēra</rdg>
         </app>
 </listApp>
 <listWit>
@@ -176,6 +195,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
     </listWit>
   </witness>
 </listWit></standOff>
+
 <standOff corresp="#Pati2.21" type="wordsplit">
 <interp type="alignment" select="0">72ML47MG37ML146MG15MG26MG24ML52M,425MG</interp>
 <entry>
