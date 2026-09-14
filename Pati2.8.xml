@@ -365,7 +365,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <def>curve</def>
 <form type="sandhi">kōṭṭ</form>
 <gramGrp>
-  <gram type="role">verbal root</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
