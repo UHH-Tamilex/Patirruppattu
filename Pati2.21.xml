@@ -27,7 +27,6 @@
   </teiHeader>
 <text xml:lang="ta" type="edition">
   <body>
-    
     <div rend="parallel">
       <lg xml:id="Pati2.21">
         <l>maṉṉiya perumpukaḻ maṟuvil vāymoḻi</l>
@@ -44,9 +43,10 @@
         <l>yamaiyārt tēytta vaṇaṅkuṭai nōṉṟā</l>
         <l>ḷimaiya varampa ṉeṭuñcēra lātaṉaik kumaṭṭūrk</l>
         <l>kaṇṇaṉār pāṭiṉār pattup pāṭṭu.</l>
-        <l> </l>
-        <l>avaitām: puṇṇumiḻkuruti, maṟamvīṅkupalpukaḻ, pūttaneytal, cāṉṟōr meymmaṟai, niraiyaveḷḷam, tuyiliṉpāyal, valampaṭuviyaṉpaṇai, kūntal viṟaliyar, vaḷaṉaṟupaitiram, aṭṭumalar mārpaṉ. ivai pāṭṭiṉ patikam.</l>
-        <l>pāṭip peṟṟa paricil: umpaṟ kāṭṭu aiññūṟu piramatāyaṅ koṭuttu muppat teṭṭi yāṇṭu taṉṉāṭṭuḷ varuvataṉiṟ pākaṅ koṭuttāṉakkō. imaiyavarampa ṉeṭuñcēralātaṉ aimpatteṭṭiyāṇṭu vīṟṟiruntāṉ.</l>
+        <p>
+        avaitām: puṇṇumiḻkuruti, maṟamvīṅkupalpukaḻ, pūttaneytal, cāṉṟōr meymmaṟai, niraiyaveḷḷam, tuyiliṉpāyal, valampaṭuviyaṉpaṇai, kūntal viṟaliyar, vaḷaṉaṟupaitiram, aṭṭumalar mārpaṉ. ivai pāṭṭiṉ patikam.
+          pāṭip peṟṟa paricil: umpaṟ kāṭṭu aiññūṟu piramatāyaṅ koṭuttu muppat teṭṭi yāṇṭu taṉṉāṭṭuḷ varuvataṉiṟ pākaṅ koṭuttāṉakkō. imaiyavarampa ṉeṭuñcēralātaṉ aimpatteṭṭiyāṇṭu vīṟṟiruntāṉ.
+        </p>
       </lg>
       <lg type="translation" xml:lang="en">
         <l/>
