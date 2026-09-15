@@ -1283,13 +1283,22 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
-<entry>
+<superEntry type="ambiguous">
+<entry><entry>
+<form>akappā</form>
+<def>fortress</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></entry>
+<entry><entry>
 <form>akappā</form>
 <def>Akappā</def>
 <gramGrp>
   <gram type="role">proper name</gram>
 </gramGrp>
-</entry>
+</entry></entry>
+</superEntry>
 <entry>
 <form><c type="glide">v</c>eṟinta</form>
 <def>attacked</def>
