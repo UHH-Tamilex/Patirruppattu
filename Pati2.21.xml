@@ -43,21 +43,29 @@
         <l>yamaiyārt tēytta vaṇaṅkuṭai nōṉṟā</l>
         <l>ḷimaiya varampa ṉeṭuñcēra lātaṉaik kumaṭṭūrk</l>
         <l>kaṇṇaṉār pāṭiṉār pattup pāṭṭu.</l>
-       <p>
-        avaitām: puṇṇumiḻkuruti, maṟamvīṅkupalpukaḻ, pūttaneytal, cāṉṟōr meymmaṟai, niraiyaveḷḷam, tuyiliṉpāyal, valampaṭuviyaṉpaṇai, kūntal viṟaliyar, vaḷaṉaṟupaitiram, aṭṭumalar mārpaṉ. ivai pāṭṭiṉ patikam.
-       </p>
-       <p>
-        pāṭip peṟṟa paricil: umpaṟ kāṭṭu aiññūṟu piramatāyaṅ koṭuttu muppat teṭṭi yāṇṭu taṉṉāṭṭuḷ varuvataṉiṟ pākaṅ koṭuttāṉakkō. imaiyavarampa ṉeṭuñcēralātaṉ aimpatteṭṭiyāṇṭu vīṟṟiruntāṉ.
-       </p>
       </lg>
-      <lg type="translation" xml:lang="en">
-        <l/>
+      <lg xml:lang="en">
+        <l>translation line</l>
+        <l>translation line</l>
       </lg>
+    </div>
+
+    <div rend="parallel">
+    <p xml:id="Pati2.21coda1">
+      avaitām: puṇṇumiḻkuruti, maṟamvīṅkupalpukaḻ, pūttaneytal, cāṉṟōr meymmaṟai, niraiyaveḷḷam, tuyiliṉpāyal, valampaṭuviyaṉpaṇai, kūntal viṟaliyar, vaḷaṉaṟupaitiram, aṭṭumalar mārpaṉ. ivai pāṭṭiṉ patikam.
+     </p>
+     <p xml:lang="en">translation</p>
+    </div>
+    
+    <div rend="parallel">
+     <p xml:id="Pati2.21coda2">
+      pāṭip peṟṟa paricil: umpaṟ kāṭṭu aiññūṟu piramatāyaṅ koṭuttu muppat teṭṭi yāṇṭu taṉṉāṭṭuḷ varuvataṉiṟ pākaṅ koṭuttāṉakkō. imaiyavarampa ṉeṭuñcēralātaṉ aimpatteṭṭiyāṇṭu vīṟṟiruntāṉ.
+     </p>
+     <p xml:lang="en">translation</p>
     </div>
   </body>
 </text>
 
-COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 
 <standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati2.21" type="apparatus"><listApp>
 <app loc="24,31">
