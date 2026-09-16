@@ -52,7 +52,7 @@
     
     <div rend="parallel">
      <p xml:id="Pati8.81coda2">
-      pāṭippeṟṟa paricil: 1tāṉum kōyilāḷum puṟampōntu niṉṟu kōyi luḷḷa vellām koṇmiṉeṉṟu kāṇam oṉpatu nūṟāyirattoṭu aracu kaṭṭiṟ koṭuppa avar yāṉ irappa vataṉai āṇmiṉeṉṟu amaiccup pūṇṭār. takaṭūreṟinta peruṅcēralirumpoṟai patiṉēḻiyāṇṭu vīṟṟiruntāṉ.
+      pāṭippeṟṟa paricil: tāṉum kōyilāḷum puṟampōntu niṉṟu kōyi luḷḷa vellām koṇmiṉeṉṟu kāṇam oṉpatu nūṟāyirattoṭu aracu kaṭṭiṟ koṭuppa avar yāṉ irappa vataṉai yāṇmiṉeṉṟu amaiccup pūṇṭār. takaṭūreṟinta peruṅcēralirumpoṟai patiṉēḻiyāṇṭu vīṟṟiruntāṉ.
      </p>
      <p xml:lang="en">translation</p>
     </div>
@@ -167,7 +167,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <rdg wit="#EC">irappa itaṉai</rdg>
         </app>
 <app loc="135,144">
-        <lem wit="#C2 #C3 #C4 #G2">āṇmiṉeṉṟu</lem>
+        <lem wit="#C2 #C3 #C4 #G2">yāṇmiṉeṉṟu</lem>
         <rdg wit="#EC">āḷkaveṉṟu</rdg>
         </app>
 </listApp></standOff>
