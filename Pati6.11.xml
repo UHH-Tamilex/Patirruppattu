@@ -39,14 +39,29 @@
         <l>yātta ceyyuḷa ṭaṅkiya koḷkaik</l>
         <l><persName>kākkai pāṭiṉiyār nacceḷḷaiyār</persName> pāṭiṉār pattuppāṭṭu.</l>
       </lg>
-      <lg type="translation" xml:lang="en">
-        <l></l>
+      <lg xml:lang="en">
+        <l>translation line</l>
+        <l>translation line</l>
       </lg>
+    </div>
+
+    <div rend="parallel">
+    <p xml:id="Pati6.61coda1">
+      avaitām: vaṭuvaṭu nuṇṇayir, ciṟuceṅkuvaḷai, kuṇṭukaṇ ṇakaḻi, nillāttāṉai, tuñcumpantar, vēntu meymmaṟanta vāḻcci, cil vaḷaiviṟali, ēviḷaṅkutaṭakkai, mākūrtiṅkaḷ, marampaṭu tīṅkaṉi ivai pāṭṭiṉ patikam.
+     </p>
+     <p xml:lang="en">translation</p>
+    </div>
+    
+    <div rend="parallel">
+     <p xml:id="Pati6.61coda2">
+      pāṭippeṟṟa paricil: kalaṉaṇikaveṉṟu avarkku oṉpatu kāp poṉṉum nūṟāyiraṅ kāṇamuṅ koṭuttut taṉ pakkattuk koṇṭāṉ akkō. āṭukōṭpāṭṭuc cēralātaṉ muppatteṭṭi yāṇṭu vīṟṟiruntāṉ.
+     </p>
+     <p xml:lang="en">translation</p>
     </div>
   </body>
 </text>
 
-COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
 
 <standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati6.61" type="apparatus"><listApp>
 <app loc="23,26">
@@ -158,4 +173,12 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
     </listWit>
   </witness>
 </listWit></standOff>
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati6.61coda2" type="apparatus"><listApp>
+<app loc="103,115">
+        <lem wit="#EC">āṭukōṭpāṭṭuc</lem>
+        <rdg wit="#ECv">āṭukōṭpāṭu</rdg>
+        </app>
+</listApp></standOff>
+
 </TEI>
