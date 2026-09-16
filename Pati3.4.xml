@@ -616,9 +616,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">y</c>oḻuka<c type="geminated">a</c></form>
+<form><c type="glide">y</c>oḻuka<c type="geminated">p</c></form>
 <def>to flow</def>
-<form type="sandhi"><c type="glide">y</c>oḻuk<c type="geminated">a</c>p</form>
 <gramGrp>
   <gram type="role">infinitive</gram>
 </gramGrp>
@@ -677,9 +676,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="geminated">l</c>icai<c type="geminated">ai</c></form>
+<form><c type="geminated">l</c>icai<c type="geminated">t</c></form>
 <def>sound</def>
-<form type="sandhi"><c type="geminated">l</c>ic<c type="geminated">ai</c>t</form>
 <gramGrp>
   <gram type="role">root noun</gram>
 </gramGrp>
@@ -1068,8 +1066,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <form>tōṟ<c type="elided">u</c></form>
 <def>ever</def>
 <form type="sandhi">ṟōṟ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>aṭai<c type="geminated">c</c></form>
