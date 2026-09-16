@@ -50,14 +50,29 @@
         <l>karaṇa mamainta kācaṟu ceyyuṭ</l>
         <l>paraṇar pāṭiṉār pattup pāṭṭu.</l>
       </lg>
-      <lg type="translation" xml:lang="en">
-        <l></l>
+      <lg xml:lang="en">
+        <l>translation line</l>
+        <l>translation line</l>
       </lg>
+    </div>
+
+    <div rend="parallel">
+    <p xml:id="Pati5.51coda1">
+      avai tām: cuṭarvī vēṅkai, tacumpu tuḷaṅkirukkai, ēṟāvēṇi, nōytapu nōṉṟoṭai, ūṉṟuvai yaṭicil, karaivāyp paruti, naṉṉutal viṟaliyar, pēreḻil vāḻkkai, ceṅkai maṟavar, veruvaru puṉaṟṟār ivai pāṭṭiṉ patikam.
+     </p>
+     <p xml:lang="en">translation</p>
+    </div>
+    
+    <div rend="parallel">
+     <p xml:id="Pati5.51coda2">
+      pāṭip peṟṟa paricil: umpaṟkāṭṭu vāriyaiyum taṉ makaṉ kuṭṭuvaṉcēra laiyuṅ koṭuttāṉ akkō. kaṭalpiṟakkōṭṭiya ceṅkuṭṭuvaṉ aimpattaiyāṇṭu vīṟṟiruntāṉ.
+     </p>
+     <p xml:lang="en">translation</p>
     </div>
   </body>
 </text>
 
-COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
 
 <standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati5.51" type="apparatus"><listApp>
 <app loc="259,267">
