@@ -37,9 +37,24 @@
         <l>varuntiṟa loḷḷicaip peruñcēra lirumpoṟaiyai</l>
         <l>maṟuvil vāymoḻi y<persName>aricilkiḻār</persName> pāṭiṉār pattuppāṭṭu.</l>
       </lg>
-      <lg type="translation" xml:lang="en">
-        <l></l>
+      <lg xml:lang="en">
+        <l>translation line</l>
+        <l>translation line</l>
       </lg>
+    </div>
+
+    <div rend="parallel">
+    <p xml:id="Pati8.81coda1">
+      avaitām: kuṟuntāṇñāyil, urutteḻuveḷḷam, niṟantikaḻpāciḻai, nalampeṟutirumaṇi, tīñcēṟṟiyāṇar, mācitaṟirukkai, veṉṟāṭutuṇaṅkai, piṟaḻanōkkiyavar, niṟampaṭukuruti, puṇṇuṭaiyeṟuḻttōḷ ivai pāṭṭiṉ patikam.
+     </p>
+     <p xml:lang="en">translation</p>
+    </div>
+    
+    <div rend="parallel">
+     <p xml:id="Pati8.81coda2">
+      pāṭippeṟṟa paricil: 1tāṉum kōyilāḷum puṟampōntu niṉṟu kōyi luḷḷa vellām koṇmiṉeṉṟu kāṇam oṉpatu nūṟāyirattoṭu aracu kaṭṭiṟ koṭuppa avar yāṉ irappa vataṉai āṇmiṉeṉṟu amaiccup pūṇṭār. takaṭūreṟinta peruṅcēralirumpoṟai patiṉēḻiyāṇṭu vīṟṟiruntāṉ.
+     </p>
+     <p xml:lang="en">translation</p>
     </div>
   </body>
 </text>
@@ -141,4 +156,20 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
     </listWit>
   </witness>
 </listWit></standOff>
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati8.81coda2" type="apparatus"><listApp>
+<app loc="24,43">
+        <lem wit="#EC">kōyilāḷum puṟampōntu</lem>
+        <rdg wit="#C2 #C3 #C4 #G2">kōyilāḷum pōntu</rdg>
+        </app>
+<app loc="122,135">
+        <lem wit="#C2 #C3 #C4 #G2">irappavataṉai</lem>
+        <rdg wit="#EC">irappa itaṉai</rdg>
+        </app>
+<app loc="135,144">
+        <lem wit="#C2 #C3 #C4 #G2">āṇmiṉeṉṟu</lem>
+        <rdg wit="#EC">āḷkaveṉṟu</rdg>
+        </app>
+</listApp></standOff>
+
 </TEI>

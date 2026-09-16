@@ -96,21 +96,6 @@
         <rdg wit="#C2 #G2 #G3">ḷiyavarampi ṉeṭuñcēra</rdg>
 <rdg wit="#C3 #C4">ḷi(ma)ya varam<del>pi</del><add>pa</add> ṉeṭuñcēra</rdg>
         </app>
-<app loc="569,578">
-        <lem wit="#EC">aṭṭumalar</lem>
-        <rdg wit="#C2 #G2 #G3">maṭṭumalar</rdg>
-<rdg wit="#C3 #C4">ma(a)ṭṭumalar</rdg>
-        </app>
-<app loc="672,681">
-        <lem wit="#C2 #G2 #G3">taṉṉāṭṭuḷ</lem>
-        <rdg wit="#EC #C4">teṉṉāṭṭuḷ</rdg>
-<rdg wit="#C3">ta(te)ṉṉāṭṭuḷ</rdg>
-        </app>
-<app loc="710,732">
-        <lem wit="#EC">imaiyavarampa ṉeṭuñcēra</lem>
-        <rdg wit="#C2 #G2 #G3">imaiyavarampi ṉeṭuñcēra</rdg>
-<rdg wit="#C3 #C4">imaiyavaram<del>pi</del><add>pa</add>ṉeṭuñcēra</rdg>
-        </app>
 </listApp>
 <listWit>
 <witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="EC">
@@ -205,6 +190,27 @@
     </listWit>
   </witness>
 </listWit></standOff>
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati2.21coda1" type="apparatus"><listApp>
+<app loc="150,159">
+        <lem wit="#EC">aṭṭumalar</lem>
+        <rdg wit="#C2 #G2 #G3">maṭṭumalar</rdg>
+<rdg wit="#C3 #C4">ma(a)ṭṭumalar</rdg>
+        </app>
+</listApp></standOff>
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati2.21coda2" type="apparatus"><listApp>
+<app loc="69,78">
+        <lem wit="#C2 #G2 #G3">taṉṉāṭṭuḷ</lem>
+        <rdg wit="#EC #C4">teṉṉāṭṭuḷ</rdg>
+<rdg wit="#C3">ta(te)ṉṉāṭṭuḷ</rdg>
+        </app>
+<app loc="107,129">
+        <lem wit="#EC">imaiyavarampa ṉeṭuñcēra</lem>
+        <rdg wit="#C2 #G2 #G3">imaiyavarampi ṉeṭuñcēra</rdg>
+<rdg wit="#C3 #C4">imaiyavarampi (pa)ṉeṭuñcēra</rdg>
+        </app>
+</listApp></standOff>
 
 <standOff corresp="#Pati2.21" type="wordsplit">
 <interp type="alignment" select="0">72ML47MG37ML146MG15MG26MG24ML52M,425MG</interp>
