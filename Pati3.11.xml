@@ -40,14 +40,29 @@
         <l>palyāṉaic celkeḻu kuṭṭuvaṉaip</l>
         <l><persName xml:lang="ta">pālaik kautamaṉār</persName> pāṭiṉār pattuppāṭṭu</l>
       </lg>
-      <lg type="translation" xml:lang="en">
-        <l></l>
+      <lg xml:lang="en">
+        <l>translation line</l>
+        <l>translation line</l>
       </lg>
+    </div>
+
+    <div rend="parallel">
+    <p xml:id="Pati3.31coda1">
+      avaitām: aṭuneyyāvuti,§ kayiṟukuṟumukavai, tataintakāñci, cīrcāl veḷḷi, kāṉuṇaṅku kaṭuneṟi, kāṭuṟu kaṭuneṟi toṭarnta kuvaḷai, uruttuvaru malirniṟai, veṇkai makaḷir, pukaṉṟa vāyam; ivai pāṭṭiṉ patikam.
+     </p>
+     <p xml:lang="en">translation</p>
+    </div>
+    
+    <div rend="parallel">
+     <p xml:id="Pati3.31coda2">
+      pāṭip peṟṟa paricil: ‘nīr vēṇṭiyatu koṇmiṉ’ eṉa, ‘yāṉum eṉ pārppa ṉiyum cuvark kam pukal vēṇṭum’ eṉa, pārppāriṟ periyōraik kēṭṭu oṉpatu peru vēḷvi vēṭpikkap pattām peruvēḷviyiṟ pārppāṉaiyum pārppaṉiyaiyum kāṇārāyiṉār.imayavarampaṉ ṟampi palyāṉaiccel keḻukuṭṭuvaṉ irupattai yāṇṭu vīṟṟiruntāṉ.
+     </p>
+     <p xml:lang="en">translation</p>
     </div>
   </body>
 </text>
 
-COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
 
 <standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati3.31" type="apparatus"><listApp>
 <app loc="138,148">

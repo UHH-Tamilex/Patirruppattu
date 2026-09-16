@@ -39,14 +39,29 @@
         <l>celvakkaṭuṅkō vāḻi yātaṉaik</l>
         <l><persName>kapilar</persName> pāṭiṉār pattup pāṭṭu.</l>
       </lg>
-      <lg type="translation" xml:lang="en">
-        <l></l>
+      <lg xml:lang="en">
+        <l>translation line</l>
+        <l>translation line</l>
       </lg>
+    </div>
+
+    <div rend="parallel">
+    <p xml:id="Pati7.71coda1">
+      avaitām: pulāampācaṟai, varaipōliñci, aruviyāmpal, urai cālvēḷvi, nāṇmakiḻirukkai, putalcūḻpaṟavai, veṇpōḻk kaṇṇi, ēma vāḻkkai, maṇkeḻuñālam, paṟaikkuralaruvi. ivai pāṭṭiṉ patikam.
+     </p>
+     <p xml:lang="en">translation</p>
+    </div>
+    
+    <div rend="parallel">
+     <p xml:id="Pati7.71coda2">
+      pāṭippeṟṟa paricil: ciṟupuṟameṉa nūṟāyiraṅ kāṇaṅkoṭuttu “naṉṟā” veṉṉum kuṉṟēṟi niṉṟu taṉ kaṇṇiṟ kaṇṭa nāṭellām kāṭṭik koṭut tāṉ akkō. celvakkaṭuṅkō vāḻiyātaṉ irupattai yāṇṭu vīṟṟiruntāṉ.
+     </p>
+     <p xml:lang="en">translation</p>
     </div>
   </body>
 </text>
 
-COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
 
 <standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati7.71" type="apparatus"><listApp>
 <app loc="41,49">

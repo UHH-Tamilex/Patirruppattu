@@ -44,14 +44,29 @@
         <l>liṉṉicai muraci ṉiruñcēra lirumpoṟaiyaip</l>
         <l>peruṅkuṉṟūr kiḻār pāṭiṉār pattuppāṭṭu.</l>
       </lg>
-      <lg type="translation" xml:lang="en">
-        <l></l>
+      <lg xml:lang="en">
+        <l>translation line</l>
+        <l>translation line</l>
       </lg>
+    </div>
+
+    <div rend="parallel">
+    <p xml:id="Pati9.91coda1">
+      avaitām niḻalviṭu kaṭṭi, viṉainavil yāṉai, paḵṟōṟ ṟoḻuti, toḻi ṉavil yāṉai, nāṭukā ṇeṭuvarai, ventiṟaṟ ṟaṭakkai, veṇṭalaic cempu ṉal, kalkāl kavaṇai, tuvarāk kūntal, valikeḻu taṭakkai; ivai pāṭṭiṉ patikam.
+     </p>
+     <p xml:lang="en">translation</p>
+    </div>
+    
+    <div rend="parallel">
+     <p xml:id="Pati9.91coda2">
+      pāṭip peṟṟa paricil: maruḷillārkku maruḷak koṭukkaveṉṟu uvakaiyiṉ muppattīrāyiraṅ kāṇam koṭuttu avar aṟiyāmai ūrum maṉaiyum vaḷamikap paṭaittu ērum iṉpamum iyalvarap parappi eṇṇaṟku ākā aruṅkala veṟuk kaiyoṭu paṉṉūṟāyiram pāṟpaṭa vakuttuk kāppumaṟam tāṉviṭṭāṉ akkō. kuṭakkō iḷañcēralirumpoṟai patiṉāṟāṇṭu vīṟṟiruntāṉ.
+     </p>
+     <p xml:lang="en">translation</p>
     </div>
   </body>
 </text>
 
-COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
 
 <standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati9.91" type="apparatus"><listApp>
 <app loc="20,26">
