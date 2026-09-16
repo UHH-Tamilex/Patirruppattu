@@ -31,16 +31,31 @@
       <lg xml:id="PatiX.YY">
         <l></l>
       </lg>
-      <lg type="translation" xml:lang="en">
-        <l></l>
+      <lg xml:lang="en">
+        <l>translation line</l>
+        <l>translation line</l>
       </lg>
+    </div>
+
+    <div rend="parallel">
+    <p xml:id="PatiX.YYcoda1">
+      TEXT
+     </p>
+     <p xml:lang="en">translation</p>
+    </div>
+    
+    <div rend="parallel">
+     <p xml:id="PatiX.YYcoda2">
+      TEXT
+     </p>
+     <p xml:lang="en">translation</p>
     </div>
   </body>
 </text>
 
-COPY TRANSLATION STANDOFF FROM INTERFACE HERE
+COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
 
-COPY APPARATUS STANDOFF FROM INTERFACE HERE
+COPY APPARATUS STANDOFF FROM INTERFACE HERE <!-- these two STANDOFF sections can be in any order -->
 </TEI>
 
 
