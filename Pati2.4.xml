@@ -241,7 +241,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati2.14" type="wordsplit">
-<interp type="alignment" select="0">4MR13MG15MG6MG8ML25MG23MG61MG36MG42MG52MG101MG33MG82M2G44MG21MG64MG13MG4MGM,454MG213M</interp>
+<interp type="alignment" select="0">4MR13MG15MG6MG8ML25MG23MG61MG36MG42MG38MG14MG101MG33MG82M2G44MG21MG64MG13MG4MGM,455MG213M</interp>
 <entry>
 <form>nilam</form>
 <def>earth</def>
@@ -361,8 +361,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>oruṅku</form>
 <def>together</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>puṇarnta</form>
@@ -591,11 +589,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>variṉum</form>
+<form>variṉ-um</form>
 <def>come</def>
+<form type="simple">variṉ</form>
 <gramGrp>
   <gram type="role">concessive</gram>
+  <gram type="role">conditional</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>āṟṟu</form>
@@ -1110,9 +1111,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
 </entry>
 <entry>
-<form><c type="glide">v</c>i<c type="geminated">i</c></form>
+<form><c type="glide">v</c>i<c type="geminated">v</c></form>
 <def>this</def>
-<form type="sandhi"><c type="glide">v</c><c type="geminated">i</c>v</form>
 <gramGrp>
   <gram type="role">adjective</gram>
 </gramGrp>

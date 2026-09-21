@@ -237,7 +237,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati2.16" type="wordsplit">
-<interp type="alignment" select="0">3MG6MG116ML24MG113MG106MG18MG7ML58MG15MG64MG7MG35M2GM,587M</interp>
+<interp type="alignment" select="0">3MG6MG116ML24MG113MG30MG76MG18MG7ML58MG15MG64MG7MG35M2GM,588M</interp>
 <entry>
 <form>kōṭ<c type="elided">u</c></form>
 <def>mountain peak</def>
@@ -628,11 +628,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>ūṭiṉum</form>
+<form>ūṭiṉ-um</form>
 <def>quarelled-if</def>
+<form type="simple">ūṭiṉ</form>
 <gramGrp>
+  <gram type="role">concessive</gram>
   <gram type="role">conditional</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>iṉiya</form>
@@ -1028,14 +1031,12 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>naṉi</form>
 <def>much</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>alaittaṉṟ<c type="elided">u</c>-ē</form>
 <def>harassed-it</def>
 <form type="simple">alaittaṉṟu</form>
-<form type="sandhi"><c type="glide">y</c>alaitteṉṟ</form>
+<form type="sandhi"><c type="glide">y</c>alaittaṉṟ</form>
 <gramGrp>
   <gram type="role">neuter singular</gram>
   <gram type="role">perfective aspect</gram>
