@@ -267,7 +267,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati3.24" type="wordsplit">
-<interp type="alignment" select="0">82MG104MG9MG32MG9MR27MG11MR38MG20MG30MG17MG33ML21MG4M2G27MG46MG7MG8MG51MG9MG9MG4ML9MG23MG59MG16MG36MG5MR61MG50ML20M2G15MG2M,927MG</interp>
+<interp type="alignment" select="0">82MG104MG9MG32MG9MR27MG11MR38MG20MG30MG17MG33ML21MG4M2G73MG7MG8MG51MG9MG9MG4ML9MG23MG59MG16MG36MG5MR61MG50ML20M2G15MG2M,926MG</interp>
 <entry>
 <form>neṭu</form>
 <def>long</def>
@@ -920,17 +920,15 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>aḷapp<c type="elided">u</c></form>
-<def>measuring</def>
-<form type="sandhi">aḷapp</form>
+<form>aḷa<c type="geminated">p</c></form>
+<def>measure</def>
 <gramGrp>
-  <gram type="role">noun</gram>
+  <gram type="role">verbal root</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>aruṅkuraiyai</form>
-<def>difficult-you</def>
-<form type="sandhi">eruṅkuraiyai</form>
+<form>peruṅkuraiyai</form>
+<def>great-you</def>
 <gramGrp>
   <gram type="role">pronominalised noun</gram>
   <gram type="role">singular</gram>
