@@ -267,7 +267,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati3.24" type="wordsplit">
-<interp type="alignment" select="0">82MG104MG9MG32MG9MR27MG11MR38MG20MG30MG17MG33ML21MG4M2G73MG7MG8MG51MG9MG9MG4ML9MG23MG59MG16MG36MG5MR61MG50ML20M2G15MG2M,926MG</interp>
+<interp type="alignment" select="0">82MG104MG9MG32MG9MR27MG11MR38MG20MG30MG17MG33ML21MG4M2G20MG53MG7MG8MG51MG9MG9MG4ML9MG23MG59MG16MG36MG5MR61MG50ML7MG13M2G15MG2M,928MG</interp>
 <entry>
 <form>neṭu</form>
 <def>long</def>
@@ -913,11 +913,15 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">y</c>aṟiyiṉum</form>
+<form><c type="glide">y</c>aṟiyiṉ-um</form>
 <def>know-if-even</def>
+<form type="simple">aṟiyiṉ</form>
+<form type="sandhi"><c type="glide">y</c>aṟiyiṉ</form>
 <gramGrp>
   <gram type="role">concessive</gram>
+  <gram type="role">conditional</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>aḷa<c type="geminated">p</c></form>
@@ -1471,11 +1475,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>maṟappiṉum</form>
+<form>maṟappiṉ-um</form>
 <def>forget-if-even</def>
+<form type="simple">maṟappiṉ</form>
 <gramGrp>
   <gram type="role">concessive</gram>
+  <gram type="role">conditional</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>pērā</form>

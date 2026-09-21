@@ -254,7 +254,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati2.20" type="wordsplit">
-<interp type="alignment" select="0">40MG36ML16ML5ML33MG8MG17M2G25MG18MG5MG16M2G7MG8MG76MR79MG8M2G5MG21MG34ML8ML12MG19MG40M2G9M2G116MG36MG17MGM,747M</interp>
+<interp type="alignment" select="0">40MG36ML16ML5ML33MG8MG17M2G25MG18MG5MG16M2G7MG8MG76MR79MG8M2G5MG21MG34ML8ML12MG19MG40M2G9M2G11MG25MG80MG4MG32MG17MGM,750M</interp>
 <entry>
 <form>num</form>
 <def>your</def>
@@ -1063,11 +1063,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>āyiṉum</form>
+<form>āyiṉ-um</form>
 <def>if-even</def>
+<form type="simple">āyiṉ</form>
 <gramGrp>
+  <gram type="role">concessive</gram>
   <gram type="role">conditional</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>paricil</form>
@@ -1094,11 +1097,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>āyiṉum</form>
+<form>āyiṉ-um</form>
 <def>if-even</def>
+<form type="simple">āyiṉ</form>
 <gramGrp>
+  <gram type="role">concessive</gram>
   <gram type="role">conditional</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>koṭai<c type="geminated">k</c></form>
@@ -1205,11 +1211,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>āyiṉum</form>
+<form>āyiṉ-um</form>
 <def>if-even</def>
+<form type="simple">āyiṉ</form>
 <gramGrp>
+  <gram type="role">concessive</gram>
   <gram type="role">conditional</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>vayiṟu</form>

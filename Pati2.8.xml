@@ -204,7 +204,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati2.18" type="wordsplit">
-<interp type="alignment" select="0">8MG12M2G26M2G51MG17MG11MG54M2G7MG12MG7MG50MG48MG23ML4MG2M,349M</interp>
+<interp type="alignment" select="0">8MG12M2G26M2G51MG17MG11MG54M2G7MG12MG7MG50MG48MG4MG19ML4MG2M,350M</interp>
 <entry>
 <form>uṇmiṉ</form>
 <def>eat</def>
@@ -599,12 +599,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>āyiṉum</form>
+<form>āyiṉ-um</form>
 <def>if-even</def>
-<form type="sandhi">āyiṉuñ</form>
+<form type="simple">āyiṉ</form>
 <gramGrp>
+  <gram type="role">concessive</gram>
   <gram type="role">conditional</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>cēralātaṉ</form>

@@ -201,7 +201,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati2.17" type="wordsplit">
-<interp type="alignment" select="0">26M2G5M2G89ML10MG5MG46MG160ML24MR64M2GM,442M</interp>
+<interp type="alignment" select="0">26M2G5M2G19MG70ML10MG5MG46MG160ML24MR64M2GM,443M</interp>
 <entry>
 <form>puraivatu</form>
 <def>resemble-it</def>
@@ -257,11 +257,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>āyiṉum</form>
+<form>āyiṉ-um</form>
 <def>if-even</def>
+<form type="simple">āyiṉ</form>
 <gramGrp>
+  <gram type="role">concessive</gram>
   <gram type="role">conditional</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>pakaivar</form>
@@ -559,9 +562,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">v</c>i<c type="geminated">i</c></form>
+<form><c type="glide">v</c>i<c type="geminated">n</c></form>
 <def>this</def>
-<form type="sandhi"><c type="glide">v</c><c type="geminated">i</c>n</form>
 <gramGrp>
   <gram type="role">adjective</gram>
 </gramGrp>
