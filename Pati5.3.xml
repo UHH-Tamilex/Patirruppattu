@@ -35,7 +35,7 @@
         <l>peruṅkai matamāp pukutari ṉavaṟṟuḷ</l>
         <l>viruntiṉ vīḻpiṭi yeṇṇumuṟai peṟāak</l>
         <l>kaṭavu ṇilaiiya kallōṅku neṭuvarai</l>
-        <l>vaṭaticai yellai yimaiya mākat</l>
+        <l>vaṭaticai yellai yimaiya mākat</l>
         <l>teṉṉaṅ kumariyo ṭāyiṭai yaracar</l>
         <l>muracuṭaip peruñcaman tataiya vārppeḻac</l>
         <l>colpala nāṭṭait tolkavi ṉaḻitta</l>
@@ -102,19 +102,19 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
         <lem wit="#TT #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">yimaiya</lem>
         <rdg wit="#EC #EV #ER">yimaya</rdg>
         </app>
-<app loc="264,271">
+<app loc="263,270">
         <lem wit="#EC #EV #ER">colpala</lem>
         <rdg wit="#ECv">colpuṉa</rdg>
 <rdg wit="#C2 #C4 #G2 #G3 #NLK">kolpuṉa</rdg>
 <rdg wit="#"><del>ko</del><add>co</add>lpuṉa C3</rdg>
 <rdg wit="#TT #C1 #G1"/>
         </app>
-<app loc="271,278">
+<app loc="270,277">
         <lem wit="#EC">nāṭṭait</lem>
         <rdg wit="#ECv #C2 #C3 #C4 #G2 #G3 #NLK">ṉāṭṭait</rdg>
 <rdg wit="#TT #C1 #G1"/>
         </app>
-<app loc="320,330">
+<app loc="319,329">
         <lem wit="#EC #EV #ER">virumpaṇai</lem>
         <rdg wit="#ECv">virumpaṉai</rdg>
 <rdg wit="#TT #C1 #G1">viṉampaṉai</rdg>
@@ -124,33 +124,33 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#G2 #NLK">limpaṉai</rdg>
 <rdg wit="#G3">lirumpaṉai</rdg>
         </app>
-<app loc="397,406">
+<app loc="396,405">
         <lem wit="#EC #EV #ER">peruvaṟaṟ</lem>
         <rdg wit="#TT #C1 #C2 #C4 #G1 #G2 #G3 #NLK">peruviṟaṟ</rdg>
 <rdg wit="#C3">peru<del>vi</del><add>va</add>ṟaṟ</rdg>
         </app>
-<app loc="423,430">
+<app loc="422,429">
         <lem wit="#TT #C1 #C2 #G1 #G2 #G3">periyāṟ</lem>
         <rdg wit="#EC #EV #ER">pērāṟ</rdg>
 <rdg wit="#C3"><del>periyā</del><add>pērā</add>ṟ</rdg>
 <rdg wit="#C4"><del>peru</del><add>pēri</add> yāṟ</rdg>
         </app>
-<app loc="430,440">
+<app loc="429,439">
         <lem wit="#EC #EV #ER #TT #C1 #C2 #G1 #G2 #G3 #NLK">ṟiruṅkarai</lem>
         <rdg wit="#C3">ṟaruṅkarai</rdg>
 <rdg wit="#C4"><del>ṟi</del><add>ṟa</add>ruṅkarai</rdg>
         </app>
-<app loc="449,456">
+<app loc="448,455">
         <lem wit="#EC #EV #ER">kaṭiyēr</lem>
         <rdg wit="#TT #C1 #C2 #C4 #G1 #G2 #G3 #NLK">kaṭiyoṭu</rdg>
 <rdg wit="#C3">kaṭi<del>yoṭu</del><add>yēr</add></rdg>
         </app>
-<app loc="504,514">
+<app loc="503,513">
         <lem wit="#EC #EV #ER">peyalciṟan</lem>
         <rdg wit="#TT #C1 #C2 #G1 #G2 #G3 #NLK">peyarciṟan</rdg>
 <rdg wit="#C3 #C4">peya<del>r</del><add>l</add>ciṟan</rdg>
         </app>
-<app loc="526,535">
+<app loc="525,534">
         <lem wit="#EC #EV #ER">taḷicorin</lem>
         <rdg wit="#ECv">taḷipoḻin</rdg>
 <rdg wit="#TT #C1 #G1">taṉi<del>vo</del><add>po</add>ḻin</rdg>
@@ -159,40 +159,40 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#G2">ta<del>ḷi</del><add>ṉi</add>voḻin</rdg>
 <rdg wit="#G3 #NLK">taḷivoḷin</rdg>
         </app>
-<app loc="535,539">
+<app loc="534,538">
         <lem wit="#EC #EV #ER">tāaṅ</lem>
         <rdg wit="#ECv #TT #C1 #C2 #G1 #G2 #G3 #NLK">tāṅ</rdg>
 <rdg wit="#C3 #C4">tā(a)ṅ</rdg>
         </app>
-<app loc="559,566">
+<app loc="558,565">
         <lem wit="#TT #C1 #C2 #C4 #G1 #G2 #G3 #NLK">nacaiva</lem>
         <rdg wit="#EC #EV #ER">nakaiva</rdg>
 <rdg wit="#C3">na<del>cai</del><add>kai</add>va</rdg>
         </app>
-<app loc="712,718">
+<app loc="711,717">
         <lem wit="#EC #EV #ER">peṟuka</lem>
         <rdg wit="#TT #C1 #C2 #G1 #G2 #G3 #NLK">peṟu</rdg>
 <rdg wit="#C3">peṟu(ka)</rdg>
 <rdg wit="#C4">peṟu<del>ta</del><add>ka</add></rdg>
         </app>
-<app loc="777,786">
+<app loc="776,785">
         <lem wit="#EC #ER #TT #C1 #C2 #C3 #C4 #G1 #G2 #G3 #NLK">makavalaṉ</lem>
         <rdg wit="#EV">makalavaṉ</rdg>
         </app>
-<app loc="850,860">
+<app loc="849,859">
         <lem wit="#EC #EV #ER">tūṅkukoḷai</lem>
         <rdg wit="#TT #C1 #G1">tūṅkutuḷai</rdg>
 <rdg wit="#C2 #G2 #G3">tūṅkutoḷai</rdg>
 <rdg wit="#C3 #C4">tūṅku <del>to</del><add>ko</add>ḷai</rdg>
 <rdg wit="#NLK">tūṅku<gap reason="lost" quantity="2" unit="character"/></rdg>
         </app>
-<app loc="933,942">
+<app loc="932,941">
         <lem wit="#TT #C1">nirampaka</lem>
         <rdg wit="#EC #EV #ER #C2 #C3 #C4 #G2 #G3">nirampakal</rdg>
 <rdg wit="#G1">nīnirampaka</rdg>
 <rdg wit="#NLK">niramapa<gap reason="lost" quantity="3" unit="character"/></rdg>
         </app>
-<app loc="943,949">
+<app loc="942,948">
         <lem wit="#TT #C1">laṟiyā</lem>
         <rdg wit="#EC #EV #ER">paṟiyā</rdg>
 <rdg wit="#C2 #G1 #G2 #G3">ṟaṟiyā</rdg>
