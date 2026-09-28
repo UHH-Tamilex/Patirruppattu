@@ -189,9 +189,9 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <rdg wit="#C3 #C4">tūṅku <del>to</del><add>ko</add>ḷai</rdg>
 <rdg wit="#NLK">tūṅku<gap reason="lost" quantity="2" unit="character"/></rdg>
         </app>
-<app loc="932,941">
-        <lem wit="#TT #C1">nirampaka</lem>
-        <rdg wit="#EC #EV #ER #C2 #C3 #C4 #G2 #G3">nirampakal</rdg>
+<app loc="932,942">
+        <lem wit="#EC #EV #ER #C2 #C3 #C4 #G2 #G3">nirampakal</lem>
+        <rdg wit="#TT #C1">nirampaka</rdg>
 <rdg wit="#G1">nīnirampaka</rdg>
 <rdg wit="#NLK">niramapa<gap reason="lost" quantity="3" unit="character"/></rdg>
         </app>
