@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -67,7 +70,7 @@
         <l>vaṇkai vēntēniṉ kalimaki ḻāṉē.</l>
       </lg>
       <lg type="translation" xml:lang="en">
-        <l></l>
+        <l/>
       </lg>
     </div>
   </body>
@@ -334,4 +337,653 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
     </listWit>
   </witness>
 </listWit></standOff>
-</TEI>
+<standOff corresp="#Pati5.43" type="wordsplit">
+<interp type="alignment" select="0">66MG32MG50ML67MG18MG27MG151MG20MG54MG30MG25MG15MG239MG39MG63MG43MG31MG50M2G15MG2M,194MG2MG858MG</interp>
+<entry>
+<form>kavari</form>
+</entry>
+<entry>
+<form>mucci<c type="geminated">k</c></form>
+</entry>
+<entry>
+<form>kār</form>
+</entry>
+<entry>
+<form>viri</form>
+</entry>
+<entry>
+<form>kūntal</form>
+</entry>
+<entry>
+<form>ūcal</form>
+<form type="sandhi">ūcaṉ</form>
+</entry>
+<entry>
+<form>mēval</form>
+<form type="sandhi">mēvaṟ</form>
+</entry>
+<entry>
+<form>cē</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>iḻai</form>
+</entry>
+<entry>
+<form>makaḷir</form>
+</entry>
+<entry>
+<form>ural</form>
+</entry>
+<entry>
+<form>pōl</form>
+<form type="sandhi">pōṟ</form>
+</entry>
+<entry>
+<form>perum</form>
+<form type="sandhi">peruṅ</form>
+</entry>
+<entry>
+<form>kāl</form>
+</entry>
+<entry>
+<form>ilaṅku</form>
+<form type="sandhi">ilaku</form>
+</entry>
+<entry>
+<form>vāḷ</form>
+<form type="sandhi">vāṇ</form>
+</entry>
+<entry>
+<form>maruppiṉ</form>
+<form type="sandhi">maruppiṟ</form>
+</entry>
+<entry>
+<form>perum</form>
+<form type="sandhi">peruṅ</form>
+</entry>
+<entry>
+<form>kai</form>
+</entry>
+<entry>
+<form>matam</form>
+</entry>
+<entry>
+<form>mā</form>
+<form type="sandhi">āp</form>
+</entry>
+<entry>
+<form>puku-tariṉ</form>
+<form type="sandhi">pukutariṉ</form>
+</entry>
+<entry>
+<form>avaṟṟuḷ</form>
+</entry>
+<entry>
+<form>viruntiṉ</form>
+</entry>
+<entry>
+<form>vīḻ</form>
+</entry>
+<entry>
+<form>piṭi</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṇṇu</form>
+</entry>
+<entry>
+<form>muṟai</form>
+</entry>
+<entry>
+<form>peṟāa<c type="geminated">k</c></form>
+</entry>
+<entry>
+<form>kaṭavuḷ</form>
+<form type="sandhi">kaṭavuṇ</form>
+</entry>
+<entry>
+<form>nilaiiya</form>
+<form type="sandhi">ṇilaiiya</form>
+</entry>
+<entry>
+<form>kal</form>
+</entry>
+<entry>
+<form><c type="geminated">l</c>ōṅku</form>
+</entry>
+<entry>
+<form>neṭu</form>
+</entry>
+<entry>
+<form>varai</form>
+</entry>
+<entry>
+<form>vaṭa</form>
+</entry>
+<entry>
+<form>ticai</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>ellai</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>imayam</form>
+<form type="sandhi"><c type="glide">y</c>imaiyam</form>
+</entry>
+<entry>
+<form>āka<c type="geminated">t</c></form>
+</entry>
+<entry>
+<form>teṉṉam</form>
+<form type="sandhi">teṉṉaṅ</form>
+</entry>
+<entry>
+<form>kumariyōṭ<c type="elided">u</c></form>
+<form type="sandhi">kumariyoṭ</form>
+</entry>
+<entry>
+<form>āyiṭai</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>aracar</form>
+</entry>
+<entry>
+<form>murac<c type="elided">u</c></form>
+<form type="sandhi">murac</form>
+</entry>
+<entry>
+<form>uṭai<c type="geminated">p</c></form>
+</entry>
+<entry>
+<form>perum</form>
+<form type="sandhi">peruñ</form>
+</entry>
+<entry>
+<form>camam</form>
+<form type="sandhi">caman</form>
+</entry>
+<entry>
+<form>tataiya</form>
+</entry>
+<entry>
+<form><c type="glide">v</c>ārpp<c type="elided">u</c></form>
+<form type="sandhi"><c type="glide">v</c>ārpp</form>
+</entry>
+<entry>
+<form>eḻa<c type="geminated">c</c></form>
+</entry>
+<entry>
+<form>col</form>
+</entry>
+<entry>
+<form>pala</form>
+</entry>
+<entry>
+<form>nāṭṭai<c type="geminated">t</c></form>
+</entry>
+<entry>
+<form>tol</form>
+</entry>
+<entry>
+<form>kaviṉ</form>
+</entry>
+<entry>
+<form>aḻitta</form>
+</entry>
+<entry>
+<form>pōr</form>
+</entry>
+<entry>
+<form>aṭu</form>
+</entry>
+<entry>
+<form>tāṉai<c type="geminated">p</c></form>
+</entry>
+<entry>
+<form>polam</form>
+<form type="sandhi">polan</form>
+</entry>
+<entry>
+<form>tār<c type="geminated">k</c></form>
+</entry>
+<entry>
+<form>kuṭṭuva</form>
+</entry>
+<entry>
+<form><c type="glide">v</c>irum</form>
+</entry>
+<entry>
+<form>paṇai</form>
+</entry>
+<entry>
+<form>tiraṅka<c type="geminated">p</c></form>
+</entry>
+<entry>
+<form>perum</form>
+</entry>
+<entry>
+<form>peyal</form>
+</entry>
+<entry>
+<form>oḷippa<c type="geminated">k</c></form>
+</entry>
+<entry>
+<form>kuṉṟu</form>
+</entry>
+<entry>
+<form>vaṟam</form>
+<form type="sandhi">vaṟaṅ</form>
+</entry>
+<entry>
+<form>kūra<c type="geminated">c</c></form>
+</entry>
+<entry>
+<form>cuṭar</form>
+</entry>
+<entry>
+<form>ciṉam</form>
+<form type="sandhi">ciṉan</form>
+</entry>
+<entry>
+<form>tikaḻa</form>
+</entry>
+<entry>
+<form><c type="glide">v</c>aruvi</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṟṟa</form>
+</entry>
+<entry>
+<form>peru</form>
+</entry>
+<entry>
+<form>vaṟaṉ</form>
+<form type="sandhi">vaṟaṟ</form>
+</entry>
+<entry>
+<form>kālai-<c type="glide">y</c>um</form>
+<form type="simple">kālai</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>arum</form>
+<form type="sandhi">aruñ</form>
+</entry>
+<entry>
+<form>celal</form>
+<form type="sandhi">celaṟ</form>
+</entry>
+<entry>
+<form>pēr<c type="elided">u</c></form>
+<form type="sandhi">peri</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>āṟṟ<c type="elided">u</c></form>
+<form type="sandhi"><c type="glide">y</c>āṟṟ</form>
+</entry>
+<entry>
+<form>irum</form>
+<form type="sandhi">iruṅ</form>
+</entry>
+<entry>
+<form>karai</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṭaittu<c type="geminated">k</c></form>
+</entry>
+<entry>
+<form>kaṭi</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>ēr</form>
+</entry>
+<entry>
+<form>pūṭṭunar</form>
+</entry>
+<entry>
+<form>kaṭukkai</form>
+</entry>
+<entry>
+<form>malaiya</form>
+</entry>
+<entry>
+<form>varaiv<c type="elided">u</c></form>
+<form type="sandhi">varaiv</form>
+</entry>
+<entry>
+<form>il</form>
+</entry>
+<entry>
+<form>atir</form>
+</entry>
+<entry>
+<form>cilai</form>
+</entry>
+<entry>
+<form>muḻaṅki<c type="geminated">p</c></form>
+</entry>
+<entry>
+<form>peyal</form>
+</entry>
+<entry>
+<form>ciṟant<c type="elided">u</c></form>
+<form type="sandhi">ciṟant</form>
+</entry>
+<entry>
+<form>ār</form>
+</entry>
+<entry>
+<form>kali</form>
+</entry>
+<entry>
+<form>vāṉam</form>
+<form type="sandhi">vāṉan</form>
+</entry>
+<entry>
+<form>taḷi</form>
+</entry>
+<entry>
+<form>corintāaṅk<c type="elided">u</c></form>
+<form type="sandhi">corintāaṅk</form>
+</entry>
+<entry>
+<form>uṟuvar</form>
+</entry>
+<entry>
+<form>āra</form>
+</entry>
+<entry>
+<form><c type="glide">v</c>ōmpāt<c type="elided">u</c></form>
+<form type="sandhi"><c type="glide">v</c>ōmpāt</form>
+</entry>
+<entry>
+<form>uṇṭu</form>
+</entry>
+<entry>
+<form>nacaivar</form>
+</entry>
+<entry>
+<form>āra</form>
+</entry>
+<entry>
+<form>nal</form>
+<form type="sandhi">naṉ</form>
+</entry>
+<entry>
+<form>kalam</form>
+<form type="sandhi">kalañ</form>
+</entry>
+<entry>
+<form>citaṟi</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>āṭu</form>
+</entry>
+<entry>
+<form>ciṟai</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṟutta</form>
+</entry>
+<entry>
+<form>narampu</form>
+</entry>
+<entry>
+<form>cēr</form>
+</entry>
+<entry>
+<form>iṉ</form>
+</entry>
+<entry>
+<form>kural</form>
+<form type="sandhi">kuraṟ</form>
+</entry>
+<entry>
+<form>pāṭu</form>
+</entry>
+<entry>
+<form>viṟaliyar</form>
+</entry>
+<entry>
+<form>pal</form>
+</entry>
+<entry>
+<form>piṭi</form>
+</entry>
+<entry>
+<form>peṟuka</form>
+</entry>
+<entry>
+<form>tuy</form>
+</entry>
+<entry>
+<form>vī</form>
+</entry>
+<entry>
+<form>vākai</form>
+</entry>
+<entry>
+<form>nuṇ</form>
+</entry>
+<entry>
+<form>koṭi</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>uḻiñai</form>
+</entry>
+<entry>
+<form>veṉṟi</form>
+</entry>
+<entry>
+<form>mēval</form>
+</entry>
+<entry>
+<form>uru</form>
+</entry>
+<entry>
+<form>keḻu</form>
+</entry>
+<entry>
+<form>ciṟappiṉ</form>
+<form type="sandhi">ciṟappiṟ</form>
+</entry>
+<entry>
+<form>koṇṭi</form>
+</entry>
+<entry>
+<form>maḷḷar</form>
+</entry>
+<entry>
+<form>kol</form>
+</entry>
+<entry>
+<form>kaḷiṟu</form>
+</entry>
+<entry>
+<form>peṟuka</form>
+</entry>
+<entry>
+<form>maṉṟam</form>
+</entry>
+<entry>
+<form>paṭarntu</form>
+</entry>
+<entry>
+<form>maṟuku</form>
+</entry>
+<entry>
+<form>ciṟai<c type="geminated">p</c></form>
+</entry>
+<entry>
+<form>pukku<c type="geminated">k</c></form>
+</entry>
+<entry>
+<form>kaṇṭi</form>
+</entry>
+<entry>
+<form>nuṇ</form>
+</entry>
+<entry>
+<form>kōl</form>
+</entry>
+<entry>
+<form>koṇṭu</form>
+</entry>
+<entry>
+<form>kaḷam</form>
+</entry>
+<entry>
+<form>vāḻttum</form>
+</entry>
+<entry>
+<form>akavalaṉ</form>
+</entry>
+<entry>
+<form>peṟuka</form>
+</entry>
+<entry>
+<form>mā-<c type="glide">v</c>ē</form>
+<form type="simple">mā</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉṟum</form>
+</entry>
+<entry>
+<form>ikal</form>
+</entry>
+<entry>
+<form>viṉai</form>
+</entry>
+<entry>
+<form>mēvalai</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>ākaliṉ</form>
+<form type="sandhi"><c type="glide">y</c>ākaliṟ</form>
+</entry>
+<entry>
+<form>pakaivar-um</form>
+<form type="simple">pakaivar</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tāṅkātu</form>
+</entry>
+<entry>
+<form>pukaḻnta</form>
+</entry>
+<entry>
+<form>tūṅku</form>
+</entry>
+<entry>
+<form>koḷai</form>
+</entry>
+<entry>
+<form>muḻaviṉ</form>
+<form type="sandhi">muḻaviṟ</form>
+</entry>
+<entry>
+<form>tolaiyā<c type="geminated">k</c></form>
+<form type="sandhi">ṟolaiyā<c type="geminated">k</c></form>
+</entry>
+<entry>
+<form>kaṟpa</form>
+</entry>
+<entry>
+<form>niṉ</form>
+</entry>
+<entry>
+<form>nilai</form>
+<form type="sandhi">ṉilai</form>
+</entry>
+<entry>
+<form>kaṇṭikum-ē</form>
+<form type="simple">kaṇṭikum</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>niṇam</form>
+<form type="sandhi">niṇañ</form>
+</entry>
+<entry>
+<form>cuṭu</form>
+</entry>
+<entry>
+<form>pukaiyoṭu</form>
+</entry>
+<entry>
+<form>kaṉal</form>
+</entry>
+<entry>
+<form>ciṉam</form>
+<form type="sandhi">ciṉan</form>
+</entry>
+<entry>
+<form>tavirātu</form>
+</entry>
+<entry>
+<form>niramp<c type="elided">u</c></form>
+<form type="sandhi">niramp</form>
+</entry>
+<entry>
+<form>akal</form>
+</entry>
+<entry>
+<form><c type="geminated">l</c>aṟiyā</form>
+</entry>
+<entry>
+<form><c type="glide">v</c>ēṟā</form>
+</entry>
+<entry>
+<form><c type="glide">v</c>ēṇi</form>
+</entry>
+<entry>
+<form>niṟaintu</form>
+</entry>
+<entry>
+<form>neṭit<c type="elided">u</c></form>
+<form type="sandhi">neṭit</form>
+</entry>
+<entry>
+<form>irā<c type="geminated">t</c></form>
+</entry>
+<entry>
+<form>tacumpiṉ</form>
+</entry>
+<entry>
+<form>vayiriyar</form>
+</entry>
+<entry>
+<form>uṇṭeṉa<c type="geminated">t</c></form>
+</entry>
+<entry>
+<form>tavāa<c type="geminated">k</c></form>
+</entry>
+<entry>
+<form>kaḷḷiṉ</form>
+</entry>
+<entry>
+<form>vaḷ</form>
+<form type="sandhi">vaṇ</form>
+</entry>
+<entry>
+<form>kai</form>
+</entry>
+<entry>
+<form>vēnt<c type="elided">u</c>-ē</form>
+<form type="simple">vēntu</form>
+<form type="sandhi">vēnt</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
+</entry>
+<entry>
+<form>kali</form>
+</entry>
+<entry>
+<form>makiḻāṉ-ē</form>
+<form type="simple">makiḻāṉ</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+</standOff></TEI>
