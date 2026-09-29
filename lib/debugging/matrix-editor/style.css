@@ -218,6 +218,8 @@ hr {
     top: 0;
     z-index: 8;
     background: rgb(232,232,231);
+    display: flex;
+    /*justify-content: space-between;*/
 }
 
 #menu {
@@ -229,7 +231,7 @@ hr {
     z-index: 100;
     cursor: default;
     flex-direction: row;
-    width: 100%;
+    /*width: 100%;*/
     justify-content: space-between;
     background: rgb(232,232,231);
 }
@@ -237,6 +239,10 @@ hr {
 #right_menu, #left_menu {
     display: flex;
     flex-direction: row;
+}
+#right_menu {
+    font-size: 1.1rem;
+    margin-right: 1rem;
 }
 
 #menu div.open {
@@ -296,7 +302,7 @@ hr {
 
 #descs {
     font-size: 0.8em;
-    padding-top: 10px;
+    /*padding-top: 10px;*/
     display: flex;
     flex-direction: row;
     justify-content: flex-start;

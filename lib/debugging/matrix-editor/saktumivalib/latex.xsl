@@ -73,7 +73,7 @@
                  </xsl:otherwise>
              </xsl:choose>
              -->
-    <text>\textsc{</text>
+    <text>\siglum{</text>
     <xsl:choose>
         <xsl:when test="$siglum">
           <xsl:apply-templates select="$siglum"/>
@@ -136,6 +136,9 @@
 \babelfont[tamil]{rm}{TSTTamil.otf}[Script=Tamil,Ligatures=Historic,BoldFont={NotoSerifTamil-Bold.ttf}]
 \newICUfeature{AllAlternates}{1}{+aalt}
 \newcommand{\vowelsign}[1]{\foreignlanguage{tamil}{\addfontfeature{AllAlternates=1}#1}}
+
+\newcommand{\siglum}[1]{\textsc{#1}}
+
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>
@@ -148,7 +151,7 @@
       <xsl:choose>
         <xsl:when test="$export-script = 'devanagari'">
 % Download Pedantic Devangari here: https://github.com/chchch/PedanticIndic/tree/master/PedanticDevanagari
-\babelfont[sanskrit]{rm}{PedanticDevanagariLight.otf}[Script=Devanagari,BoldFont={PedanticDevanagariBold.otf}]
+\babelfont[sanskrit]{rm}[Script=Devanagari,BoldFont={PedanticDevanagariBold.otf}]{PedanticDevanagariLight.otf}
 \newICUfeature{AllAlternates}{1}{+aalt}
 \newcommand{\vowelsign}[1]{\foreignlanguage{sanskrit}{\addfontfeature{AllAlternates=1}#1}}
         </xsl:when>

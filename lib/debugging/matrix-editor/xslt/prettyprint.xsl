@@ -1,7 +1,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         xmlns:x="http://www.tei-c.org/ns/1.0"
         exclude-result-prefixes="x">
-    <xsl:output indent="yes"/>
+    <xsl:output method="xml" version="1.0" encoding="utf-8" omit-xml-declaration="no" indent="yes"/>
     <xsl:template match="x:span">
         <xsl:apply-templates/>
     </xsl:template>
