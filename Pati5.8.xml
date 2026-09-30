@@ -423,32 +423,21 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
-<superEntry type="ambiguous">
-<entry><entry>
+<entry>
 <form>paratavā</form>
 <def>fisherman</def>
 <gramGrp>
   <gram type="role">vocative</gram>
   <gram type="role">noun</gram>
 </gramGrp>
-</entry></entry>
-<entry><entry>
-<form>paratavar</form>
-<def>fisherman</def>
-<form type="sandhi">paratavā</form>
-<gramGrp>
-  <gram type="role">honorific</gram>
-  <gram type="role">noun</gram>
-</gramGrp>
-</entry></entry>
-</superEntry>
+</entry>
 <superEntry type="ambiguous">
 <entry><entry>
 <form><c type="glide">v</c>āṇṭu</form>
 <def>there</def>
 <form type="sandhi"><c type="glide">v</c>arvāṇṭu</form>
 <gramGrp>
-  <gram type="role">absolutive</gram>
+  <gram type="role">pronoun</gram>
 </gramGrp>
 </entry></entry>
 <entry><entry>
@@ -486,8 +475,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <form>īṇṭ<c type="elided">u</c></form>
 <def>here</def>
 <form type="sandhi">īṇṭ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>ivar</form>
