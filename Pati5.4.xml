@@ -818,9 +818,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry></entry>
 <entry><entry>
-<form>aṇaṅku</form>
+<form><c type="glide">y</c>aṇaṅku</form>
 <def>Aṇaṅku</def>
-<form type="sandhi">yaṇaṅk</form>
 <gramGrp>
   <gram type="role">proper name</gram>
 </gramGrp>
