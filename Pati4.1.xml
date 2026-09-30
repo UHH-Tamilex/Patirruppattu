@@ -1386,7 +1386,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>ākiya</form>
-<def>became</def>
+<def>become</def>
 <gramGrp>
   <gram type="role">peyareccam</gram>
   <gram type="role">perfective aspect</gram>
@@ -1434,7 +1434,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>ākiya</form>
-<def>became</def>
+<def>become</def>
 <gramGrp>
   <gram type="role">peyareccam</gram>
   <gram type="role">perfective aspect</gram>
@@ -1587,7 +1587,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form><c type="glide">v</c>āki</form>
-<def>became</def>
+<def>become</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
@@ -1804,7 +1804,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>āki<c type="geminated">p</c></form>
-<def>became</def>
+<def>become</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
@@ -1836,7 +1836,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </superEntry>
 <entry>
 <form>nikaḻntaṟṟu</form>
-<def>came-to-pass-thus-it</def>
+<def>come-to-pass-thus-it</def>
 <gramGrp>
   <gram type="role">pronominalised noun</gram>
   <gram type="role">neuter singular</gram>

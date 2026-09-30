@@ -874,7 +874,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>āyiṉavē</form>
-<def>became-they</def>
+<def>become-they</def>
 <gramGrp>
   <gram type="role">plural</gram>
   <gram type="role">third person</gram>
@@ -996,7 +996,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>ōṅkiya</form>
-<def>became high</def>
+<def>become high</def>
 <gramGrp>
   <gram type="role">perfective aspect</gram>
   <gram type="role">peyareccam</gram>
