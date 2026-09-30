@@ -513,7 +513,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>kaṭantu</form>
-<def>overcame</def>
+<def>overcome</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
@@ -925,8 +925,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>iṉi</form>
 <def>now</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>yār</form>
