@@ -684,9 +684,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <def>because</def>
 <form type="simple">māṟu</form>
 <form type="sandhi">māṟ</form>
-<gramGrp>
-  <gram type="role">root noun</gram>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 </standOff></TEI>
