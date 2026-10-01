@@ -1294,7 +1294,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>aṉaiyai-maṉ</form>
-<def>like-you</def>
+<def>like-that-you</def>
 <form type="simple">aṉaiyai</form>
 <gramGrp>
   <gram type="role">participial noun</gram>
@@ -1518,7 +1518,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>aṉaiyaḷ</form>
-<def>like-she</def>
+<def>like-that-she</def>
 <form type="sandhi">aṉaiyaṇ</form>
 <gramGrp>
   <gram type="role">participial noun</gram>

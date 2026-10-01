@@ -381,8 +381,9 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>aṉaiyai</form>
-<def>thus-you</def>
+<def>like-that-you</def>
 <gramGrp>
+  <gram type="role">participial noun</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
