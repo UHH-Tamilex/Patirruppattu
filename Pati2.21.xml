@@ -267,7 +267,6 @@
 <entry>
 <form><c type="glide">y</c>iṉ<c type="geminated">ṉ</c></form>
 <def>pleasing</def>
-<form type="sandhi"><c type="glide">y</c>i<c type="geminated">ṉ</c>ṉ</form>
 <gramGrp>
   <gram type="role">adjective</gram>
 </gramGrp>
@@ -689,9 +688,8 @@
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">y</c>amaiyār<c type="geminated">r</c></form>
+<form><c type="glide">y</c>amaiyār<c type="geminated">t</c></form>
 <def>quiet-not-they</def>
-<form type="sandhi"><c type="glide">y</c>amaiyā<c type="geminated">r</c>t</form>
 <gramGrp>
   <gram type="role">participial noun</gram>
   <gram type="role">negative</gram>
@@ -739,13 +737,22 @@
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
-<entry>
+<superEntry type="ambiguous">
+<entry><entry>
 <form>imaiyavarampaṉ</form>
-<def>Imaiyavarampaṉ</def>
+<def>Himalaya-boundary-he</def>
 <gramGrp>
   <gram type="role">proper name</gram>
 </gramGrp>
-</entry>
+</entry></entry>
+<entry><entry>
+<form>imaiyavarampaṉ</form>
+<def>blink-not-they-love-he</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
 <entry>
 <form>neṭuñcēralātaṉai<c type="geminated">k</c></form>
 <def>Neṭuñcēralātaṉ</def>
