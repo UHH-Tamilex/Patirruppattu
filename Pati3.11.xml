@@ -194,22 +194,13 @@ COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
 </listWit></standOff>
 <standOff corresp="#Pati3.31" type="wordsplit">
 <interp type="alignment" select="0">24MG23ML86MG16MG31ML2MG41MG47MG74M,352M</interp>
-<superEntry type="ambiguous">
-<entry><entry>
+<entry>
 <form>imaiyavarampaṉ</form>
 <def>Himalaya-boundary-he</def>
 <gramGrp>
   <gram type="role">proper name</gram>
 </gramGrp>
-</entry></entry>
-<entry><entry>
-<form>imaiyavarampaṉ</form>
-<def>blink-not-they-love-he</def>
-<gramGrp>
-  <gram type="role">proper name</gram>
-</gramGrp>
-</entry></entry>
-</superEntry>
+</entry>
 <entry>
 <form>tampi</form>
 <def>younger brother</def>

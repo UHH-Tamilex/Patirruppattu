@@ -372,22 +372,13 @@ COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
   <gram type="role">absolutive</gram>
 </gramGrp>
 </entry>
-<superEntry type="ambiguous">
-<entry><entry>
+<entry>
 <form>vāṉavarampaṉ</form>
 <def>sky-boundary-he</def>
 <gramGrp>
   <gram type="role">proper name</gram>
 </gramGrp>
-</entry></entry>
-<entry><entry>
-<form>vāṉavarampaṉ</form>
-<def>sky-they-love-he</def>
-<gramGrp>
-  <gram type="role">proper name</gram>
-</gramGrp>
-</entry></entry>
-</superEntry>
+</entry>
 <entry>
 <form>eṉa<c type="geminated">p</c></form>
 <def>to say</def>
