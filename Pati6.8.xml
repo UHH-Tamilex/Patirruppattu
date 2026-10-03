@@ -734,22 +734,13 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
-<superEntry type="ambiguous">
-<entry><entry>
+<entry>
 <form>vāṉavarampaṉ</form>
 <def>sky-boundary-he</def>
 <gramGrp>
   <gram type="role">proper name</gram>
 </gramGrp>
-</entry></entry>
-<entry><entry>
-<form>vāṉavarampaṉ</form>
-<def>sky-they-love-he</def>
-<gramGrp>
-  <gram type="role">proper name</gram>
-</gramGrp>
-</entry></entry>
-</superEntry>
+</entry>
 <entry>
 <form>eṉpa</form>
 <def>say-they</def>

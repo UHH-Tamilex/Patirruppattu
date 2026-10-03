@@ -678,24 +678,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
-<superEntry type="ambiguous">
-<entry><entry>
+<entry>
 <form>vāṉavarampa</form>
 <def>sky-boundary-he</def>
 <gramGrp>
   <gram type="role">proper name</gram>
   <gram type="role">vocative</gram>
 </gramGrp>
-</entry></entry>
-<entry><entry>
-<form>vāṉavarampa</form>
-<def>sky-they-love-he</def>
-<gramGrp>
-  <gram type="role">proper name</gram>
-  <gram type="role">vocative</gram>
-</gramGrp>
-</entry></entry>
-</superEntry>
+</entry>
 <entry>
 <form><c type="glide">v</c>iṉiyavai</form>
 <def>pleasing-they</def>
