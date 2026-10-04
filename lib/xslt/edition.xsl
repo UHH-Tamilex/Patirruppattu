@@ -452,6 +452,7 @@
 </xsl:template>
 <xsl:template match="x:entry">
     <xsl:element name="div">
+        <xsl:attribute name="lang">ta</xsl:attribute>
         <xsl:attribute name="class">fs</xsl:attribute>
         <!--xsl:attribute name="data-corresp"><xsl:value-of select="@corresp"/></xsl:attribute-->
         <xsl:if test="@select">
@@ -532,6 +533,7 @@
     <xsl:element name="div">
         <xsl:attribute name="class">f</xsl:attribute>
         <xsl:attribute name="data-name">translation</xsl:attribute>
+        <xsl:attribute name="lang">en</xsl:attribute>
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>
@@ -726,7 +728,7 @@
         <span class="anno-inline ignored" lang="en">
             <xsl:value-of select="$type"/>
             <xsl:text> </xsl:text>
-            <q><xsl:apply-templates/></q>
+            <q lang="ta"><xsl:apply-templates/></q>
         </span>
         <xsl:choose>
             <xsl:when test="$type = 'elided'">
