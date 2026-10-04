@@ -399,8 +399,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>keḻu</form>
 <def>have</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>perum</form>
@@ -436,9 +434,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>aṉṉa</form>
 <def>like</def>
-<gramGrp>
-  <gram type="role">adjective</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>mā</form>
@@ -976,8 +971,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <form>aṉṟi-<c type="glide">y</c>um</form>
 <def>except</def>
 <form type="simple">aṉṟi</form>
-<gramGrp>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
@@ -1546,9 +1539,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>aṉṉa</form>
 <def>like</def>
-<gramGrp>
-  <gram type="role">adjective</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>nuṇ</form>
@@ -1672,8 +1662,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>keḻu</form>
 <def>have</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>vēntar-um</form>

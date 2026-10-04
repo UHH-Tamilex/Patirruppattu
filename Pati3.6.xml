@@ -332,17 +332,12 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">v</c>āṅku<c type="geminated">u</c></form>
+<form><c type="glide">v</c>āṅku<c type="geminated">p</c></form>
 <def>thus</def>
-<form type="sandhi"><c type="glide">v</c>āṅk<c type="geminated">u</c>p</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>paṇṭu</form>
 <def>formerly</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>naṟk<c type="elided">u</c></form>
@@ -776,9 +771,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>aṉṉa</form>
 <def>like</def>
-<gramGrp>
-  <gram type="role">adjective</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>niṉ</form>

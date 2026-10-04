@@ -620,8 +620,6 @@ COPY STANDOFF FROM INTERFACE HERE
 <form>toṟum</form>
 <def>ever</def>
 <form type="sandhi">ṭoṟuṅ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>kāṇṭal</form>
@@ -1062,9 +1060,6 @@ COPY STANDOFF FROM INTERFACE HERE
 <entry>
 <form>aṉṉa</form>
 <def>like</def>
-<gramGrp>
-  <gram type="role">adjective</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>nilam</form>
