@@ -447,9 +447,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form><c type="glide">y</c>aṉṉa</form>
 <def>like</def>
-<gramGrp>
-  <gram type="role">adjective</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>cīr</form>
@@ -489,8 +486,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>keḻu</form>
 <def>have</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>marapiṉ</form>
@@ -779,8 +774,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>naṭuvaṇ</form>
 <def>middle</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form><c type="glide"/>eḻunta</form>
@@ -1009,9 +1002,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">v</c>ārppu<c type="geminated">u</c></form>
+<form><c type="glide">v</c>ārppu<c type="geminated">c</c></form>
 <def>roaring</def>
-<form type="sandhi"><c type="glide">v</c>ārpp<c type="geminated">u</c>c</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -1307,8 +1299,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>keḻu</form>
 <def>have</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>neṭum</form>
@@ -1474,9 +1464,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">y</c>ayirai<c type="geminated">ai</c></form>
+<form><c type="glide">y</c>ayirai<c type="geminated">p</c></form>
 <def>Ayirai-hill</def>
-<form type="sandhi"><c type="glide">y</c>ayir<c type="geminated">ai</c>p</form>
 <gramGrp>
   <gram type="role">proper name</gram>
 </gramGrp>

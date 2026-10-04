@@ -560,9 +560,6 @@ COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
 <entry>
 <form><c type="glide">y</c>aṉṉa</form>
 <def>like</def>
-<gramGrp>
-  <gram type="role">adjective</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>vayavar</form>
@@ -983,8 +980,6 @@ COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
 <form>piṟakk<c type="elided">u</c></form>
 <def>backwards</def>
 <form type="sandhi">piṟakk</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>ōṭṭiya</form>

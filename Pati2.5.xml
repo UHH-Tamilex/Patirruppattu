@@ -613,9 +613,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">v</c>aṟa<c type="geminated">a</c></form>
+<form><c type="glide">v</c>aṟa<c type="geminated">k</c></form>
 <def>to cease</def>
-<form type="sandhi"><c type="glide">v</c>aṟ<c type="geminated">a</c>k</form>
 <gramGrp>
   <gram type="role">infinitive</gram>
 </gramGrp>
@@ -1562,8 +1561,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form><c type="glide">y</c>eṉṟum</form>
 <def>always</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>pati</form>
@@ -1928,9 +1925,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>aṉṉa</form>
 <def>like</def>
-<gramGrp>
-  <gram type="role">adjective</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>nal</form>

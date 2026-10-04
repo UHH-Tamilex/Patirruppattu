@@ -642,9 +642,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form><c type="glide">v</c>aṉṉa</form>
 <def>like</def>
-<gramGrp>
-  <gram type="role">adjective</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>nilam</form>
