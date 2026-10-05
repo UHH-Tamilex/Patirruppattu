@@ -736,15 +736,12 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>tōṉṟi</form>
-<def>appeared</def>
+<form>tōṉṟiyaṉṉa</form>
+<def>appeared-like</def>
 <gramGrp>
-  <gram type="role">absolutive</gram>
+  <gram type="role">comparative</gram>
+  <gram type="role">peyareccam</gram>
 </gramGrp>
-</entry>
-<entry>
-<form><c type="glide">y</c>aṉṉa</form>
-<def>like</def>
 </entry>
 <entry>
 <form>māṟṟār</form>
