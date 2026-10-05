@@ -699,9 +699,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>allatu</form>
 <def>besides</def>
-<gramGrp>
-  <gram type="role">plural</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>muṉ-<c type="geminated">ṉ</c>um</form>
@@ -1063,8 +1060,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form><c type="glide">v</c>āṅku</form>
 <def>there</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>niṉ</form>

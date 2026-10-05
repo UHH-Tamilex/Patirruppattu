@@ -741,9 +741,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form><c type="glide">y</c>allatu</form>
 <def>besides</def>
-<gramGrp>
-  <gram type="role">plural</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>pūcal</form>
