@@ -451,9 +451,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>allatu</form>
 <def>besides</def>
-<gramGrp>
-  <gram type="role">plural</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>tumpai</form>

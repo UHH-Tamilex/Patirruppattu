@@ -513,9 +513,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <form>allat<c type="elided">u</c></form>
 <def>besides</def>
 <form type="sandhi">allat</form>
-<gramGrp>
-  <gram type="role">plural</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>uṇkuvam</form>
