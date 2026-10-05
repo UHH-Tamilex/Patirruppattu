@@ -815,13 +815,22 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   <gram type="role">masculine</gram>
 </gramGrp>
 </entry>
-<entry>
+<superEntry type="ambiguous">
+<entry><entry>
+<form>paiyuḷ</form>
+<def>Paiyuḷ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry></entry>
+<entry><entry>
 <form>paiyuḷ</form>
 <def>sorrow</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
-</entry>
+</entry></entry>
+</superEntry>
 <entry>
 <form>uṟuppiṉ</form>
 <def>component</def>

@@ -245,8 +245,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>toṟum</form>
 <def>ever</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>peṟṟ<c type="elided">u</c></form>
@@ -423,7 +421,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>pāṇṭil</form>
-<def>bowl</def>
+<def>lamp bowl</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
