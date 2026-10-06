@@ -518,8 +518,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <form><c type="glide">y</c>antil</form>
 <def>there</def>
 <form type="sandhi"><c type="glide">y</c>antiṟ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>kaḷainar</form>
@@ -539,14 +537,13 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>iṉi<c type="geminated">p</c></form>
 <def>now</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>piṟar</form>
 <def>other-they</def>
 <gramGrp>
   <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
 </gramGrp>
 </entry>
 <entry>

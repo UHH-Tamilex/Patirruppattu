@@ -562,16 +562,18 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>piṟar</form>
-<def>other</def>
+<def>other-they</def>
 <gramGrp>
   <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>piṟar</form>
-<def>other</def>
+<def>other-they</def>
 <gramGrp>
   <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -817,9 +819,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">y</c>uṭaittu<c type="geminated">u</c></form>
+<form><c type="glide">y</c>uṭaittu<c type="geminated">c</c></form>
 <def>broken</def>
-<form type="sandhi"><c type="glide">y</c>uṭaitt<c type="geminated">u</c>c</form>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
@@ -1001,9 +1002,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">v</c>iḻai<c type="geminated">ai</c></form>
+<form><c type="glide">v</c>iḻai<c type="geminated">p</c></form>
 <def>jewel</def>
-<form type="sandhi"><c type="glide">v</c>iḻ<c type="geminated">ai</c>p</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
