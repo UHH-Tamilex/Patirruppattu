@@ -260,9 +260,9 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>mēvalaṉ</form>
-<def>wishing-he</def>
+<def>wish-he</def>
 <gramGrp>
-  <gram type="role">participial noun</gram>
+  <gram type="role">pronominalised noun</gram>
   <gram type="role">singular</gram>
   <gram type="role">third person</gram>
   <gram type="role">masculine</gram>
