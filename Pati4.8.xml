@@ -252,6 +252,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <form type="simple">palar</form>
 <gramGrp>
   <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">maṉ</m></gramGrp>
 </entry>
