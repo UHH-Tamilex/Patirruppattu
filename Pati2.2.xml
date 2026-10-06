@@ -527,15 +527,8 @@ COPY STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>mā</form>
-<def>great</def>
-<gramGrp>
-  <gram type="role">adjective</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>tiram</form>
-<def>direction</def>
+<form>mātiram</form>
+<def>cardinal direction</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
