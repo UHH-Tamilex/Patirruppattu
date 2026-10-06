@@ -334,7 +334,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <entry>
 <form>kuḻūu<c type="geminated">k</c></form>
 <def>crowd</def>
-<form type="sandhi">kuḻuu<c type="geminated">k</c></form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -424,7 +423,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>mātirattu</form>
-<def>great direction</def>
+<def>cardinal direction</def>
 <gramGrp>
   <gram type="role">oblique</gram>
   <gram type="role">noun</gram>
@@ -463,8 +462,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <form><c type="glide">y</c>oruṅk<c type="elided">u</c></form>
 <def>together</def>
 <form type="sandhi"><c type="glide">y</c>oruṅk</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>eḻunt<c type="elided">u</c></form>

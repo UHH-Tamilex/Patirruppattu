@@ -271,7 +271,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>mātiram</form>
-<def>great direction</def>
+<def>cardinal direction</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
