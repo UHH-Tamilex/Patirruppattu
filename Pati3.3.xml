@@ -518,9 +518,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">y</c>olippa<c type="geminated">a</c></form>
+<form><c type="glide">y</c>olippa<c type="geminated">p</c></form>
 <def>to sound</def>
-<form type="sandhi"><c type="glide">y</c>olipp<c type="geminated">a</c>p</form>
 <gramGrp>
   <gram type="role">infinitive</gram>
 </gramGrp>
@@ -733,7 +732,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <form>aṟṟeṉa</form>
 <def>ceased-say</def>
 <gramGrp>
-  <gram type="role">infinitive</gram>
+  <gram type="role">absolutive</gram>
 </gramGrp>
 </entry>
 <entry>
