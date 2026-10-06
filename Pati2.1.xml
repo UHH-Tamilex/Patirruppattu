@@ -743,8 +743,9 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>palar</form>
-<def>many</def>
+<def>many-they</def>
 <gramGrp>
+  <gram type="role">honorific</gram>
   <gram type="role">third person</gram>
 </gramGrp>
 </entry>
@@ -1088,8 +1089,9 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>palar</form>
-<def>many</def>
+<def>many-they</def>
 <gramGrp>
+  <gram type="role">honorific</gram>
   <gram type="role">third person</gram>
 </gramGrp>
 </entry>

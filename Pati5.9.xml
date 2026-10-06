@@ -818,8 +818,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <form>naṭuvaṇ</form>
 <def>middle</def>
 <form type="sandhi">naṭuvaṭ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>cilaippa</form>
@@ -859,9 +857,10 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>palar</form>
-<def>many</def>
+<def>many-they</def>
 <gramGrp>
   <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
 </gramGrp>
 </entry>
 <entry>

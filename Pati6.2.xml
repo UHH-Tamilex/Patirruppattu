@@ -656,9 +656,10 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>palar</form>
-<def>many</def>
+<def>many-they</def>
 <gramGrp>
   <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -795,8 +796,6 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <form>iṉi-<c type="glide">y</c>ē</form>
 <def>now</def>
 <form type="simple">iṉi</form>
-<gramGrp>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
