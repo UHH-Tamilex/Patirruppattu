@@ -387,10 +387,10 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>teḷ</form>
-<def>clear</def>
+<def>be clear</def>
 <form type="sandhi">teṇ</form>
 <gramGrp>
-  <gram type="role">adjective</gram>
+  <gram type="role">verbal root</gram>
 </gramGrp>
 </entry>
 <entry>
