@@ -782,9 +782,10 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </entry>
 <entry>
 <form>kaṭampiṉ</form>
-<def>Kaṭampa tree</def>
+<def>Cadamba-tree</def>
 <gramGrp>
   <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
