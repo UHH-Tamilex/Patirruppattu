@@ -262,22 +262,13 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   <gram type="role">verbal root</gram>
 </gramGrp>
 </entry>
-<superEntry type="ambiguous">
-<entry><entry>
-<form>kaṭṭūr<c type="geminated">p</c></form>
-<def>Kaṭṭūr</def>
-<gramGrp>
-  <gram type="role">proper name</gram>
-</gramGrp>
-</entry></entry>
-<entry><entry>
+<entry>
 <form>kaṭṭūr<c type="geminated">p</c></form>
 <def>military camp</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
-</entry></entry>
-</superEntry>
+</entry>
 <entry>
 <form>pal</form>
 <def>many</def>
