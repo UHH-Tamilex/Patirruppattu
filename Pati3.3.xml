@@ -402,9 +402,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>takaitta</form>
-<def>fastened</def>
-<form type="sandhi">tacaitta</form>
+<form>tacaitta</form>
+<def>fastened?</def>
 <gramGrp>
   <gram type="role">perfective aspect</gram>
   <gram type="role">peyareccam</gram>

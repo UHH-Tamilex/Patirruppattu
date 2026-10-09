@@ -317,7 +317,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati2.15" type="wordsplit">
-<interp type="alignment" select="0">28MG28MG43ML16MG14MG12MG23MG192MG87MG21M2G15MG7MG8MG8MG7MG17MG27MG4MG10MG7MG58ML17M2G26MG67MG7MG61MG4MG48MG10MG31MG77ML15ML7MG17M2G46MG5MG33MG10MG40ML48M2GM,1246M</interp>
+<interp type="alignment" select="0">28MG28MG43ML16MG14MG12MG23MG192MG87MG21M2G15MG7MG8MG8MG7MG17MG27MG4MG10MG7MG75M2G26MG67MG7MG61MG4MG48MG10MG31MG77ML15ML7MG17M2G46MG5MG33MG10MG40ML48M2GM,1245M</interp>
 <entry>
 <form>yāṇṭu</form>
 <def>year</def>
@@ -469,7 +469,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>niraiya<c type="uncertain">m</c></form>
+<form>niraiyam</form>
 <def>hell</def>
 <form type="sandhi">niraiya</form>
 <gramGrp>
@@ -506,10 +506,10 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">v</c>aḻi</form>
-<def>perish</def>
+<form>vaḻi</form>
+<def>way</def>
 <gramGrp>
-  <gram type="role">verbal root</gram>
+  <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -1210,9 +1210,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>muraciṉ</form>
-<def>drum</def>
-<form type="sandhi">maraciṉ</form>
+<form>araciṉ</form>
+<def>king</def>
 <gramGrp>
   <gram type="role">oblique</gram>
   <gram type="role">noun</gram>
