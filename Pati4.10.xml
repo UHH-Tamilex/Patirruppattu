@@ -661,9 +661,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>niraiiya</form>
+<form>niraitta</form>
 <def>put in row</def>
-<form type="sandhi">niraitta</form>
 <gramGrp>
   <gram type="role">perfective aspect</gram>
   <gram type="role">peyareccam</gram>
@@ -1104,12 +1103,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
-<form>cellāyō-til</form>
-<def>go</def>
-<form type="simple">cellāyō</form>
-<form type="sandhi">cellāmō</form>
+<form>cellāmō-til</form>
+<def>go-not-we</def>
+<form type="simple">cellāmō</form>
 <gramGrp>
-  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">negative</gram>
+  <gram type="role">imperfective aspect</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">til</m></gramGrp>
 </entry>
