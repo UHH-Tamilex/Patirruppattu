@@ -422,9 +422,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>cemmāl</form>
+<form>cemmal</form>
 <def>majesty</def>
-<form type="sandhi">cemmal</form>
 <gramGrp>
   <gram type="role">noun</gram>
   <gram type="role">vocative</gram>

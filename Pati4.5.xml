@@ -217,7 +217,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati4.35" type="wordsplit">
-<interp type="alignment" select="0">25M2G13MG9MG19MG55MG4MG35MG109MG2M,279MG</interp>
+<interp type="alignment" select="0">25M2G13MG28MG55MG4MG35MG109MG2M,278MG</interp>
 <entry>
 <form>purai</form>
 <def>great</def>
@@ -283,11 +283,13 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 <gramGrp type="particle"><m type="enclitic">āl</m></gramGrp>
 </entry>
 <entry>
-<form>perumai</form>
-<def>greatness</def>
-<form type="sandhi">peruma</form>
+<form>peruma</form>
+<def>great-one</def>
 <gramGrp>
   <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">vocative</gram>
 </gramGrp>
 </entry>
 <entry>

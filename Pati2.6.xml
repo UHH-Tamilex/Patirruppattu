@@ -741,12 +741,12 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">y</c>uḷḷal-um</form>
-<def>remembering</def>
-<form type="simple">uḷḷal</form>
+<form><c type="glide">y</c>aḷḷal-um</form>
+<def>mire?</def>
+<form type="simple">aḷḷal</form>
 <form type="sandhi"><c type="glide">y</c>aḷḷal</form>
 <gramGrp>
-  <gram type="role">verbal noun</gram>
+  <gram type="role">noun</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>

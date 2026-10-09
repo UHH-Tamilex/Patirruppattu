@@ -211,7 +211,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati4.34" type="wordsplit">
-<interp type="alignment" select="0">24M2G89MG5MG59MG2ML8MG13M2G28MGMG27MG7MG45M2G2M,324MG</interp>
+<interp type="alignment" select="0">24M2G89MG5MG59MG2ML8MG13M2G28MGMG27MG52M2G2M,323MG</interp>
 <entry>
 <form>orūupa</form>
 <def>they-renounce</def>
@@ -609,9 +609,8 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">v</c>araicu</form>
+<form><c type="glide">v</c>aracu</form>
 <def>king</def>
-<form type="sandhi"><c type="glide">v</c>aracu</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
