@@ -43,7 +43,7 @@
         <l>poykai vāyiṟ puṉalporu putavi</l>
         <l>ṉeytaṉ marapi ṉiraikaṭ ceṟuviṉ</l>
         <l>valvā yuruḷi katumeṉa maṇṭi </l>
-        <l>vaḷḷaṟ paṭṭut tuḷḷupu turappa</l>
+        <l>yaḷḷaṟ paṭṭut tuḷḷupu turappa</l>
         <l>nallerutu muyalu maḷaṟupōku viḻumattuc</l>
         <l>cākāṭ ṭāḷar kampalai yallatu</l>
         <l>pūca laṟiyā niṉṉāṭ</l>
@@ -651,9 +651,9 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>vaḷḷal</form>
-<def>ability</def>
-<form type="sandhi">vaḷḷaṟ</form>
+<form><c type="glide">y</c>aḷḷal</form>
+<def>mire</def>
+<form type="sandhi"><c type="glide">y</c>aḷḷaṟ</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>

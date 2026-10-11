@@ -211,7 +211,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati6.59" type="wordsplit">
-<interp type="alignment" select="0">5ML4MG58MG50ML31M2G14MG105MG12MG74MG52MG9MG26MG5MG10M2G5MR32ML12MR21M2G2MG7MG2M,558MG</interp>
+<interp type="alignment" select="0">5ML4MG58MG50ML31M2G14MG105MG12MG74MG52MG9MG26MG5MG10M2G5MR32ML12MR16ML5M2G2MG7MG2M,559MG</interp>
 <entry>
 <form>pakal</form>
 <def>day</def>
@@ -914,10 +914,11 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>puṟantaruka</form>
-<def>may-protect</def>
+<form>puṟantarukal</form>
+<def>protecting</def>
+<form type="sandhi">puṟantarukaṉ</form>
 <gramGrp>
-  <gram type="role">subjunctive</gram>
+  <gram type="role">verbal noun</gram>
 </gramGrp>
 </entry>
 <entry>
