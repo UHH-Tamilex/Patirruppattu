@@ -517,6 +517,7 @@
 <xsl:template match="x:gramGrp">
     <xsl:element name="div">
         <xsl:attribute name="class">f</xsl:attribute>
+        <xsl:attribute name="lang">en</xsl:attribute>
         <xsl:attribute name="data-name"><xsl:value-of select="@type"/></xsl:attribute>
         <xsl:apply-templates/>
     </xsl:element>
@@ -524,6 +525,7 @@
 <xsl:template match="x:gram">
     <xsl:element name="div">
         <xsl:attribute name="class">f</xsl:attribute>
+        <xsl:attribute name="lang">en</xsl:attribute>
         <xsl:attribute name="data-name"><xsl:value-of select="@type"/></xsl:attribute>
         <xsl:apply-templates/>
     </xsl:element>
