@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -77,7 +74,7 @@
 
 COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
 
-<standOff xmlns="http://www.tei-c.org/ns/1.0" corresp="#Pati5.51" type="apparatus"><listApp>
+<standOff corresp="#Pati5.51" type="apparatus"><listApp>
 <app loc="259,267">
         <lem wit="#EC #EV #ER #C2 #C4">ciṟukura</lem>
         <rdg wit="#C3">ciṟukura<del>ṉ</del></rdg>
@@ -107,7 +104,7 @@ COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
         </app>
 </listApp>
 <listWit>
-<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="EC">
+<witness xml:id="EC">
   <abbr type="siglum" n="collective">EC</abbr>
   <expan><term xml:lang="ta">Cāminātaiyar</term>editions 1920, 1940, 1941</expan>
   <listWit>
@@ -140,15 +137,15 @@ COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
     </witness>
      </listWit>
  </witness>
-<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="EV">
+<witness xml:id="EV">
      <abbr type="siglum">EV</abbr>
      <expan><term xml:lang="ta">Vaiyāpuri Piḷḷai</term>edition 1940 (Caṅka Ilakkiyam)</expan>
   </witness>
-<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="ER">
+<witness xml:id="ER">
     <abbr type="siglum">ER</abbr>
     <expan><term xml:lang="ta">Rājam</term>edition 1957</expan>
   </witness>
-<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="C2" source="witnesses/C2.xml">
+<witness xml:id="C2" source="witnesses/C2.xml">
     <abbr type="siglum">C2</abbr>
     <expan>palm-leaf manuscript from the UVSL [98a] complete text and commentary</expan>
     <listWit>
@@ -158,7 +155,7 @@ COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
       </witness>
     </listWit>
   </witness>
-<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="C4" source="witnesses/C4.xml">
+<witness xml:id="C4" source="witnesses/C4.xml">
     <abbr type="siglum">C4</abbr>
     <expan>paper manuscript in two notebooks from the UVSL [439 and 560] complete text and commentary</expan>
     <listWit>
@@ -168,7 +165,7 @@ COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
       </witness>
     </listWit>
   </witness>
-<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="C3" source="witnesses/C3.xml">
+<witness xml:id="C3" source="witnesses/C3.xml">
     <abbr type="siglum">C3</abbr>
     <expan>paper manuscript from the UVSL [559] complete text and commentary</expan>
     <listWit>
@@ -178,7 +175,7 @@ COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
       </witness>
     </listWit>
   </witness>
-<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="G2" source="witnesses/G2.xml">
+<witness xml:id="G2" source="witnesses/G2.xml">
     <abbr type="siglum">G2</abbr>
     <expan>paper manuscript of GOML [D.114/TD 44] complete text and commentary</expan>
     <listWit>
@@ -188,7 +185,7 @@ COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
       </witness>
     </listWit>
   </witness>
-<witness xmlns="http://www.tei-c.org/ns/1.0" xml:id="NLK" source="witnesses/NLK.xml">
+<witness xml:id="NLK" source="witnesses/NLK.xml">
     <abbr type="siglum">NLK</abbr>
     <expan>palm-leaf manuscript from the NLK [3087] incomplete text and commentary (text ends with poem 53 and its commentary)</expan>
     <listWit>
@@ -1056,7 +1053,7 @@ COPY WORDSPLIT STANDOFF FROM INTERFACE HERE
 <def>ten</def>
 <gramGrp>
   <gram type="role">oblique</gram>
-</gramGrp>
+<gram type="role">noun</gram><gram type="role">numeral</gram></gramGrp>
 </entry>
 <entry>
 <form>pāṭṭu</form>
