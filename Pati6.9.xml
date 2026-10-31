@@ -1,4 +1,6 @@
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -208,7 +210,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati6.59" type="wordsplit">
-<interp type="alignment" select="0">5ML4MG58MG50ML31M2G14MG105MG12MG74MG52MG9MG26MG5MG10M2G5MR32ML12MR16ML5M2G2MG7MG2M,559MG</interp>
+<interp type="alignment" select="0">5ML4MG58MG50ML31M2G14MG105MG12MG74MG52MG9MG26MG5MG10M2G5MR32ML12MR16ML5M2G9MG2M,558MG</interp>
 <entry>
 <form>pakal</form>
 <def>day</def>
@@ -919,14 +921,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>niṉakk<c type="elided">u</c>-um-ār</form>
+<form>niṉakk<c type="elided">u</c>-umār</form>
 <def>your</def>
-<form type="simple">niṉakku-um</form>
-<form type="sandhi">ṉiṉakkum</form>
+<form type="simple">niṉakku</form>
+<form type="sandhi">ṉiṉakk</form>
 <gramGrp>
   <gram type="role">dative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="enclitic">ār</m></gramGrp>
+<gramGrp type="particle"><m type="enclitic">umār</m></gramGrp>
 </entry>
 <entry>
 <form>kaṭaṉ-ē</form>
