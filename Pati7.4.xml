@@ -1,4 +1,6 @@
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,9 +58,6 @@
     </div>
   </body>
 </text>
-
-COPY TRANSLATION STANDOFF FROM INTERFACE HERE
-
 <standOff corresp="#Pati7.64" type="apparatus"><listApp>
 <app loc="45,58">
         <lem wit="#EC3 #EV #ER">palartil lamma</lem>
@@ -230,7 +229,7 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
   </witness>
 </listWit></standOff>
 <standOff corresp="#Pati7.64" type="wordsplit">
-<interp type="alignment" select="0">50MG3MG94MG7MG139MG25MG105ML50MG12MG78ML12MG2M,587MG</interp>
+<interp type="alignment" select="0">50MG97MG7MG82MG57MG130ML50MG12MG78ML12MG2M,586MG</interp>
 <entry>
 <form>valampaṭu</form>
 <def>be victorious</def>
@@ -292,15 +291,14 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>palar-til-<c type="geminated">l</c>amma</form>
+<form>palar-tillamma</form>
 <def>many-they</def>
-<form type="simple">palar-til</form>
-<form type="sandhi">palartil</form>
+<form type="simple">palar</form>
 <gramGrp>
   <gram type="role">plural</gram>
   <gram type="role">third person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="enclitic">amma</m></gramGrp>
+<gramGrp type="particle"><m type="enclitic">tillamma</m></gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>aṟam</form>
@@ -544,11 +542,13 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>vallē</form>
+<form>val-<c type="geminated">l</c>ē</form>
 <def>quickly</def>
+<form type="simple">val</form>
 <gramGrp>
   <gram type="role">adverb</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>eḵku</form>
@@ -663,11 +663,11 @@ COPY TRANSLATION STANDOFF FROM INTERFACE HERE
 </gramGrp>
 </entry>
 <entry>
-<form>i<c type="geminated"/></form>
+<form>i<c type="geminated">v</c></form>
 <def>this</def>
 </entry>
 <entry>
-<form><c type="glide">v</c>vayiṉ</form>
+<form>vayiṉ</form>
 <def>side</def>
 <gramGrp>
   <gram type="role">noun</gram>
